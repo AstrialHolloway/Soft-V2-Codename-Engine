@@ -1,4 +1,4 @@
-var mainMenuIndex = 1;
+static var mainMenuIndex = 1;
 
 var bgSprite:FunkinSprite = new FunkinSprite(-319,-180);
 bgSprite.loadGraphic(Paths.image("menus/mainmenu/bg"));
@@ -42,6 +42,10 @@ fgSprite.loadGraphic(Paths.image("menus/mainmenu/fg"));
 fgSprite.scale.set(0.67, 0.67);
 add(fgSprite);
 
+function create()
+{
+    handleMenuItems();
+}
 
 function update()
 {
@@ -76,4 +80,63 @@ function handleInputs()
                 
         });
     }
+    if (controls.UP)
+    {
+        mainMenuIndex--
+        if (mainMenuIndex < 1)
+        {
+            mainMenuIndex = 4;
+        }
+        FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
+        handleMenuItems();
+        
+    }
+    if (controls.DOWN)
+    {
+        mainMenuIndex++
+        if (mainMenuIndex > 4)
+        {
+            mainMenuIndex = 1;
+        }
+        FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
+        handleMenuItems();
+        
+    }
+}
+
+function handleMenuItems()
+{
+    if (mainMenuIndex == 1)
+    {
+        mainMenuText.animation.play("sel");
+    }
+    else
+    {
+        mainMenuText.animation.play("basic");
+    }
+    if (mainMenuIndex == 2)
+    {
+        freeplayText.animation.play("sel");
+    }
+    else
+    {
+        freeplayText.animation.play("basic");
+    }
+    if (mainMenuIndex == 3)
+    {
+        optionsText.animation.play("sel");
+    }
+    else
+    {
+        optionsText.animation.play("basic");
+    }
+    if (mainMenuIndex == 4)
+    {
+        creditsText.animation.play("sel");
+    }
+    else
+    {
+        creditsText.animation.play("basic");
+    }
+        
 }
