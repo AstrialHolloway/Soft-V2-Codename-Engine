@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="mom_christmas" icon="parents" color="#698abc" x="90" y="30" camx="110" camy="-90" holdTime="6.1">
+	<anim name="singLEFT" anim="mom left" x="-7" y="3"/>
+	<anim name="singDOWN" anim="mom down0" x="-3" y="3"/>
+	<anim name="singUP" anim="mom up0" x="-3" y="-25"/>
+	<anim name="singRIGHT" anim="mom right0" x="-12" y="11"/>
+	<anim name="idle" anim="mom idle0" indices="0..12"/>
+	<anim name="idle-loop" anim="mom idle0" indices="13..19"/>
+</character>

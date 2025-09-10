@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="hidden" icon="hidden" color="#ffffff">
+	<anim name="idle" anim="none"/>
+</character>

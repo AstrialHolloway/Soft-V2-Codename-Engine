@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="father-2" icon="father" color="#698abc" y="70" camx="40" camy="-30" holdTime="6.1" scale="0.95">
+	<anim name="idle" anim="DAD_IdleDance0"/>
+	<anim name="singLEFT" anim="DAD_singLEFT0" x="82.10526315789474" y="-6.315789473684211"/>
+	<anim name="singDOWN" anim="DAD_singDOWN0" x="14.73684210526316" y="-81.05263157894737"/>
+	<anim name="singUP" anim="DAD_singUP0" x="81.05263157894737" y="24.210526315789476"/>
+	<anim name="singRIGHT" anim="DAD_singRIGHT0" x="-16.842105263157894" y="-16.842105263157894"/>
+</character>

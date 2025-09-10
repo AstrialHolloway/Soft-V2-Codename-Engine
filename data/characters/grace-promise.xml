@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="grace-promise" icon="grace" color="#eb6c80" camx="220" holdTime="6.1">
+	<anim name="idle" anim="grace idle"/>
+	<anim name="singLEFT" anim="grace left" x="130" y="-20"/>
+	<anim name="singDOWN" anim="grace down" x="0" y="-60"/>
+	<anim name="singUP" anim="grace up" x="20" y="-20"/>
+	<anim name="singRIGHT" anim="grace right" x="-110" y="-30"/>
+	<anim name="singRIGHT-alt" anim="grace alt right" x="-100" y="-20"/>
+	<anim name="idle-alt" anim="grace alt idle"/>
+	<anim name="singLEFT-alt" anim="grace alt left" x="130" y="-20"/>
+	<anim name="singDOWN-alt" anim="grace alt down" x="0" y="-60"/>
+	<anim name="singUP-alt" anim="grace alt up" x="0" y="-20"/>
+	<anim name="hey" anim="grace offending" x="-20" y="0"/>
+</character>

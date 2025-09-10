@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="SVEN_ASSESTS_SOFT" icon="sven" color="#f08db8" x="-140" y="10" camx="130" holdTime="6.1">
+	<anim name="idle" anim="idle pose" x="-20" y="0"/>
+	<anim name="singLEFT" anim="left pose" x="-75" y="-6"/>
+	<anim name="singRIGHT" anim="right pose" x="-50" y="-30"/>
+	<anim name="singDOWN" anim="down pose" x="-70" y="-79"/>
+	<anim name="singUP" anim="up pose" x="-110" y="10"/>
+</character>

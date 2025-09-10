@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="GF_ASSETS_SOFT" icon="grace" color="#ff7488" x="80" y="240" flipX="true" camx="30" camy="20">
+	<anim name="singDOWN" anim="down" x="-37" y="-55"/>
+	<anim name="singUP" anim="up" x="46" y="5"/>
+	<anim name="danceLeft" anim="idle" indices="1..13"/>
+	<anim name="danceRight" anim="idle" indices="14..30"/>
+	<anim name="singLEFT" anim="right" x="93" y="-25"/>
+	<anim name="singRIGHT" anim="left" x="-81" y="-7"/>
+</character>

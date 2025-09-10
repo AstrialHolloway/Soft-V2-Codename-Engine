@@ -1,0 +1,6 @@
+alleyway
+spooky-room
+station
+snowy-town
+stage
+bench

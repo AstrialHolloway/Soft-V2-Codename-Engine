@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-week>
+<week name="Father Fairest" chars="dad,bf,pico-player" sprite="week1">
+	<song>Maturity</song>
+	<song>All Is Fair</song>
+	<song>No Cigar</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

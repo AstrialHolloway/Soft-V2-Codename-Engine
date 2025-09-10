@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="hot_mom_2.0_phase_3_NEW" icon="mother" color="#ffc0a4" camx="-140">
+	<anim name="idle" anim="mom 2 idle0"/>
+	<anim name="singLEFT" anim="mom 2 left0" x="160" y="-31"/>
+	<anim name="singDOWN" anim="mom 2 down0" x="45" y="-161"/>
+	<anim name="singUP" anim="mom 2 up0" x="17" y="-7"/>
+	<anim name="singRIGHT" anim="mom 2 right0" x="105" y="-43"/>
+	<anim name="idle-loop" anim="mom 2 idle0" loop="true" indices="6..9"/>
+	<anim name="singLEFT-loop" anim="mom 2 left0" x="160" y="-30" loop="true" indices="2..5"/>
+	<anim name="singDOWN-loop" anim="mom 2 down0" x="45" y="-160" loop="true" indices="2..5"/>
+	<anim name="singUP-loop" anim="mom 2 up0" x="18" y="-7" loop="true" indices="2..5"/>
+	<anim name="singRIGHT-loop" anim="mom 2 right0" x="105" y="-42" loop="true" indices="2..5"/>
+</character>

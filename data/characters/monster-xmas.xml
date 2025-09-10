@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="monster-xmas" icon="monster" color="#747291" camx="-150" camy="-20" holdTime="6.1">
+	<anim name="idle" anim="Monst Idle" x="300" y="40"/>
+	<anim name="idle-loop" anim="Monst Idle" x="300" y="40" loop="true" indices="8..15"/>
+	<anim name="singLEFT" anim="Monst Left" x="430" y="200"/>
+	<anim name="singLEFT-loop" anim="Monst Left" x="430" y="200" loop="true" indices="8..15"/>
+	<anim name="singDOWN" anim="Monst Down" x="230" y="-101"/>
+	<anim name="singDOWN-loop" anim="Monst Down" x="230" y="-101" loop="true" indices="8..15"/>
+	<anim name="singUP" anim="Monst Up" x="354" y="288"/>
+	<anim name="singUP-loop" anim="Monst Up" x="354" y="288" loop="true" indices="8..15"/>
+	<anim name="singRIGHT" anim="Monst Right" x="170" y="20"/>
+	<anim name="singRIGHT-loop" anim="Monst Right" x="170" y="20" loop="true" indices="8..15"/>
+</character>

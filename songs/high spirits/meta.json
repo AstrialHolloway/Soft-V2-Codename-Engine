@@ -1,0 +1,21 @@
+{
+	"customValues": {
+		"pause": "skid_and_pump",
+		"name": "High Spirits",
+		"artist": "DatDavi"
+	},
+	"opponentModeAllowed": true,
+	"icon": "spooky",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"color": "#F39667",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "High Spirits",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 170
+}

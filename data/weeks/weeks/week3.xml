@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-week>
+<week name="A Childhood Friend" chars="gf,bf,pico-player" sprite="week3">
+	<song>Playdate</song>
+	<song>Stay</song>
+	<song>Its Complicated</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

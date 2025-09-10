@@ -1,0 +1,12 @@
+<menu name="Soft V2 Port Credits" desc="Credits for the Soft V2 Codename Port mod">
+    <!-- Porter -->
+    <github user="AstrialHolloway" customName="Astrial" desc="The person who ported almost everything" size="100" portrait="true"/>
+    <!-- Scripts (from codename engine discord) -->
+    <!-- githubs -->
+    <github user="Mlaofmd" customName="Mlaofmd" desc="Made the smooth healthbar script" size="100" portrait="true"/>
+    <github user="rodney528" customName="rodney528" desc="Made the change character script" size="100" portrait="true"/>
+    <github user="swordcube" customName="swordcube" desc="Made the hold cover script" size="100" portrait="true"/>
+    <github user="WizardMantis441" customName="WizardMantis441" desc="Made the hitsounds script" size="100" portrait="true"/>
+</menu>
+
+

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-week>
+<week name="Mother Knows Best" chars="mom,bf,pico-player" sprite="week4">
+	<song>Intuition</song>
+	<song>Catwalk</song>
+	<song>Spotlight</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

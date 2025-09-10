@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-week>
+<week name="In The Present" chars="parents-christmas,bf,pico-player" sprite="week5">
+	<song>Faithful</song>
+	<song>Hope</song>
+	<song hide="true">Genesis</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

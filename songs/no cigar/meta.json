@@ -1,0 +1,21 @@
+{
+	"customValues": {
+		"pause": "dad",
+		"name": "No Cigar",
+		"artist": "nasadotexe, hamm slamm"
+	},
+	"opponentModeAllowed": true,
+	"icon": "father",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"color": "#698ABC",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "No Cigar",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}

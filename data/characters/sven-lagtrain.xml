@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="Sven_Lag" icon="sven" color="#f08db8" x="30" camx="40" camy="-60" scale="0.8">
+	<anim name="danceLeft" anim="idle" indices="1..13"/>
+	<anim name="danceRight" anim="idle" indices="14..30"/>
+	<anim name="singDOWN" anim="down0" x="245" y="286.25"/>
+	<anim name="singUP" anim="up0" x="427.5" y="141.25"/>
+	<anim name="singLEFT" anim="left0" x="250" y="295"/>
+	<anim name="singRIGHT" anim="right0" x="57.5" y="12.5"/>
+</character>

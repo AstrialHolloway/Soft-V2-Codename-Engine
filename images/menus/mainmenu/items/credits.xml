@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="credits.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="credits0000" x="10" y="10" width="607" height="229" frameX="-285" frameY="-36" frameWidth="920" frameHeight="289"/>
+	<SubTexture name="credits0001" x="10" y="249" width="920" height="289"/>
+</TextureAtlas>

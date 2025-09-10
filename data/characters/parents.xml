@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="parents" icon="parents" color="#617494" x="-500">
+	<anim name="idle" anim="parents idle0" x="2" y="0"/>
+	<anim name="singUP" anim="dad up0" x="1" y="-22"/>
+	<anim name="singDOWN" anim="dad down0" x="2" y="-6"/>
+	<anim name="singLEFT" anim="dad left0" x="2" y="-5"/>
+	<anim name="singRIGHT" anim="dad right0" x="2" y="-20"/>
+	<anim name="singRIGHT-alt" anim="mom right0" x="2" y="3"/>
+	<anim name="singDOWN-alt" anim="mom down0" x="-7" y="-8"/>
+	<anim name="singLEFT-alt" anim="mom left0" x="-7" y="-16"/>
+	<anim name="singUP-alt" anim="mom up0" x="1" y="1"/>
+</character>

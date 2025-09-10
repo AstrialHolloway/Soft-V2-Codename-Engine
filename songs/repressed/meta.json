@@ -1,0 +1,21 @@
+{
+	"color": "#747291",
+	"customValues": {
+		"pause": "monster",
+		"artist": "StarriBlu, HighPoweredKeyz",
+		"name": "Repressed"
+	},
+	"opponentModeAllowed": true,
+	"icon": "monster",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Repressed",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 150
+}

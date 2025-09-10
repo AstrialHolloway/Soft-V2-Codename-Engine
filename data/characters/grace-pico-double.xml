@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="GFCO_double" icon="grace" color="#ff7488" holdTime="6.1" scale="0.9">
+	<anim name="danceLeft" anim="GFCO0" indices="0..14"/>
+	<anim name="danceRight" anim="GFCO0" indices="15..29"/>
+</character>

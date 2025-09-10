@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-week>
+<week name="A Date With Danger" chars="senpai,bf,pico-player" sprite="week6">
+	<song>Begrudge</song>
+	<song>Every Rose</song>
+	<song>Spikes</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="Softgoku" icon="face" color="#a1a1a1" x="110" y="210" camx="30" camy="-10" holdTime="6.1" scale="1.3">
+	<anim name="idle" anim="Softgoku idle" x="-15.384615384615383" y="0"/>
+	<anim name="singLEFT" anim="Softgoku left" x="-16.153846153846153" y="0.7692307692307692"/>
+	<anim name="singRIGHT" anim="Softgoku right" x="-38.46153846153846" y="-23.076923076923077"/>
+	<anim name="singDOWN" anim="Softgoku down" x="-17.692307692307693" y="3.846153846153846"/>
+	<anim name="singUP" anim="Softgoku up" x="-23.076923076923077" y="2.3076923076923075"/>
+</character>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-week>
+<week name="Epilogue" chars="none,bf,pico-player" sprite="week7">
+	<song>Stars Aligned</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

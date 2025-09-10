@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-week>
+<week name="Prelude" chars="none,bf,pico-player" sprite="tutorial">
+	<song>Starcrossed</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

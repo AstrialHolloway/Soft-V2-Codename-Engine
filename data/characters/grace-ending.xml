@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="Grace_Ending" icon="grace" color="#ea697d" x="-10" y="250" flipX="true" camx="130" camy="60" holdTime="42069">
+	<anim name="idle" anim="down cry ending0" x="43" y="-62" loop="true" indices="314"/>
+	<anim name="singDOWN" anim="down cry ending0" x="43" y="-62"/>
+</character>

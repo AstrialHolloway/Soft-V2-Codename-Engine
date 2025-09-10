@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Ben_SA" flipX="true" isPlayer="true" icon="bf" color="#86B6FF" holdTime="6.1">
+	<anim name="idle" anim="Ben Idle0" x="-1"/>
+	<anim name="singLEFT" anim="Ben Left0" x="-15"/>
+	<anim name="singRIGHT" anim="Ben Right0" x="-11"/>
+	<anim name="singLEFTmiss" anim="Ben Left MISS0" x="-14"/>
+	<anim name="singUP" anim="Ben Up0" x="-16" y="5"/>
+	<anim name="singDOWNmiss" anim="Ben Down MISS0" y="4"/>
+	<anim name="singDOWN" anim="Ben Down0"/>
+	<anim name="singUPmiss" anim="Ben Up MISS0" x="-7" y="4"/>
+	<anim name="singRIGHTmiss" anim="Ben Right MISS0" x="-14"/>
+</character>

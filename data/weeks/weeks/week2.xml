@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-week>
+<week name="Hair-Raising Hideout" chars="spooky,bf,pico-player" sprite="week2">
+	<song>Thriller</song>
+	<song>High Spirits</song>
+	<song hide="true">Repressed</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

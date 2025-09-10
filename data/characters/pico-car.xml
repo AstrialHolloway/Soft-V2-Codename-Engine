@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
+<character sprite="pico-car" icon="pico" color="#428948" y="260">
+	<anim name="danceLeft" anim="soft_pico hair blow CAR0" indices="30,0..14"/>
+	<anim name="danceRight" anim="soft_pico hair blow CAR0" indices="15..29"/>
+</character>
