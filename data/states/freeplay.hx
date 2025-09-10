@@ -2,6 +2,8 @@ static var freeplaySongIndex = 0;
 
 static var freeplayDiffIndex = 1;
 
+var songStarted = false;
+
 var songList:Array<String> =
 [
     //Prelude
@@ -47,28 +49,58 @@ var diffList:Array<String> =
 
 function update()
 {
-  handleInputs();
+    handleInputs();
+    handleDiffs();
 }
 
 function handleInputs()
 {
   if (controls.LEFT_P)
     {
-        songStarted = false;
+        if (songStarted == false)
         {
-            diff--;
+            freeplayDiffIndex--;
             FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
-            diffChange("left");
 
-            if (diff < 0)
+            if (freeplayDiffIndex < 0)
             {
-                diff = 2;
+                freeplayDiffIndex = 2;
             }
-
             
-            handleDiffs();
-            trace("difficulty changed to:" + diffList[diff]);
+            trace("difficulty changed to:" + diffList[freeplayDiffIndex]);
         }
         
+    }
+    if (controls.RIGHT_P)
+    {
+        if (songStarted == false)
+        {
+            freeplayDiffIndex++;
+            FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
+
+            if (freeplayDiffIndex > 2)
+            {
+                freeplayDiffIndex = 0;
+            }
+            
+            trace("difficulty changed to:" + diffList[freeplayDiffIndex]);
+        }
+        
+    }
+}
+
+function handleDiffs();
+{
+    if (freeplayDiffIndex == 0)
+    {
+        //diffSprite.loadGraphic(Paths.image("menus/freeplay/easy"));
+    }
+    if (freeplayDiffIndex == 1)
+    {
+        //diffSprite.loadGraphic(Paths.image("menus/freeplay/normal"));
+    }
+    if (freeplayDiffIndex == 2)
+    {
+        //diffSprite.loadGraphic(Paths.image("menus/freeplay/hard"));
     }
 }
