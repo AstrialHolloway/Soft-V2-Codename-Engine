@@ -1,5 +1,7 @@
 static var mainMenuIndex = 1;
 
+var switching = false;
+
 var bgSprite:FunkinSprite = new FunkinSprite(-319,-180);
 bgSprite.loadGraphic(Paths.image("menus/mainmenu/bg"));
 bgSprite.scale.set(0.67, 0.67);
@@ -42,14 +44,15 @@ fgSprite.loadGraphic(Paths.image("menus/mainmenu/fg"));
 fgSprite.scale.set(0.67, 0.67);
 add(fgSprite);
 
-function create()
-{
-    handleMenuItems();
-}
+
 
 function update()
 {
-    handleInputs();
+    if (switching == false)
+    {
+        handleInputs();
+        handleMenuItems();
+    }
 }
 
 function handleInputs()
@@ -69,37 +72,29 @@ function handleInputs()
         FlxG.sound.play(Paths.sound("menu/confirm"), 0.7);
         new FlxTimer().start(2.2, function(tmr:FlxTimer)
         {
-            if (mainMenuIndex == 1) 
-            {
-                FlxG.switchState(new StoryMenuState());
-            }
-            if (mainMenuIndex == 2) 
-            {
-                FlxG.switchState(new FreeplayState());
-            }
-                
+            menuOpen();    
         });
     }
-    if (controls.UP)
+    if (controls.UP_P)
     {
-        mainMenuIndex--
+        mainMenuIndex--;
         if (mainMenuIndex < 1)
         {
             mainMenuIndex = 4;
         }
         FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
-        handleMenuItems();
+        
         
     }
-    if (controls.DOWN)
+    if (controls.DOWN_P)
     {
-        mainMenuIndex++
+        mainMenuIndex++;
         if (mainMenuIndex > 4)
         {
             mainMenuIndex = 1;
         }
         FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
-        handleMenuItems();
+        
         
     }
 }
@@ -139,4 +134,24 @@ function handleMenuItems()
         creditsText.animation.play("basic");
     }
         
+}
+
+function menuOpen()
+{
+    if (mainMenuIndex == 1) 
+    {
+        FlxG.switchState(new StoryMenuState());
+    }
+    if (mainMenuIndex == 2) 
+    {
+        FlxG.switchState(new FreeplayState());
+    }
+    if (mainMenuIndex == 3) 
+    {
+        FlxG.switchState(new ModState('options'));
+    }
+    if (mainMenuIndex == 2) 
+    {
+        FlxG.switchState(new ModState('credits'));
+    }
 }
