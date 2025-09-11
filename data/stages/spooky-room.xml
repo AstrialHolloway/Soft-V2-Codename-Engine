@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/week2/images/" name="spooky-room" zoom="0.75">
+	<sprite type="none" sprite="bg" name="bg"/>
+	<girlfriend x="881.712189733406" scroll="1" y="335"/>
+	<dad x="635" y="365"/>
+	<boyfriend x="1416.56854249492" y="347.693740118806"/>
+	<sprite x="406.84957293757" sprite="light" y="46.3958782085792" type="none" name="lamp"/>
+</stage>

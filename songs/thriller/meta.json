@@ -1,8 +1,9 @@
 {
+	"color": "#F39667",
 	"customValues": {
 		"pause": "skid_and_pump",
-		"name": "Thriller",
-		"artist": "DatDavi"
+		"artist": "DatDavi",
+		"name": "Thriller"
 	},
 	"opponentModeAllowed": true,
 	"icon": "spooky",
@@ -11,7 +12,6 @@
 		"Normal",
 		"Hard"
 	],
-	"color": "#F39667",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Thriller",

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noteSplashes.png">
+  <!-- Generated using Aseprite .json to FNF .xml: https://github.com/Lethrial/Aseprite-.json-to-FNF-.xml -->
+  <SubTexture name="note0splash0" x="1" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash1" x="181" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash2" x="361" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash3" x="541" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash4" x="721" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash5" x="901" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash6" x="1081" y="1" width="178" height="179"/>
+  <SubTexture name="note0splash7" x="1" y="182" width="178" height="179"/>
+  <SubTexture name="note0splash8" x="181" y="182" width="178" height="179"/>
+  <SubTexture name="note0splash9" x="361" y="182" width="178" height="179"/>
+  <SubTexture name="note1splash0" x="541" y="182" width="178" height="179"/>
+  <SubTexture name="note1splash1" x="721" y="182" width="178" height="179"/>
+  <SubTexture name="note1splash2" x="901" y="182" width="178" height="179"/>
+  <SubTexture name="note1splash3" x="1081" y="182" width="178" height="179"/>
+  <SubTexture name="note1splash4" x="1" y="363" width="178" height="179"/>
+  <SubTexture name="note1splash5" x="181" y="363" width="178" height="179"/>
+  <SubTexture name="note1splash6" x="361" y="363" width="178" height="179"/>
+  <SubTexture name="note1splash7" x="541" y="363" width="178" height="179"/>
+  <SubTexture name="note1splash8" x="721" y="363" width="178" height="179"/>
+  <SubTexture name="note1splash9" x="901" y="363" width="178" height="179"/>
+  <SubTexture name="note2splash0" x="1081" y="363" width="178" height="179"/>
+  <SubTexture name="note2splash1" x="1" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash2" x="181" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash3" x="361" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash4" x="541" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash5" x="721" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash6" x="901" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash7" x="1081" y="544" width="178" height="179"/>
+  <SubTexture name="note2splash8" x="1" y="725" width="178" height="179"/>
+  <SubTexture name="note2splash9" x="181" y="725" width="178" height="179"/>
+  <SubTexture name="note3splash0" x="361" y="725" width="178" height="179"/>
+  <SubTexture name="note3splash1" x="541" y="725" width="178" height="179"/>
+  <SubTexture name="note3splash2" x="721" y="725" width="178" height="179"/>
+  <SubTexture name="note3splash3" x="901" y="725" width="178" height="179"/>
+  <SubTexture name="note3splash4" x="1081" y="725" width="178" height="179"/>
+  <SubTexture name="note3splash5" x="1" y="906" width="178" height="179"/>
+  <SubTexture name="note3splash6" x="181" y="906" width="178" height="179"/>
+  <SubTexture name="note3splash7" x="361" y="906" width="178" height="179"/>
+  <SubTexture name="note3splash8" x="541" y="906" width="178" height="179"/>
+  <SubTexture name="note3splash9" x="721" y="906" width="178" height="179"/>
+</TextureAtlas>

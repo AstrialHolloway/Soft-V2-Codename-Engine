@@ -1,0 +1,70 @@
+{
+	"events": [
+		{
+			"params": [
+				1,
+				"hey",
+				true,
+				"NONE"
+			],
+			"time": 7500,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 58000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 60000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 62000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 64000,
+			"name": "Camera Zoom"
+		}
+	]
+}

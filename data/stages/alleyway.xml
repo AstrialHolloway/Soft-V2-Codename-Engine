@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/week1/images/" name="alleyway" zoom="1" startCamPosX="1000" startCamPosY="550">
+	
+	<sprite type="none" sprite="bg" name="bg"/>
+	<ratings x="700" y="390"/>
+	<girlfriend camxoffset="-105" camyoffset="110" x="595.06" scroll="1" y="141.41"/>
+	<dad camxoffset="20" camyoffset="10" x="330" y="180" scroll="1"/>
+	<boyfriend camxoffset="0" camyoffset="10" x="1120" y="170" scroll="1"/>
+	<sprite x="1520.68" sprite="boxes" y="751.14" type="none" name="boxes"/>
+	
+	
+</stage>

@@ -1,4 +1,9 @@
-static var mainMenuIndex = 1;
+import funkin.options.OptionsMenu;
+import funkin.editors.EditorPicker;
+import funkin.menus.ModSwitchMenu;
+import funkin.menus.credits.CreditsMain;
+
+static var mainMenuIndex = 0;
 
 var switching = false;
 
@@ -48,11 +53,13 @@ add(fgSprite);
 
 function update()
 {
+    CoolUtil.playMenuSong();
     if (switching == false)
     {
         handleInputs();
         handleMenuItems();
     }
+    
 }
 
 function handleInputs()
@@ -78,9 +85,9 @@ function handleInputs()
     if (controls.UP_P)
     {
         mainMenuIndex--;
-        if (mainMenuIndex < 1)
+        if (mainMenuIndex < 0)
         {
-            mainMenuIndex = 4;
+            mainMenuIndex = 3;
         }
         FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
         
@@ -89,19 +96,32 @@ function handleInputs()
     if (controls.DOWN_P)
     {
         mainMenuIndex++;
-        if (mainMenuIndex > 4)
+        if (mainMenuIndex > 3)
         {
-            mainMenuIndex = 1;
+            mainMenuIndex = 0;
         }
         FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
         
         
     }
+    
+
+    if (controls.SWITCHMOD) {
+        if(controls.SWITCHMOD)
+    {
+        persistentUpdate = !(persistentDraw = true);
+		openSubState(new ModSwitchMenu());
+    }
+    }
+    if (controls.DEV_ACCESS) {
+        persistentUpdate = !(persistentDraw = true);
+		openSubState(new EditorPicker());
+    }
 }
 
 function handleMenuItems()
 {
-    if (mainMenuIndex == 1)
+    if (mainMenuIndex == 0)
     {
         mainMenuText.animation.play("sel");
     }
@@ -109,7 +129,7 @@ function handleMenuItems()
     {
         mainMenuText.animation.play("basic");
     }
-    if (mainMenuIndex == 2)
+    if (mainMenuIndex == 1)
     {
         freeplayText.animation.play("sel");
     }
@@ -117,7 +137,7 @@ function handleMenuItems()
     {
         freeplayText.animation.play("basic");
     }
-    if (mainMenuIndex == 3)
+    if (mainMenuIndex == 2)
     {
         optionsText.animation.play("sel");
     }
@@ -125,7 +145,7 @@ function handleMenuItems()
     {
         optionsText.animation.play("basic");
     }
-    if (mainMenuIndex == 4)
+    if (mainMenuIndex == 3)
     {
         creditsText.animation.play("sel");
     }
@@ -138,19 +158,19 @@ function handleMenuItems()
 
 function menuOpen()
 {
-    if (mainMenuIndex == 1) 
+    if (mainMenuIndex == 0) 
     {
         FlxG.switchState(new StoryMenuState());
     }
-    if (mainMenuIndex == 2) 
+    if (mainMenuIndex == 1) 
     {
         FlxG.switchState(new FreeplayState());
     }
-    if (mainMenuIndex == 3) 
+    if (mainMenuIndex == 2) 
     {
         FlxG.switchState(new ModState('options'));
     }
-    if (mainMenuIndex == 2) 
+    if (mainMenuIndex == 3) 
     {
         FlxG.switchState(new ModState('credits'));
     }

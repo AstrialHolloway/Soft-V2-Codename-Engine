@@ -53,7 +53,7 @@ function postCreate()
         add(timeBar);
 
         timeText = new FunkinText(timeBarBG.x, timeBarBG.y + -5, Std.int(timeBarBG.width), 20);
-        timeText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        timeText.setFormat(Paths.font("Maplestory OTF Bold.otf"), 32, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         timeText.size = 30;
         timeText.borderSize = 2;
         timeText.screenCenter(FlxAxes.X);
@@ -62,7 +62,7 @@ function postCreate()
         for (timeStuff in [timeBarBG, timeBar, timeText]) timeStuff.alpha = 0;
 
         psychScoreTxt = new FunkinText(0, 685, FlxG.width, "Score: 0 | Misses: 0 | Rating: ?");
-        psychScoreTxt.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        psychScoreTxt.setFormat(Paths.font("Maplestory OTF Bold.otf"), 18, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         psychScoreTxt.borderSize = 1.25;
         psychScoreTxt.screenCenter(FlxAxes.X);
         if (downscroll) psychScoreTxt.y = 605;

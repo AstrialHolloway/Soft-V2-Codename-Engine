@@ -70,32 +70,32 @@
 	<SubTexture name="BF Dead confirm0031" x="7703" y="608" width="438" height="478" frameX="0" frameY="-30" frameWidth="439" frameHeight="508"/>
 	<SubTexture name="BF Dead confirm0032" x="7703" y="608" width="438" height="478" frameX="0" frameY="-30" frameWidth="439" frameHeight="508"/>
 	<SubTexture name="BF Dead confirm0033" x="7703" y="608" width="438" height="478" frameX="0" frameY="-30" frameWidth="439" frameHeight="508"/>
-	<SubTexture name="BF HEY 20000" x="50" y="1136" width="437" height="459" pivotX="-300.15" pivotY="230.75" frameX="-5" frameY="0" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20001" x="50" y="1136" width="437" height="459" frameX="-5" frameY="0" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20002" x="537" y="1136" width="452" height="432" frameX="0" frameY="-20" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20003" x="537" y="1136" width="452" height="432" frameX="0" frameY="-20" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20004" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20005" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20006" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20007" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20008" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20009" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20010" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20011" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20012" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20013" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20014" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20015" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20016" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20017" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20018" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20019" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20020" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20021" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20022" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20023" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20024" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
-	<SubTexture name="BF HEY 20025" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20000" x="50" y="1136" width="437" height="459" pivotX="-300.15" pivotY="230.75" frameX="-5" frameY="0" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20001" x="50" y="1136" width="437" height="459" frameX="-5" frameY="0" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20002" x="537" y="1136" width="452" height="432" frameX="0" frameY="-20" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20003" x="537" y="1136" width="452" height="432" frameX="0" frameY="-20" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20004" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20005" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20006" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20007" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20008" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20009" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20010" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20011" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20012" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20013" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20014" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20015" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20016" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20017" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20018" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20019" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20020" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20021" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20022" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20023" x="1531" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20024" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
+	<SubTexture name="BOO 20025" x="1039" y="1136" width="442" height="440" frameX="-5" frameY="-13" frameWidth="452" frameHeight="459"/>
 	<SubTexture name="BF HEY!!0000" x="50" y="50" width="400" height="434" pivotX="-292.95" pivotY="223.75" frameX="0" frameY="-1" frameWidth="401" frameHeight="435"/>
 	<SubTexture name="BF HEY!!0001" x="50" y="50" width="400" height="434" frameX="0" frameY="-1" frameWidth="401" frameHeight="435"/>
 	<SubTexture name="BF HEY!!0002" x="50" y="50" width="400" height="434" frameX="0" frameY="-1" frameWidth="401" frameHeight="435"/>

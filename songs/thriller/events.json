@@ -1,0 +1,80 @@
+{
+	"events": [
+		{
+			"params": [
+				true,
+				1.25,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 46168.2242990654,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				"hey",
+				true,
+				"NONE"
+			],
+			"time": 46822.429906542,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				true,
+				0.75,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 47102.8037383178,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.25,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 48411.214953271,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				"peace",
+				true,
+				"NONE"
+			],
+			"time": 49065.4205607477,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				true,
+				0.75,
+				"camGame",
+				1,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 49345.7943925234,
+			"name": "Camera Zoom"
+		}
+	]
+}
