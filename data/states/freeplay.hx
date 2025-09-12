@@ -1,3 +1,7 @@
+import flixel.text.FlxTextBorderStyle;
+import flixel.ui.FlxBar;
+import flixel.ui.FlxBarFillDirection;
+import flixel.util.FlxStringUtil;
 import funkin.savedata.FunkinSave;
 
 static var freeplaySongIndex = 0;
@@ -7,6 +11,8 @@ static var freeplayDiffIndex = 1;
 var score;
 
 var saveData;
+
+var devmode = true;
 
 FunkinSave.load();
 
@@ -19,7 +25,6 @@ var diffSprite:FunkinSprite = new FunkinSprite(605,525);
 diffSprite.loadGraphic(Paths.image("menus/freeplay/diff/normal"));
 diffSprite.scale.set(0.67, 0.67);
 add(diffSprite);
-
 
 var sidebarSprite:FunkinSprite = new FunkinSprite(-235, -180);
 sidebarSprite.loadGraphic(Paths.image("menus/freeplay/sidebar"));
@@ -66,8 +71,8 @@ var cardList:Array<String> = [
 
 var songTags:Array<FunkinSprite> = [];
 
-var startX:Float = -100; // where the column starts
-var startY:Float = 150;  // where the center (selected) card should be
+var startX:Float = 30; // where the column starts
+var startY:Float = 0;  // where the center (selected) card should be
 var spacing:Float = 250; // vertical spacing between each
 var scrollSpeed:Float = 6; // how fast it eases
 
@@ -130,18 +135,120 @@ function create()
     trace("Freeplay Opened");
 }
 
+var yOffsetDebugThing = -150;
+
+var debugDataDebLabel = new FlxText(260, 145+yOffsetDebugThing, 1000, "Debug Data:", 10);
+debugDataDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 40, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+debugDataDebLabel.borderSize = 1.25;
+add(debugDataDebLabel);
+
+var curNumDebLabel = new FlxText(260, 180+yOffsetDebugThing, 1000, "Song Index: " + freeplaySongIndex, 10);
+curNumDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curNumDebLabel.borderSize = 1.25;
+add(curNumDebLabel);
+
+var curSongDebLabel = new FlxText(260, 205+yOffsetDebugThing, 1000, "Song: " + songList[freeplaySongIndex], 10);
+curSongDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curSongDebLabel.borderSize = 1.25;
+add(curSongDebLabel);
+
+var curDiffDebLabel = new FlxText(260, 230+yOffsetDebugThing, 1000, "Difficulty: " + diffList[freeplayDiffIndex], 10);
+curDiffDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curDiffDebLabel.borderSize = 1.25;
+add(curDiffDebLabel);
+
+var curScoreDebLabel = new FlxText(260, 255+yOffsetDebugThing, 1000, "Score: ", 10);
+curScoreDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curScoreDebLabel.borderSize = 1.25;
+add(curScoreDebLabel);
+
+var curAccuracyDebLabel = new FlxText(260, 280+yOffsetDebugThing, 1000, "Accuracy: ", 10);
+curAccuracyDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curAccuracyDebLabel.borderSize = 1.25;
+add(curAccuracyDebLabel);
+
+var curMissesDebLabel = new FlxText(260, 305+yOffsetDebugThing, 1000, "Misses: ", 10);
+curMissesDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curMissesDebLabel.borderSize = 1.25;
+add(curMissesDebLabel);
+
+var curDateDebLabel = new FlxText(260, 330+yOffsetDebugThing, 1000, "Date: ", 10);
+curDateDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+curDateDebLabel.borderSize = 1.25;
+add(curDateDebLabel);
+
 var timethingidfk:Float = 0;
 
 function update(elapsed:Float)
 {
-    
     saveData = FunkinSave.getSongHighscore(songList[freeplaySongIndex], diffList[freeplayDiffIndex]);
     score = saveData.score;
     handleInputs();
     handleDiffs();
+    debugStatsHandler();
     timethingidfk = elapsed;
     CoolUtil.playMenuSong();
     scoreLabel.text = score;
+}
+
+function debugStatsHandler()
+{
+    curNumDebLabel.text = "Song Index: " + freeplaySongIndex;
+
+    curSongDebLabel.text = "Song: " + songList[freeplaySongIndex];
+
+    curDiffDebLabel.text = "Difficulty: " + diffList[freeplayDiffIndex];
+
+    curScoreDebLabel.text = "Score: " + saveData.score;
+
+    curAccuracyDebLabel.text = "Accuracy: " + FlxMath.roundDecimal(saveData.accuracy * 100, 2) +"%";
+
+    curMissesDebLabel.text = "Misses: " + saveData.misses;
+
+    if (saveData.date == null)
+    {
+        saveData.date = "N/A";
+    }
+
+    curDateDebLabel.text = "Date: " + saveData.date;
+
+
+    if (devmode == true)
+    {
+        debugDataDebLabel.visible = true;
+
+        curNumDebLabel.visible = true;
+
+        curSongDebLabel.visible = true;
+
+        curDiffDebLabel.visible = true;
+
+        curScoreDebLabel.visible = true;
+
+        curAccuracyDebLabel.visible = true;
+
+        curMissesDebLabel.visible = true;
+
+        curDateDebLabel.visible = true;
+    }
+    else
+    {
+        debugDataDebLabel.visible = false;
+
+        curNumDebLabel.visible = false;
+
+        curSongDebLabel.visible = false;
+
+        curDiffDebLabel.visible = false;
+
+        curScoreDebLabel.visible = false;
+
+        curAccuracyDebLabel.visible = false;
+
+        curMissesDebLabel.visible = false;
+
+        curDateDebLabel.visible = false;
+    }
 }
 
 function handleInputs()
@@ -169,13 +276,33 @@ function handleInputs()
         var targetY:Float = startY + ((i - freeplaySongIndex) * spacing);
         songTags[i].y = FlxMath.lerp(songTags[i].y, targetY, scrollSpeed * timethingidfk);
 
-        // Fade non-selected cards
+        // scale values
+        var smallScale:Float = 0.58;   // not selected
+        var baseScale:Float = 0.67;   // default
+        var selectedScale:Float = 0.85; // selected
+
+        // anchor scaling to left edge
+        songTags[i].origin.set(0, songTags[i].origin.y);
+
         if (i == freeplaySongIndex) {
+            // selected card: grow bigger
+            songTags[i].scale.set(
+                FlxMath.lerp(songTags[i].scale.x, selectedScale, 10 * timethingidfk),
+                FlxMath.lerp(songTags[i].scale.y, selectedScale, 10 * timethingidfk)
+            );
             songTags[i].alpha = FlxMath.lerp(songTags[i].alpha, 1.0, 10 * timethingidfk);
         } else {
+            // non-selected: shrink a little
+            songTags[i].scale.set(
+                FlxMath.lerp(songTags[i].scale.x, smallScale, 10 * timethingidfk),
+                FlxMath.lerp(songTags[i].scale.y, smallScale, 10 * timethingidfk)
+            );
             songTags[i].alpha = FlxMath.lerp(songTags[i].alpha, 0.4, 10 * timethingidfk);
         }
-    }   
+
+        // keep left aligned
+        songTags[i].x = startX;
+    } 
     if (controls.LEFT_P)
     {
         if (songStarted == false)
