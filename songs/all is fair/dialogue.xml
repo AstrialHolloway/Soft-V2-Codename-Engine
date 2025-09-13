@@ -1,0 +1,43 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+	<!-- All characters -->
+	<char name="father" char="father" position="left" defaultAnim="smile"/>
+	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
+	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
+	
+
+	<!-- Lines -->
+	<line char="father" playSound="dio/sounds/all-is-fair/1" changeMusic="dio/music/sporting-gesture" musicVolume="0.8"> <!---->
+		You sound just like your old man!
+	</line>
+	<line char="father" playSound="dio/sounds/all-is-fair/2" changeDefAnim="annoyed" nextSound="dio/sounds/advance" changeMusic="dio/music/traffic" musicVolume="0.8">
+		...It's a real shame that you're putting all that talent to waste.
+	</line>
+	<line char="bf" changeDefAnim="uncomfortable" nextSound="dio/sounds/advance">
+		...
+	</line>
+	<line char="pico" playSound="dio/sounds/all-is-fair/3" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+		Hey, don’t listen to him.
+	</line>
+	<line char="father" playSound="dio/sounds/all-is-fair/4" changeDefAnim="confused" nextSound="dio/sounds/advance">
+		Your mother and I built this perfect life for you so you could become a star.
+	</line>
+	<line char="father" playSound="dio/sounds/all-is-fair/5" changeDefAnim="happylook" nextSound="dio/sounds/advance">
+		And you want to be what? An artist?
+	</line>
+	<line char="father" playSound="dio/sounds/all-is-fair/6" changeDefAnim="grin" nextSound="dio/sounds/advance">
+		Now, doesn’t that just sound ridiculous?
+	</line>
+	<line char="bf" playSound="dio/sounds/all-is-fair/7" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+		Please just listen to me for once-
+	</line>
+	<line char="father" playSound="dio/sounds/all-is-fair/8" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+		Speak up son, I can’t hear you.
+	</line>
+	<line char="bf" playSound="dio/sounds/all-is-fair/9" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+		I-It’s my life!
+	</line>
+	<line char="father" playSound="dio/sounds/all-is-fair/10" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+		Oh, is it?
+	</line>
+</dialogue>

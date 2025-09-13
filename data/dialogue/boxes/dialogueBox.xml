@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-dialogue-box>
+<dialoguebox y="10">
+	<!--
+		Node containing all text settings
+	-->
+	<text font="DK Inky Fingers.otf" x="204" y="232" width="900" color="#000000" size="28"/>
+
+	<!--
+		All positions for characters
+	-->
+	<charpos name="left" x="-500" y="184" />
+	<charpos name="right" x="500" y="184" />
+
+	<!--
+		All animations for the dialogue box
+		For example, if you wanna add an "angry" animation, add an animation named "angry" (box idle), and "angry-open" (not needed, for box apparition)
+	-->
+	
+</dialoguebox>

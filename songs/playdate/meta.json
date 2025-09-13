@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "grace",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"color": "#FF7387",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Playdate",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 180
+}

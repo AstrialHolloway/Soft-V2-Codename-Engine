@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "mother",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"color": "#FFC0A4",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Catwalk",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 125
+}

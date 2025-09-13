@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "monster",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Genesis",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 175
+}

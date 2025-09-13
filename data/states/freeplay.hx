@@ -101,7 +101,7 @@ var songList:Array<String> =
     //week 3
     "playdate",
     "stay",
-    "its complicated",
+    "it's complicated",
     //week 4
     "intuition",
     "catwalk",
@@ -172,7 +172,7 @@ curMissesDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "
 curMissesDebLabel.borderSize = 1.25;
 add(curMissesDebLabel);
 
-var curDateDebLabel = new FlxText(260, 330+yOffsetDebugThing, 1000, "Date: ", 10);
+var curDateDebLabel = new FlxText(260, 330+yOffsetDebugThing, 1000, "Date Achieved: ", 10);
 curDateDebLabel.setFormat("fonts/Jack Armstrong BB.ttf", 25, FlxColor.WHITE, "right", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 curDateDebLabel.borderSize = 1.25;
 add(curDateDebLabel);
@@ -210,7 +210,7 @@ function debugStatsHandler()
         saveData.date = "N/A";
     }
 
-    curDateDebLabel.text = "Date: " + saveData.date;
+    curDateDebLabel.text = "Date Achieved: " + saveData.date;
 
 
     if (devmode == true)
@@ -352,6 +352,7 @@ function handleInputs()
             FlxG.switchState(new MainMenuState());
         });
     }
+    
 }
 
 function handleDiffs()

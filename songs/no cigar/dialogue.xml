@@ -1,0 +1,43 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+	<!-- All characters -->
+	<char name="father" char="father" position="left" defaultAnim="smile"/>
+	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
+	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
+	
+
+	<!-- Lines -->
+	<line char="father" changeDefAnim="confused" playSound="dio/sounds/no-cigar/1" changeMusic="dio/music/true-colors-f" musicVolume="0.8"> <!---->
+		Hm. You know...
+	</line>
+	<line char="father" playSound="dio/sounds/no-cigar/2" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+		It’s been a real pain trying to find you these past couple of weeks.
+	</line>
+	<line char="father" changeDefAnim="pissed" nextSound="dio/sounds/advance" playSound="dio/sounds/no-cigar/3">
+		Let’s make a deal, hm?
+	</line>
+	<line char="father" playSound="dio/sounds/no-cigar/4" changeDefAnim="grin" nextSound="dio/sounds/advance">
+		If you can beat me in this next song, we can forget this all ever happened.
+	</line>
+	<line char="bf" playSound="dio/sounds/no-cigar/5" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
+		Really...?
+	</line>
+	<line char="father" playSound="dio/sounds/no-cigar/6" changeDefAnim="happy" nextSound="dio/sounds/advance">
+		Scout's honor.
+	</line>
+	<line char="pico" playSound="dio/sounds/no-cigar/7" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+		Don’t trust him, Ben.
+	</line>
+	<line char="bf" changeDefAnim="worried" nextSound="dio/sounds/advance">
+		...
+	</line>
+	<line char="bf" playSound="dio/sounds/no-cigar/8" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
+		Okay. If you really promise...
+	</line>
+	<line char="father" playSound="dio/sounds/no-cigar/9" changeDefAnim="happy" nextSound="dio/sounds/advance">
+		You know the deal if you lose.
+	</line>
+	<line char="father" playSound="dio/sounds/no-cigar/10" changeDefAnim="grin" nextSound="dio/sounds/advance">
+		After we get back home, I’ll make sure to whip you back into shape.
+	</line>
+</dialogue>
