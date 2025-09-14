@@ -4,6 +4,7 @@ import flixel.ui.FlxBarFillDirection;
 import flixel.util.FlxStringUtil;
 import funkin.savedata.FunkinSave;
 
+
 static var freeplaySongIndex = 0;
 
 static var freeplayDiffIndex = 1;
@@ -13,6 +14,14 @@ var score;
 var saveData;
 
 var devmode = true;
+
+// Load shader
+var colorShader:CustomShader = new CustomShader("rgbPalette");
+
+
+
+
+
 
 FunkinSave.load();
 
@@ -29,11 +38,13 @@ add(diffSprite);
 var sidebarSprite:FunkinSprite = new FunkinSprite(-235, -180);
 sidebarSprite.loadGraphic(Paths.image("menus/freeplay/sidebar"));
 sidebarSprite.scale.set(0.67, 0.67);
+sidebarSprite.shader = colorShader;
 add(sidebarSprite);
 
 var statsSprite:FunkinSprite = new FunkinSprite(810,490);
 statsSprite.loadGraphic(Paths.image("menus/freeplay/score"));
 statsSprite.scale.set(0.67, 0.67);
+statsSprite.shader = colorShader;
 add(statsSprite);
 
 var arrowLeftSprite:FunkinSprite = new FunkinSprite(623,610);
@@ -122,6 +133,54 @@ var songList:Array<String> =
     "lagtrain"
 ];
 
+
+
+var songData:Array<SongColorData> = [
+
+    // Prelude
+    { r: [0.259,0.537,0.278], g: [0.533,0.718,1.0] },
+
+    // Week 1
+    { r: [0.251,0.353,0.522], g: [0.518,0.459,0.247] },
+    { r: [0.251,0.353,0.522], g: [0.518,0.459,0.247] },
+    { r: [0.251,0.353,0.522], g: [0.518,0.459,0.247] },
+
+    // Week 2
+    { r: [0.965,0.835,0.937], g: [0.835,0.608,0.502] },
+    { r: [0.965,0.835,0.937], g: [0.835,0.608,0.502] },
+    { r: [0.082,0.141,0.188], g: [0.561,0.518,0.455] },
+
+    // Week 3
+    { r: [0.800,0.439,0.612], g: [0.094,0.451,0.333] },
+    { r: [0.800,0.439,0.612], g: [0.094,0.451,0.333] },
+    { r: [0.800,0.439,0.612], g: [0.094,0.451,0.333] },
+
+    // Week 4
+    { r: [0.702,0.686,1.0], g: [0.941,0.600,0.667] },
+    { r: [0.702,0.686,1.0], g: [0.941,0.600,0.667] },
+    { r: [0.702,0.686,1.0], g: [0.941,0.600,0.667] },
+
+    // Week 5
+    { r: [1.0,0.757,0.651], g: [0.412,0.541,0.737] },
+    { r: [1.0,0.757,0.651], g: [0.412,0.541,0.737] },
+    { r: [0.082,0.141,0.188], g: [0.561,0.518,0.455] },
+
+    // Week 6
+    { r: [0.467,0.682,0.851], g: [0.451,0.286,0.067] },
+    { r: [0.467,0.682,0.851], g: [0.451,0.286,0.067] },
+    { r: [0.467,0.682,0.851], g: [0.451,0.286,0.067] },
+
+    // Epilogue
+    { r: [0.259,0.537,0.278], g: [0.533,0.718,1.0] },
+
+    // Extra
+    { r: [0.573,0.443,0.992], g: [0.353,0.553,0.004] },
+    { r: [0.275,0.275,0.275], g: [0.706,0.706,0.706] },
+    { r: [0.698,0.698,0.698], g: [0.941, 0.941, 0.941] }
+];
+
+
+
 var diffList:Array<String> = 
 [
     "easy",
@@ -179,6 +238,16 @@ add(curDateDebLabel);
 
 var timethingidfk:Float = 0;
 
+var colorShit = songData[freeplaySongIndex];
+
+colorShader.b = [1,1,1]; // blue channel influence
+colorShader.mult = 1; // strength (0 = off, 1 = full)
+
+function create()
+{
+    CoolUtil.playMusic("music/softFreeplay.ogg");
+}
+
 function update(elapsed:Float)
 {
     saveData = FunkinSave.getSongHighscore(songList[freeplaySongIndex], diffList[freeplayDiffIndex]);
@@ -187,8 +256,14 @@ function update(elapsed:Float)
     handleDiffs();
     debugStatsHandler();
     timethingidfk = elapsed;
-    CoolUtil.playMenuSong();
+    
     scoreLabel.text = score;
+    
+    colorShit = songData[freeplaySongIndex];
+
+    colorShader.r = colorShit.r; // red channel influence
+    colorShader.g = colorShit.g; // green channel influence
+    
 }
 
 function debugStatsHandler()
@@ -347,7 +422,7 @@ function handleInputs()
     if (controls.BACK)
     {
         FlxG.sound.play(Paths.sound("menu/cancel"), 0.7);
-        new FlxTimer().start(2.2, function(tmr:FlxTimer)
+        new FlxTimer().start(0.3, function(tmr:FlxTimer)
         {
             FlxG.switchState(new MainMenuState());
         });

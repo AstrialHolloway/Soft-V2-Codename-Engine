@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/week2/images/" name="spooky-room" zoom="0.75">
+<stage folder="stages/week2/images/" name="spooky-room" zoom="0.75" startCamPosX="1200" startCamPosY="750">
 	<sprite type="none" sprite="bg" name="bg"/>
 	<girlfriend x="881.712189733406" scroll="1" y="335"/>
 	<dad x="635" y="365"/>

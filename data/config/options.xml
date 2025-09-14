@@ -3,6 +3,7 @@
     <checkbox id="devAccess" name="Developer Access" desc="Toggle the ability to access the dev stats"/>
     <checkbox id="smoothHealthbar" name="Smooth Healthbar" desc="Toggle if the healthbar is smooth or not"/>
     <checkbox id="holdCovers" name="Hold Covers" desc="Toggle if hold covers work or not"/>
+    <checkbox id="warning" name="Warning Menu" desc="Toggle if warning menu opens"/>
 
     <choice id="songUI" name="Song UI">
         <value name="Codename" value="codename"/>

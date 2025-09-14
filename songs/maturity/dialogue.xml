@@ -1,6 +1,7 @@
 <!DOCTYPE codename-engine-dialogue>
 <dialogue box="dialogueBox">
 	<!-- All characters -->
+	<char name="father_silhouette" char="father_silhouette" position="left" defaultAnim="happy"/>
 	<char name="father" char="father" position="left" defaultAnim="smile"/>
 	<char name="megablade" char="megablade" position="left" defaultAnim="talk"/>
 	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
@@ -11,7 +12,7 @@
 	<line char="megablade" playSound="dio/sounds/maturity/1" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
 		A tall man stepped out of the shadows...
 	</line>
-	<line char="megablade" playSound="dio/sounds/maturity/2" changeDefAnim="look" nextSound="dio/sounds/advance">
+	<line char="father_silhouette" playSound="dio/sounds/maturity/2" changeDefAnim="happy" nextSound="dio/sounds/advance">
 		He goes by the name Father Fairest, a retired rap battler whose name is well known by all throughout the city.
 	</line>
 	<line char="megablade" playSound="dio/sounds/maturity/3" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">

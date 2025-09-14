@@ -1,0 +1,55 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+	<!-- All characters -->
+	<char name="spooky_kids" char="spooky_kids" position="left" defaultAnim="both-spooky"/>
+	<char name="pump" char="pump" position="left" defaultAnim="pump-happy"/>
+	<char name="skid" char="skid" position="left" defaultAnim="skid-happy"/>
+	<char name="pico-left" char="pico-left" position="left" defaultAnim="bored"/>
+	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
+	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
+	
+
+	<!-- Lines -->
+	<line char="bf" playSound="dio/sounds/high-spirits/1" changeDefAnim="sweating" changeMusic="dio/music/eek" musicVolume="0.7"> <!---->
+		Wow... you guys are... waaay tougher than I thought.
+	</line>
+	<line char="skid" playSound="dio/sounds/high-spirits/2" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">
+		That was fun!
+	</line>
+	<line char="pump" playSound="dio/sounds/high-spirits/3" changeDefAnim="pump-happy" nextSound="dio/sounds/advance" >
+		Let's do another!
+	</line>
+	<line char="bf" playSound="dio/sounds/high-spirits/4" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
+		Oh...? You wanna keep going?
+	</line>
+	<line char="spooky_kids" playSound="dio/sounds/high-spirits/5" changeDefAnim="both-happy" nextSound="dio/sounds/advance">
+		We can even show you the spooky dance this time!
+	</line>
+	<line char="bf" playSound="dio/sounds/high-spirits/6" changeDefAnim="what" nextSound="dio/sounds/advance">
+		Spooky... dance?
+	</line>
+	<line char="pump" playSound="dio/sounds/high-spirits/7" changeDefAnim="pump-happy" nextSound="dio/sounds/advance">
+		Yeah! It's where you kinda crouch and then you dance...
+	</line>
+	<line char="skid" playSound="dio/sounds/high-spirits/8" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">
+		C'mon, we'll show you!
+	</line>
+	<line char="bf" playSound="dio/sounds/high-spirits/9" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
+		I'm not much of a dancer...
+	</line>
+	<line char="bf" playSound="dio/sounds/high-spirits/10" changeDefAnim="smile" nextSound="dio/sounds/advance">
+		But one more shouldn't hurt...
+	</line>
+	<line char="pico" playSound="dio/sounds/high-spirits/11" changeDefAnim="worry" nextSound="dio/sounds/advance">
+		Are you sure about this, Baby Blue? You look like you need to sit down.
+	</line>
+	<line char="bf" playSound="dio/sounds/high-spirits/12" changeDefAnim="happy" nextSound="dio/sounds/advance">
+		It'll be fine, Pico! They're just kids looking for fun.
+	</line>
+	<line char="bf" playSound="dio/sounds/high-spirits/13" changeDefAnim="smile" nextSound="dio/sounds/advance">
+		I wanna keep them in high spirits.
+	</line>
+	<line char="spooky_kids" playSound="dio/sounds/high-spirits/14" changeDefAnim="both-happy" nextSound="dio/sounds/advance">
+		Yippee!
+	</line>
+</dialogue>

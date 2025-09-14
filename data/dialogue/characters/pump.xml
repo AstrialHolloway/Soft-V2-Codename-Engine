@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character x="131" y="111" scalex="-1">
+	<anim name="pump-forward" anim="pump-forward" fps="24" />
+	<anim name="pump-happy" anim="pump-happy" fps="24" />
+</character>

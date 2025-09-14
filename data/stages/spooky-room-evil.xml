@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/week2/images/EVIL/" name="spooky-room-evil" zoom="0.75">
+<stage folder="stages/week2/images/EVIL/" name="spooky-room-evil" zoom="0.75" startCamPosX="1000" startCamPosY="550">
 	<sprite type="none" sprite="void" name="void"/>
 	<sprite type="none" sprite="bg" name="bg"/>
 	<sprite x="641.110148275803" sprite="objects" y="363.654916038796" type="none" name="objects"/>

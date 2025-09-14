@@ -168,7 +168,7 @@ function menuOpen()
     }
     if (mainMenuIndex == 2) 
     {
-        FlxG.switchState(new ModState('options'));
+        FlxG.switchState(new OptionsMenu());
     }
     if (mainMenuIndex == 3) 
     {

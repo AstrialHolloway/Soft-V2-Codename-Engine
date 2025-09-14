@@ -1,0 +1,135 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+	<!-- All characters -->
+	<char name="spooky_kids" char="spooky_kids" position="left" defaultAnim="both-spooky"/>
+	<char name="spooky_kids_silhouette" char="spooky_kids_silhouette" position="left" defaultAnim="both-spooky"/>
+	<char name="skid" char="skid" position="left" defaultAnim="skid-happy"/>
+	<char name="pump" char="pump" position="left" defaultAnim="pump-happy"/>
+	<char name="megablade" char="megablade" position="left" defaultAnim="closedtalk"/>
+	<char name="pico-left" char="pico-left" position="left" defaultAnim="bored"/>
+	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
+	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
+	
+
+	<!-- Lines -->
+	<line char="megablade" changeDefAnim="closedtalk" playSound="dio/sounds/thriller/1" changeMusic="dio/music/spooky" musicVolume="0.8"> <!---->
+		The starry night had given away to dark clouds, rumbling a warning before giving way to a downpour.
+	</line>
+	<line char="megablade" playSound="dio/sounds/thriller/2" nextSound="dio/sounds/advance">
+		Our boys found themselves taking cover in a decrepit building.
+	</line>
+	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance" playSound="dio/sounds/thriller/3">
+		It was near impossible to see three feet in front of them when there wasn’t a hint of light to brighten up the room.
+	</line>
+	<line char="megablade" playSound="dio/sounds/thriller/4" changeDefAnim="look" nextSound="dio/sounds/advance">
+		At least they were alone...
+	</line>
+	<line char="megablade" playSound="dio/sounds/thriller/5" changeDefAnim="smile" nextSound="dio/sounds/advance">
+		Right?
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/6" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+		I don’t know about this place, Pico...
+	</line>
+	<line char="pico-left" playSound="dio/sounds/thriller/7" changeDefAnim="questioning" nextSound="dio/sounds/advance">
+		Well, you got a better place to hide?
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/8" changeDefAnim="nervous" nextSound="dio/sounds/advance">
+		...no.
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/9" changeDefAnim="uncomfortable" nextSound="dio/sounds/advance">
+		But an abandoned mansion? It’s scary, it’s unsettling...
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/10" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+		It’s... it’s...
+	</line>
+	<line char="spooky_kids_silhouette" playSound="dio/sounds/thriller/11" nextSound="dio/sounds/advance">
+		IT’S-A SPOOKY!
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/12" changeDefAnim="happy" nextSound="dio/sounds/advance">
+		Yeah, exactly, you took the words right from my mouth, Pico...
+	</line>
+	<line char="pico" playSound="dio/sounds/thriller/13" changeDefAnim="neutral" nextSound="dio/sounds/advance">
+		... that wasn’t me.
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/14" changeDefAnim="scared" nextSound="dio/sounds/advance">
+		H-Huh?! Then who...?
+	</line>
+	<line char="spooky_kids" playSound="dio/sounds/thriller/15" changeDefAnim="both-spooky" nextSound="dio/sounds/jumpscare">
+		Hi, misters!
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/16" changeDefAnim="terrified" nextSound="dio/sounds/advance">
+		Beep!
+	</line>
+	<line char="pico" playSound="dio/sounds/thriller/17" changeDefAnim="bored" nextSound="dio/sounds/advance">
+		Relax, it’s just a couple of kids.
+	</line>
+	<line char="spooky_kids" playSound="dio/sounds/sqweak" changeDefAnim="both-happy" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0">
+		
+	</line>
+	<line char="pico" playSound="dio/sounds/thriller/18" changeDefAnim="questioning" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0.7">
+		What the hell are you two doing here?
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/19" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">
+		I am Skid and this is Pump!
+	</line>
+	<line char="pump" playSound="dio/sounds/thriller/20" changeDefAnim="pump-happy" nextSound="dio/sounds/advance">
+		We are doing the spooky things during the spooky month!
+	</line>
+	<line char="pico" playSound="dio/sounds/thriller/21" changeDefAnim="questioning" nextSound="dio/sounds/advance">
+		It’s November. Isn’t it a bit... late?
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/22" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">
+		That’s what all the kids at school say.
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/23" nextSound="dio/sounds/advance">
+		But my mom says it’s not true!
+	</line>
+	<line char="pump" playSound="dio/sounds/thriller/24" changeDefAnim="pump-happy" nextSound="dio/sounds/advance">
+		We come here to hide from them...
+	</line>
+	<line char="pump" playSound="dio/sounds/thriller/25" nextSound="dio/sounds/advance">
+		So we can be as spooky as we want!
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/26" changeDefAnim="skid-forward" nextSound="dio/sounds/advance">
+		Hey, wait, you look familiar!
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/27" changeDefAnim="sweating" nextSound="dio/sounds/advance">
+		O-oh?
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/28" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">
+		Yeah yeah! We know your parents, they're super famous!
+	</line>
+	<line char="pump" playSound="dio/sounds/thriller/29" changeDefAnim="pump-forward" nextSound="dio/sounds/advance">
+		Also, we’ve seen your face on posters all over town.
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/30" changeDefAnim="sweating" nextSound="dio/sounds/advance">
+		...I see.
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/31" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">
+		My mom has tapes of Mr. Fairest and Mrs. Mairest performing!
+	</line>
+	<line char="pump" playSound="dio/sounds/thriller/32" changeDefAnim="pump-happy" nextSound="dio/sounds/advance">
+		We watch them all the time. 
+	</line>
+	<line char="skid" playSound="dio/sounds/thriller/33" changeDefAnim="skid-forward" nextSound="dio/sounds/advance">
+		Hey hey hey! Can you sing too?
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/34" changeDefAnim="sweating" nextSound="dio/sounds/advance">
+		Um, well...y-yes?
+	</line>
+	<line char="pump" playSound="dio/sounds/thriller/35" changeDefAnim="pump-forward" nextSound="dio/sounds/advance">
+		Then let’s do a rap battle!
+	</line>
+	<line char="pico" playSound="dio/sounds/thriller/36" changeDefAnim="bored" nextSound="dio/sounds/advance">
+		Probably not the greatest idea.
+	</line>
+	<line char="spooky_kids" playSound="dio/sounds/thriller/37" changeDefAnim="both-happy" nextSound="dio/sounds/advance">
+		Pleaaaase?
+	</line>
+	<line char="bf" playSound="dio/sounds/thriller/38" changeDefAnim="smile" nextSound="dio/sounds/advance">
+		Aw... alright little dudes.
+	</line>
+	<line char="pico" playSound="dio/sounds/thriller/39" changeDefAnim="bored" nextSound="dio/sounds/advance">
+		...you’ve gotta be kidding me.
+	</line>
+</dialogue>

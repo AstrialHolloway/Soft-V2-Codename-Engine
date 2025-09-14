@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character x="131" y="116" scalex="-1">
+	<anim name="skid-forward" anim="skid-forward" fps="24" />
+	<anim name="skid-happy" anim="skid-happy" fps="24" />
+</character>

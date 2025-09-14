@@ -6,6 +6,8 @@ import funkin.savedata.FunkinSave;
 
 var uitype:String = FlxG.save.data.songUI;
 
+
+
 var timeBarBG:FunkinSprite;
 var timeBar:FlxBar;
 var timeTxt:FunkinText;
@@ -52,6 +54,8 @@ function postCreate()
         timeBar.numDivisions = timeBar.width;
         add(timeBar);
 
+        
+
         timeText = new FunkinText(timeBarBG.x, timeBarBG.y + -5, Std.int(timeBarBG.width), 20);
         timeText.setFormat(Paths.font("Maplestory OTF Bold.otf"), 32, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
         timeText.size = 30;
@@ -73,6 +77,12 @@ function postCreate()
         timeText.cameras = [camHUD];
         psychScoreTxt.cameras = [camHUD];
     }
+    customHBBG = new FunkinSprite(0,597);
+    customHBBG.loadGraphic(Paths.image("game/bar"));
+    customHBBG.screenCenter(FlxAxes.X);
+    insert(members.indexOf = 13, customHBBG);
+    add(customHBBG);
+    customHBBG.cameras = [camHUD];
 }
 
 function onSongStart()

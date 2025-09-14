@@ -1,0 +1,41 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+	<!-- All characters -->
+
+	<char name="megablade" char="megablade" position="left" defaultAnim="look"/>
+	<char name="pico-left" char="pico-left" position="left" defaultAnim="bored"/>
+	<char name="pico_silhouette" char="pico_silhouette" position="left" defaultAnim="neutral"/>
+	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
+	<char name="bf_silhouette" char="bf_silhouette" position="right" defaultAnim="smile"/>
+	
+
+	<!-- Lines -->
+	<line char="bf" playSound="dio/sounds/starcrossed/1end" changeDefAnim="smile" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
+		How was that...?
+	</line>
+	<line char="pico-left" playSound="dio/sounds/starcrossed/2end" changeDefAnim="heart" nextSound="dio/sounds/advance"> <!---->
+		You did amazing, Blue!
+	</line>
+	<line char="pico-left" playSound="dio/sounds/starcrossed/3end" changeDefAnim="smug" nextSound="dio/sounds/advance"> <!---->
+		I knew you could do it.
+	</line>
+	<line char="bf" playSound="dio/sounds/starcrossed/4end" changeDefAnim="happycry" nextSound="dio/sounds/advance"> <!---->
+		Thank you...
+	</line>
+	<line char="pico-left" playSound="dio/sounds/starcrossed/5end" changeDefAnim="smugsmile" nextSound="dio/sounds/advance"> <!---->
+		Anytime.
+	</line>
+	<line char="pico-left" playSound="dio/sounds/starcrossed/6end" changeDefAnim="worry" nextSound="dio/sounds/advance"> <!---->
+		Though... We should probably get a move on before-
+	</line>
+	<line char="megablade" playSound="dio/sounds/starcrossed/7end" changeDefAnim="closedtalk" nextSound="dio/sounds/advance"> <!---->
+		Footsteps could be heard at the entrance of the alleyway, interrupting their conversation.
+	</line>
+	<line char="pico-left" changeDefAnim="shock" nextSound="dio/sounds/advance"> <!---->
+		...?
+	</line>
+	<line char="bf" playSound="dio/sounds/starcrossed/shock" changeDefAnim="scared" nextSound="dio/sounds/advance"> <!---->
+		!!!
+	</line>
+	
+</dialogue>

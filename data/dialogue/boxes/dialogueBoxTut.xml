@@ -3,7 +3,7 @@
 	<!--
 		Node containing all text settings
 	-->
-	<text font="DK Inky Fingers.otf" x="204" y="268" width="900" color="#000000" size="28"/>
+	<text font="DK Inky Fingers.otf" x="204" y="232" width="900" color="#000000" size="28"/>
 
 	<!--
 		All positions for characters

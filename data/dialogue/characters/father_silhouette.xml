@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character x="-24" y="85" scalex="-1">
+	<anim name="smile" anim="smile00" fps="24" />
+	<anim name="happy" anim="happy00" fps="24" />
+	<anim name="happylook" anim="happylook00" fps="24" />
+	<anim name="confused" anim="confused00" fps="24" />
+	<anim name="angrysmile" anim="angrysmile00" fps="24" />
+	<anim name="pissed" anim="pissed00" fps="24" />
+	<anim name="annoyed" anim="annoyed00" fps="24" />
+	<anim name="grin" anim="grin00" fps="24" />
+	<anim name="grimaceshake" anim="grimaceshake00" fps="24" />
+</character>
