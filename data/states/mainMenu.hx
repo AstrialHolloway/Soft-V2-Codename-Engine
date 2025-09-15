@@ -49,6 +49,35 @@ fgSprite.loadGraphic(Paths.image("menus/mainmenu/fg"));
 fgSprite.scale.set(0.67, 0.67);
 add(fgSprite);
 
+import data.GlobalVars;
+
+
+var transCoverState:FunkinSprite = new FunkinSprite(0,0);
+transCoverState.frames = Paths.getSparrowAtlas("transition/regular");
+transCoverState.animation.addByPrefix("in", "transitionIn", 35, false);
+transCoverState.animation.addByPrefix("out", "transitionOut", 35, false);
+transCoverState.animation.addByPrefix("empty", "empty", 35, true);
+transCoverState.animation.addByPrefix("full", "full", 35, true);
+transCoverState.color = 0x000000;
+
+transCoverState.scale.set(1,1);
+add(transCoverState);
+
+var transCoverPlay:FunkinSprite = new FunkinSprite(0,0);
+transCoverPlay.frames = Paths.getSparrowAtlas("transition/playstate");
+transCoverPlay.animation.addByPrefix("in", "transitionIn", 35, false);
+transCoverPlay.animation.addByPrefix("out", "transitionOut", 35, false);
+transCoverPlay.animation.addByPrefix("empty", "empty", 35, true);
+transCoverPlay.animation.addByPrefix("full", "full", 35, true);
+
+transCoverPlay.scale.set(1,1);
+add(transCoverPlay);
+
+
+function create()
+{
+    
+}
 
 
 function update()
@@ -66,9 +95,14 @@ function handleInputs()
 {
     if (controls.BACK)
     {
+
         FlxG.sound.play(Paths.sound("menu/cancel"), 0.7);
-        new FlxTimer().start(0.3, function(tmr:FlxTimer)
+        switching = true;
+        transtype = "state";
+        
+        new FlxTimer().start(0.5, function(tmr:FlxTimer)
         {
+            
             
             FlxG.switchState(new TitleState());
                 
@@ -77,9 +111,13 @@ function handleInputs()
     if (controls.ACCEPT)
     {
         FlxG.sound.play(Paths.sound("menu/confirm"), 0.7);
-        new FlxTimer().start(2.2, function(tmr:FlxTimer)
+        switching = true;
+        transtype = "state";
+        new FlxTimer().start(1, function(tmr:FlxTimer)
         {
+            
             menuOpen();    
+            
         });
     }
     if (controls.UP_P)

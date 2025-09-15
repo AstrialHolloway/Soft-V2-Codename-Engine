@@ -3,6 +3,7 @@ import flixel.ui.FlxBar;
 import flixel.ui.FlxBarFillDirection;
 import flixel.util.FlxStringUtil;
 import funkin.savedata.FunkinSave;
+import data.GlobalVars;
 
 
 static var freeplaySongIndex = 0;
@@ -188,11 +189,7 @@ var diffList:Array<String> =
     "hard"
 ];
 
-function create()
-{
 
-    trace("Freeplay Opened");
-}
 
 var yOffsetDebugThing = -150;
 
@@ -243,8 +240,38 @@ var colorShit = songData[freeplaySongIndex];
 colorShader.b = [1,1,1]; // blue channel influence
 colorShader.mult = 1; // strength (0 = off, 1 = full)
 
+var transCoverState:FunkinSprite = new FunkinSprite(0,0);
+transCoverState.frames = Paths.getSparrowAtlas("transition/regular");
+transCoverState.animation.addByPrefix("in", "transitionIn", 35, false);
+transCoverState.animation.addByPrefix("out", "transitionOut", 35, false);
+transCoverState.animation.addByPrefix("empty", "empty", 35, true);
+transCoverState.animation.addByPrefix("full", "full", 35, true);
+transCoverState.color = 0x000000;
+transCoverState.animation.play("empty");
+transCoverState.scale.set(1,1);
+add(transCoverState);
+
+var transCoverPlay:FunkinSprite = new FunkinSprite(0,0);
+transCoverPlay.frames = Paths.getSparrowAtlas("transition/playstate");
+transCoverPlay.animation.addByPrefix("in", "transitionIn", 35, false);
+transCoverPlay.animation.addByPrefix("out", "transitionOut", 35, false);
+transCoverPlay.animation.addByPrefix("empty", "empty", 35, true);
+transCoverPlay.animation.addByPrefix("full", "full", 35, true);
+transCoverPlay.animation.play("empty");
+transCoverPlay.scale.set(1,1);
+add(transCoverPlay);
+
 function create()
 {
+    if (transtype == "state")
+    {
+        transCoverState.animation.play("in");
+    }
+    if (transtype == "play")
+    {
+        transCoverPlay.animation.play("in");
+    }
+    trace("Freeplay Opened");
     CoolUtil.playMusic("music/softFreeplay.ogg");
 }
 
@@ -387,6 +414,7 @@ function handleInputs()
 
             if (freeplayDiffIndex < 0)
             {
+                
                 freeplayDiffIndex = 2;
             }
             
@@ -412,11 +440,14 @@ function handleInputs()
     }
     if (controls.ACCEPT)
     {
+        transtype = "play";
         FlxG.sound.play(Paths.sound("menu/confirm"), 0.7);
-        new FlxTimer().start(2.2, function(tmr:FlxTimer)
+        new FlxTimer().start(1, function(tmr:FlxTimer)
         {
+            
             PlayState.loadSong(songList[freeplaySongIndex], diffList[freeplayDiffIndex]);
             FlxG.switchState(new PlayState());
+            
         });
     }
     if (controls.BACK)

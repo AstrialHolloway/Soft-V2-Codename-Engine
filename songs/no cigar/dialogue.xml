@@ -7,7 +7,7 @@
 	
 
 	<!-- Lines -->
-	<line char="father" changeDefAnim="confused" playSound="dio/sounds/no-cigar/1" changeMusic="dio/music/true-colors-f" musicVolume="0.8"> <!---->
+	<line char="father" changeDefAnim="confused" playSound="dio/sounds/no-cigar/1" changeMusic="dio/music/true-colors-f" musicVolume="0.8">
 		Hm. You know...
 	</line>
 	<line char="father" playSound="dio/sounds/no-cigar/2" changeDefAnim="annoyed" nextSound="dio/sounds/advance">

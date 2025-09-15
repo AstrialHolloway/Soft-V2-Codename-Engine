@@ -1,0 +1,21 @@
+{
+	"customValues": {
+		"pause": "ben_n_pico",
+		"name": "Starcrossed",
+		"artist": "StardustTunes"
+	},
+	"color": "#428948",
+	"opponentModeAllowed": true,
+	"icon": "pico",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Testing Shit",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 150
+}

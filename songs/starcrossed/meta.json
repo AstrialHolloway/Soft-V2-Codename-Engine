@@ -1,8 +1,8 @@
 {
 	"customValues": {
 		"pause": "ben_n_pico",
-		"name": "Starcrossed",
-		"artist": "StardustTunes"
+		"artist": "StardustTunes",
+		"name": "Starcrossed"
 	},
 	"color": "#428948",
 	"opponentModeAllowed": true,

@@ -148,10 +148,11 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -203,7 +204,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 257.142857142855,
+					"sLen": 257.142857142841,
 					"time": 31885.7142857143,
 					"type": 0
 				},
@@ -347,7 +348,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142862,
+					"sLen": 257.142857142891,
 					"time": 43885.7142857143,
 					"type": 0
 				},
@@ -539,7 +540,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.142857142862,
+					"sLen": 257.142857142877,
 					"time": 60000,
 					"type": 0
 				},
@@ -1198,19 +1199,19 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"type": 0,
 			"characters": [
 				"monster-xmas"
-			]
+			],
+			"type": 0,
+			"visible": true
 		},
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 3,
-					"sLen": 428.571428571431,
+					"sLen": 428.571428571438,
 					"time": 24685.7142857143,
 					"type": 0
 				},
@@ -1270,7 +1271,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142862,
+					"sLen": 257.142857142877,
 					"time": 27085.7142857143,
 					"type": 0
 				},
@@ -1312,7 +1313,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142855,
+					"sLen": 257.142857142848,
 					"time": 29485.7142857143,
 					"type": 0
 				},
@@ -1714,7 +1715,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 257.142857142862,
+					"sLen": 257.142857142891,
 					"time": 64800,
 					"type": 0
 				},
@@ -2260,7 +2261,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 257.14285714287,
+					"sLen": 257.142857142928,
 					"time": 117600,
 					"type": 0
 				},
@@ -2271,14 +2272,13 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"type": 1,
 			"characters": [
 				"benjamin-xmas-3"
-			]
+			],
+			"type": 1,
+			"visible": true
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 2.6,
 	"chartVersion": "1.6.0",
 	"stage": "snowy-town-evil",

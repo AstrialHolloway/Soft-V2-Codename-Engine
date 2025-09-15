@@ -10,76 +10,76 @@
 	
 
 	<!-- Lines -->
-	<line char="megablade" playSound="dio/sounds/starcrossed/1" changeDefAnim="look" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
+	<line char="megablade" playSound="dio/sounds/starcrossed/1" changeDefAnim="look" changeMusic="dio/music/traffic" musicVolume="0.8">
 		The city of stars...
 	</line>
-	<line char="megablade" playSound="dio/sounds/starcrossed/2" changeDefAnim="smile" nextSound="dio/sounds/advance"> <!---->
+	<line char="megablade" playSound="dio/sounds/starcrossed/2" changeDefAnim="smile" nextSound="dio/sounds/advance">
 		A place where the rich live lavishly...
 	</line>
-	<line char="megablade" playSound="dio/sounds/starcrossed/3" changeDefAnim="closedtalk" nextSound="dio/sounds/advance"> <!---->
+	<line char="megablade" playSound="dio/sounds/starcrossed/3" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
 		And the not-so-fortunate struggle to survive day by day.
 	</line>
-	<line char="megablade" playSound="dio/sounds/starcrossed/4" changeDefAnim="talk" nextSound="dio/sounds/advance"> <!---->
+	<line char="megablade" playSound="dio/sounds/starcrossed/4" changeDefAnim="talk" nextSound="dio/sounds/advance">
 		Two boys who have been on the run for two weeks are spotted dashing into an alleyway, as the sun begins to set over the skyline.
 	</line>
-	<line char="pico_silhouette" playSound="dio/sounds/starcrossed/5" changeDefAnim="neutral" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico_silhouette" playSound="dio/sounds/starcrossed/5" changeDefAnim="neutral" nextSound="dio/sounds/advance">
 		Pico, a high school dropout and notorious graffiti artist...
 	</line>
-	<line char="bf_silhouette" playSound="dio/sounds/starcrossed/6" changeDefAnim="smile" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf_silhouette" playSound="dio/sounds/starcrossed/6" changeDefAnim="smile" nextSound="dio/sounds/advance">
 		And Benjamin, a blue-haired boy with aspirations of becoming an artist...
 	</line>
-	<line char="megablade" playSound="dio/sounds/starcrossed/7" changeDefAnim="look" nextSound="dio/sounds/advance"> <!---->
+	<line char="megablade" playSound="dio/sounds/starcrossed/7" changeDefAnim="look" nextSound="dio/sounds/advance">
 		Both come to a halt, catching their breath.
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/8" changeDefAnim="worry" changeMusic="dio/music/on-the-run" musicVolume="0.7" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/8" changeDefAnim="worry" changeMusic="dio/music/on-the-run" musicVolume="0.7" nextSound="dio/sounds/advance">
 		That was close.
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/9" changeDefAnim="concerned" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" playSound="dio/sounds/starcrossed/9" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		Do you think he saw us...?
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/10" changeDefAnim="neutral" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/10" changeDefAnim="neutral" nextSound="dio/sounds/advance">
 		I don't think so.
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/11" changeDefAnim="worry" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/11" changeDefAnim="worry" nextSound="dio/sounds/advance">
 		This is the third time this week we’ve almost been caught.
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/12" changeDefAnim="nervous" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" playSound="dio/sounds/starcrossed/12" changeDefAnim="nervous" nextSound="dio/sounds/advance">
 		I know...
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/13" changeDefAnim="worry" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/13" changeDefAnim="worry" nextSound="dio/sounds/advance">
 		With them plastering your face all over town, inevitably, someone’s eventually gonna catch onto us.
 	</line>
-	<line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/14" changeDefAnim="neutral" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/14" changeDefAnim="neutral" nextSound="dio/sounds/advance">
 		We both know the way they settle things, Ben. We need to be ready for it.
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/15" changeDefAnim="concerned" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" playSound="dio/sounds/starcrossed/15" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		I told you running away wasn’t a good idea!
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/16" changeDefAnim="worried" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" playSound="dio/sounds/starcrossed/16" changeDefAnim="worried" nextSound="dio/sounds/advance">
 		I can’t do this. What if-
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/17" changeDefAnim="worry" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/17" changeDefAnim="worry" nextSound="dio/sounds/advance">
 		Ben.
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/18" changeDefAnim="worried" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" playSound="dio/sounds/starcrossed/18" changeDefAnim="worried" nextSound="dio/sounds/advance">
 		When he catches us, he’ll-
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/19" changeDefAnim="smug" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/19" changeDefAnim="smug" nextSound="dio/sounds/advance">
 		Hey. It’s going to be okay.
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/20" changeDefAnim="smugsmile" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/20" changeDefAnim="smugsmile" nextSound="dio/sounds/advance">
 		I’ve got your back every step of the way.
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/21" changeDefAnim="concerned" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" playSound="dio/sounds/starcrossed/21" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		What do we do...?
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/22" changeDefAnim="questioning" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/22" changeDefAnim="questioning" nextSound="dio/sounds/advance">
 		How about we do a practice round?
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/23" changeDefAnim="neutral" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" playSound="dio/sounds/starcrossed/23" changeDefAnim="neutral" nextSound="dio/sounds/advance">
 		Repeat after me.
 	</line>
 	

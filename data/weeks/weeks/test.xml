@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-week>
+<week name="Testing Shit IDFK" chars="none,bf,pico-player" sprite="test">
+	<song>Testing</song>
+	<difficulty name="Easy"/>
+	<difficulty name="Normal"/>
+	<difficulty name="Hard"/>
+</week>

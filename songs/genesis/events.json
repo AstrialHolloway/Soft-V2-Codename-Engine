@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"params": [
+				1,
+				"scream",
+				true,
+				"NONE"
+			],
+			"time": 90514.2857142856,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				false,
+				true,
+				1
+			],
+			"time": 119314.285714285,
+			"name": "Alt Animation Toggle"
+		}
+	]
+}

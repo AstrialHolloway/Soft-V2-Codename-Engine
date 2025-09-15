@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character x="-24" y="85" scalex="-1">
+	<anim name="davi" anim="davi" fps="24" />
+</character>

@@ -12,7 +12,7 @@
 	
 
 	<!-- Lines -->
-	<line char="megablade" changeDefAnim="closedtalk" playSound="dio/sounds/thriller/1" changeMusic="dio/music/spooky" musicVolume="0.8"> <!---->
+	<line char="megablade" changeDefAnim="closedtalk" playSound="dio/sounds/thriller/1" changeMusic="dio/music/spooky" musicVolume="0.8">
 		The starry night had given away to dark clouds, rumbling a warning before giving way to a downpour.
 	</line>
 	<line char="megablade" playSound="dio/sounds/thriller/2" nextSound="dio/sounds/advance">

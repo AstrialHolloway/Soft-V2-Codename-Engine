@@ -1,6 +1,7 @@
 # THIS FILE ISNT NECESSARY,
 # BUT YOU CAN USE IT TO SORT WEEKS
 
+test
 prelude
 week1
 week2

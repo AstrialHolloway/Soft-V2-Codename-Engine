@@ -3,8 +3,10 @@
 	<sprite type="none" sprite="void" name="void"/>
 	<sprite type="none" sprite="bg" name="bg"/>
 	<sprite x="641.110148275803" sprite="objects" y="363.654916038796" type="none" name="objects"/>
+	<ratings x="1550" y="530"/>
 	<girlfriend alpha="0"/>
 	<dad x="548.50096908674" y="376.349081962537"/>
 	<boyfriend x="1469.93333053818" y="358.330620063256"/>
 	<sprite type="none" sprite="light" name="lampCurrupted"/>
+	<sprite x="0" sprite="monsterAura" y="0" type="loop" name="aura" scroll="0" scale="1.5"/>
 </stage>

@@ -9,7 +9,7 @@
 	
 
 	<!-- Lines -->
-	<line char="megablade" playSound="dio/sounds/maturity/1" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
+	<line char="megablade" playSound="dio/sounds/maturity/1" changeMusic="dio/music/traffic" musicVolume="0.8">
 		A tall man stepped out of the shadows...
 	</line>
 	<line char="father_silhouette" playSound="dio/sounds/maturity/2" changeDefAnim="happy" nextSound="dio/sounds/advance">

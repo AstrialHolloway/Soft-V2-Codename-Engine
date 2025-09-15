@@ -1,0 +1,51 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+    <!-- Characters -->
+    <char name="grace" char="grace" position="left" defaultAnim="happy"/>
+    <char name="pico" char="pico" position="right" defaultAnim="annoyed"/>
+    <char name="bf" char="bf" position="right" defaultAnim="nervous"/>
+
+    <!-- Lines -->
+    <line char="grace" changeDefAnim="happy" playSound="dio/sounds/stay/1" changeMusic="dio/music/train-of-thought" musicVolume="0.6" nextSound="dio/sounds/advance">
+        See? I told you it'd be quick!
+    </line>
+    <line char="pico" changeDefAnim="annoyed" playSound="dio/sounds/stay/2" changeMusic="dio/music/train" musicVolume="0.8" nextSound="dio/sounds/womp">
+        We've missed the train like three times-
+    </line>
+    <line char="grace" changeDefAnim="thinklook" nextSound="dio/sounds/advance">
+        ...
+    </line>
+    <line char="grace" changeDefAnim="happy" playSound="dio/sounds/stay/3" changeMusic="dio/music/train-of-thought" musicVolume="0.6" nextSound="dio/sounds/advance">
+        Anyways!
+    </line>
+    <line char="grace" changeDefAnim="smile" playSound="dio/sounds/stay/4" nextSound="dio/sounds/advance">
+        You handled that first song like a champ, Benny!
+    </line>
+    <line char="grace" changeDefAnim="sadsmile" playSound="dio/sounds/stay/5" nextSound="dio/sounds/advance">
+        You were always the better singer...
+    </line>
+    <line char="grace" changeDefAnim="sadtalk" playSound="dio/sounds/stay/6" changeMusic="dio/music/train" musicVolume="0.8" nextSound="dio/sounds/advance">
+        You know...
+    </line>
+    <line char="grace" changeDefAnim="sadtalk" playSound="dio/sounds/stay/7" nextSound="dio/sounds/advance">
+        Your parents and I have been worried sick about you.
+    </line>
+    <line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/advance">
+        ...
+    </line>
+    <line char="grace" changeDefAnim="sadtalk" playSound="dio/sounds/stay/8" nextSound="dio/sounds/advance">
+        When are you gonna come back?
+    </line>
+    <line char="grace" changeDefAnim="sadworry" playSound="dio/sounds/stay/9" nextSound="dio/sounds/advance">
+        You... ARE coming back... right?
+    </line>
+    <line char="bf" changeDefAnim="concerned" playSound="dio/sounds/stay/10" nextSound="dio/sounds/advance">
+        I'm... not, Grace. I'm sorry.
+    </line>
+    <line char="grace" changeDefAnim="fanning" playSound="dio/sounds/stay/11" nextSound="dio/sounds/advance">
+        Oh c'mon Benny, enough of the jokes and silly talk!
+    </line>
+    <line char="grace" changeDefAnim="sweat" playSound="dio/sounds/stay/12" nextSound="dio/sounds/advance">
+        Maybe this will change your mind!
+    </line>
+</dialogue>

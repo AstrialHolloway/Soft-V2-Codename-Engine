@@ -10,7 +10,7 @@
 	
 
 	<!-- Lines -->
-	<line char="bf" playSound="dio/sounds/high-spirits/1" changeDefAnim="sweating" changeMusic="dio/music/eek" musicVolume="0.7"> <!---->
+	<line char="bf" playSound="dio/sounds/high-spirits/1" changeDefAnim="sweating" changeMusic="dio/music/eek" musicVolume="0.7">
 		Wow... you guys are... waaay tougher than I thought.
 	</line>
 	<line char="skid" playSound="dio/sounds/high-spirits/2" changeDefAnim="skid-happy" nextSound="dio/sounds/advance">

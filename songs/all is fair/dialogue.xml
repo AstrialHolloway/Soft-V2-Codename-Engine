@@ -7,7 +7,7 @@
 	
 
 	<!-- Lines -->
-	<line char="father" playSound="dio/sounds/all-is-fair/1" changeMusic="dio/music/sporting-gesture" musicVolume="0.8"> <!---->
+	<line char="father" playSound="dio/sounds/all-is-fair/1" changeMusic="dio/music/sporting-gesture" musicVolume="0.8">
 		You sound just like your old man!
 	</line>
 	<line char="father" playSound="dio/sounds/all-is-fair/2" changeDefAnim="annoyed" nextSound="dio/sounds/advance" changeMusic="dio/music/traffic" musicVolume="0.8">

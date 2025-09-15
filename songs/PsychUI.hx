@@ -80,7 +80,7 @@ function postCreate()
     customHBBG = new FunkinSprite(0,597);
     customHBBG.loadGraphic(Paths.image("game/bar"));
     customHBBG.screenCenter(FlxAxes.X);
-    insert(members.indexOf = 13, customHBBG);
+    insert(members.indexOf(iconP1) - 1, customHBBG);
     add(customHBBG);
     customHBBG.cameras = [camHUD];
 }
