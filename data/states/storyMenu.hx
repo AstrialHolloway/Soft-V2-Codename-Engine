@@ -10,6 +10,59 @@ var selectingDiff = false;
 
 var transitioning = false;
 
+var weekList:Array<Dynamic> = 
+[
+    {
+        "name": "Prelude",
+        "songs": [{"name": "starcrossed"}],
+        "id": 0
+    },
+    {
+        "name": "Chapter1",
+        "songs": [{"name": "maturity"}, {"name": "all is fair"}, {"name": "no cigar"}],
+        "id": 1
+    },
+    {
+        "name": "Chapter2",
+        "songs": [{"name": "thriller"}, {"name": "high spirits"}, {"name": "repressed"}],
+        "id": 2
+    },
+    {
+        "name": "Chapter3",
+        "songs": [{"name": "playdate"}, {"name": "stay"}, {"name": "it's complicated"}],
+        "id": 3
+    },
+    {
+        "name": "Chapter4",
+        "songs": [{"name": "intuition"}, {"name": "catwalk"}, {"name": "spotlight"}],
+        "id": 4
+    },
+    {
+        "name": "Chapter5",
+        "songs": [{"name": "faithful"}, {"name": "hope"}, {"name": "genesis"}],
+        "id": 5
+    },
+    {
+        "name": "Chapter6",
+        "songs": [{"name": "begrudge"}, {"name": "every rose"}, {"name": "spikes"}],
+        "id": 6
+    },
+    {
+        "name": "Epilogue",
+        "songs": [{"name": "stars aligned"}],
+        "id": 7
+    }
+];
+
+var diffList:Array<String> = 
+[
+    "easy",
+    "normal", 
+    "hard"
+];
+
+
+
 var bgSprite:FunkinSprite = new FunkinSprite(341.5,0);
 bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/alleyway"));
 bgSprite.scale.set(0.667, 0.667);
@@ -42,6 +95,24 @@ paletteSprite.color = 0x808080;
 paletteSprite.updateHitbox();
 add(paletteSprite);
 
+var paintEasySprite:FunkinSprite = new FunkinSprite(653,670);
+paintEasySprite.loadGraphic(Paths.image("menus/story/diff/easy"));
+paintEasySprite.scale.set(0.667, 0.667);
+paintEasySprite.updateHitbox();
+add(paintEasySprite);
+
+var paintNormalSprite:FunkinSprite = new FunkinSprite(790,620);
+paintNormalSprite.loadGraphic(Paths.image("menus/story/diff/normal"));
+paintNormalSprite.scale.set(0.667, 0.667);
+paintNormalSprite.updateHitbox();
+add(paintNormalSprite);
+
+var paintHardSprite:FunkinSprite = new FunkinSprite(970,630);
+paintHardSprite.loadGraphic(Paths.image("menus/story/diff/hard"));
+paintHardSprite.scale.set(0.667, 0.667);
+paintHardSprite.updateHitbox();
+add(paintHardSprite);
+
 var songlistSprite:FunkinSprite = new FunkinSprite(19,539);
 songlistSprite.loadGraphic(Paths.image("menus/story/songlist/missing"));
 songlistSprite.scale.set(0.667, 0.667);
@@ -60,32 +131,30 @@ titlesSprite.scale.set(0.667, 0.667);
 titlesSprite.updateHitbox();
 add(titlesSprite);
 
-var weekList:Array<WeekData> =
-[
-    "prelude",
-    "week1",
-    "week2",
-    "week3",
-    "week4",
-    "week5",
-    "week6",
-    "epilogue"
-];
+var arrowLeftSprite:FunkinSprite = new FunkinSprite(42,244);
+arrowLeftSprite.loadGraphic(Paths.image("menus/story/arrow"));
+arrowLeftSprite.scale.set(0.667, 0.667);
+arrowLeftSprite.updateHitbox();
+add(arrowLeftSprite);
 
-var diffList:Array<String> = 
-[
-    "easy",
-    "normal", 
-    "hard"
-];
+var arrowLeftSprite:FunkinSprite = new FunkinSprite(696,244);
+arrowLeftSprite.loadGraphic(Paths.image("menus/story/arrow"));
+arrowLeftSprite.scale.set(-0.667, 0.667);
+arrowLeftSprite.updateHitbox();
+add(arrowLeftSprite);
+
+
+
+
 
 function update()
 {
+    CoolUtil.playMenuSong();
     handleInputs();
-    bgStuffHandler();
+    spriteHandler();
 }
 
-function bgStuffHandler()
+function spriteHandler()
 {
     if (storyMenuWeekIndex<=7)
     {
@@ -98,6 +167,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/alleyway"));
             bgSprite.x=341.5;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0x4ecc81;
         }
         if (storyMenuWeekIndex==1)
         {
@@ -107,6 +177,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/alleyway"));
             bgSprite.x=341.5;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0x113f5d;
         }
         if (storyMenuWeekIndex==2)
         {
@@ -116,6 +187,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/spooky-room"));
             bgSprite.x=446;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0x1a6d3e;
         }
         if (storyMenuWeekIndex==3)
         {
@@ -125,6 +197,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/station"));
             bgSprite.x=446;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0xac3f53;
         }
         if (storyMenuWeekIndex==4)
         {
@@ -134,6 +207,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/limo"));
             bgSprite.x=341.5;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0x79a4dc;
         }
         if (storyMenuWeekIndex==5)
         {
@@ -143,6 +217,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/snowy-town"));
             bgSprite.x=341.5;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0xcf4e4b;
         }
         if (storyMenuWeekIndex==6)
         {
@@ -152,6 +227,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/picnic"));
             bgSprite.x=341.5;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0xd66774;
         }
         if (storyMenuWeekIndex==7)
         {
@@ -161,6 +237,7 @@ function bgStuffHandler()
             bgSprite.loadGraphic(Paths.image("menus/story/backgrounds/bench"));
             bgSprite.x=341.5;
             bgSprite.y=0;
+            sprayPaintCoverSprite.color = 0x924ab5;
         }
     }
     else
@@ -172,6 +249,30 @@ function bgStuffHandler()
         bgSprite.x=400;
         bgSprite.y=100;
         bgSprite.scale.set(1, 1);
+    }
+    if (storyMenuDiffIndex == 0 && selectingDiff == true)
+    {
+        paintEasySprite.visible=true;
+    }
+    else
+    {
+        paintEasySprite.visible=false;
+    }
+    if (storyMenuDiffIndex == 1 && selectingDiff == true)
+    {
+        paintNormalSprite.visible=true;
+    }
+    else
+    {
+        paintNormalSprite.visible=false;
+    }
+    if (storyMenuDiffIndex == 2 && selectingDiff == true)
+    {
+        paintHardSprite.visible=true;
+    }
+    else
+    {
+        paintHardSprite.visible=false;
     }
 }
 
@@ -188,6 +289,15 @@ function handleInputs()
                 storyMenuWeekIndex = 7;
             }
         }
+        else
+        {
+            FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
+            storyMenuDiffIndex--;
+            if (storyMenuDiffIndex < 0)
+            {
+                storyMenuDiffIndex = 2;
+            }
+        }
         
     }
     if (controls.RIGHT_P)
@@ -201,6 +311,16 @@ function handleInputs()
                 storyMenuWeekIndex = 0;
             }
         }
+        else
+        {
+            FlxG.sound.play(Paths.sound("menu/scroll"), 0.7);
+            storyMenuDiffIndex++;
+            if (storyMenuDiffIndex > 2)
+            {
+                storyMenuDiffIndex = 0;
+                
+            }
+        }
     }
     if (controls.ACCEPT)
     {
@@ -212,9 +332,9 @@ function handleInputs()
                 FlxG.sound.play(Paths.sound("menu/confirm"), 0.7);
                 new FlxTimer().start(2.2, function(tmr:FlxTimer)
                 {
-                    PlayState.loadWeek(weekList[storyMenuWeekIndex],"hard");
+                    PlayState.loadWeek(weekList[storyMenuWeekIndex], diffList[storyMenuDiffIndex]);
                     FlxG.switchState(new PlayState());
-                    transitioning=false; 
+                    transitioning=true; 
                 });
             }
         }
@@ -226,6 +346,9 @@ function handleInputs()
             
             
             FlxTween.tween(paletteSprite, { y: 528.5 }, 0.1, { ease: FlxEase.quadOut });
+            FlxTween.tween(paintHardSprite, { y: 570 }, 0.1, { ease: FlxEase.quadOut });
+            FlxTween.tween(paintNormalSprite, { y: 550 }, 0.1, { ease: FlxEase.quadOut });
+            FlxTween.tween(paintEasySprite, { y: 600 }, 0.1, { ease: FlxEase.quadOut });
 
         }
     }
@@ -250,6 +373,9 @@ function handleInputs()
             paletteSprite.color = 0x808080;
             
             FlxTween.tween(paletteSprite, { y: 589.5 }, 0.1, { ease: FlxEase.quadOut });
+            FlxTween.tween(paintHardSprite, { y: 630 }, 0.1, { ease: FlxEase.quadOut });
+            FlxTween.tween(paintNormalSprite, { y: 620 }, 0.1, { ease: FlxEase.quadOut });
+            FlxTween.tween(paintEasySprite, { y: 670 }, 0.1, { ease: FlxEase.quadOut });
         }
     }
 }

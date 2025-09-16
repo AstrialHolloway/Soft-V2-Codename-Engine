@@ -2,8 +2,8 @@
 	"color": "#F39667",
 	"customValues": {
 		"pause": "skid_and_pump",
-		"artist": "DatDavi",
-		"name": "Thriller"
+		"name": "Thriller",
+		"artist": "DatDavi"
 	},
 	"opponentModeAllowed": true,
 	"icon": "spooky",

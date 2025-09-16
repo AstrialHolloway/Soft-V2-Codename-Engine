@@ -204,10 +204,11 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -301,7 +302,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 140.186915887849,
+					"sLen": 140.186915887847,
 					"time": 11214.953271028,
 					"type": 0
 				},
@@ -1027,7 +1028,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 140.186915887854,
+					"sLen": 140.186915887862,
 					"time": 51588.785046729,
 					"type": 0
 				},
@@ -2478,15 +2479,15 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"type": 0,
 			"characters": [
 				"spooky-kids"
-			]
+			],
+			"type": 0,
+			"visible": true
 		},
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -2700,7 +2701,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 140.186915887858,
+					"sLen": 140.186915887862,
 					"time": 24018.691588785,
 					"type": 0
 				},
@@ -3192,7 +3193,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 140.186915887854,
+					"sLen": 140.186915887862,
 					"time": 51588.785046729,
 					"type": 0
 				},
@@ -3348,7 +3349,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 280.373831775694,
+					"sLen": 280.373831775687,
 					"time": 60186.9158878504,
 					"type": 0
 				},
@@ -4182,7 +4183,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 140.186915887869,
+					"sLen": 140.186915887884,
 					"time": 103177.570093458,
 					"type": 0
 				},
@@ -4637,24 +4638,23 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"type": 1,
 			"characters": [
 				"benjamin"
-			]
+			],
+			"type": 1,
+			"visible": true
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"visible": false,
 			"position": "girlfriend",
-			"type": 2,
+			"notes": [],
 			"characters": [
 				"pico"
-			]
+			],
+			"type": 2,
+			"visible": false
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 2.6,
 	"chartVersion": "1.6.0",
 	"stage": "spooky-room",

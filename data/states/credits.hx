@@ -36,6 +36,9 @@ var changeLabel = new FlxText(200, 675, 1000, 'PRESS "C" TO SWITCH TO CODENAME C
 changeLabel.setFormat(Paths.font("MochiyPopOne-Regular.ttf"), 20, FlxColor.WHITE, "center");
 add(changeLabel);
 
+// Flash on/off every 0.5 seconds
+
+
 var arrowLeft:FunkinSprite = new FunkinSprite(20, 290); // place right after bg1
 arrowLeft.loadGraphic(Paths.image("menus/credits/arrowL"));
 arrowLeft.scale.set(0.67, 0.67);
@@ -149,6 +152,10 @@ function handleInputs()
             FlxG.switchState(new CreditsMain());
             
         });
+        new FlxTimer().start(0.1, function(tmr:FlxTimer)
+        {
+            changeLabel.visible = !changeLabel.visible; // toggle
+        }, 11); // 0 = repeat forever
     }
     
 }

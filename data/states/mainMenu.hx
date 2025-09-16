@@ -113,6 +113,7 @@ function handleInputs()
         FlxG.sound.play(Paths.sound("menu/confirm"), 0.7);
         switching = true;
         transtype = "state";
+        
         new FlxTimer().start(1, function(tmr:FlxTimer)
         {
             
@@ -156,6 +157,8 @@ function handleInputs()
 		openSubState(new EditorPicker());
     }
 }
+
+
 
 function handleMenuItems()
 {
