@@ -1,7 +1,38 @@
-function next(event)
-{
-	if (!event.playFirst) trace("-");
-}
+import haxe.xml.Access;
+
+// outside of all functions
+var songThing = "maturity";
+
+var curVoiceline;
+
+var dialogueFilePath = "dio/sounds/" + songThing + "/";
+
+var voiceNumShit = -1;
+
+var bgSpriteTraceShit;
+
+
+
+
+
+var dioList:Array<String> = 
+[
+    "1",
+    "2", 
+	"3", 
+	"4", 
+	"5", 
+	"6", 
+	"none", 
+	"7", 
+	"8", 
+	"9", 
+	"none", 
+	"10", 
+	"11", 
+	"12", 
+	"13"
+];
 
 var bgSprite1:FunkinSprite = new FunkinSprite(0,0);
 
@@ -12,15 +43,29 @@ function bgEdit(sprite)
 {	
 	
 	bgSprite1.loadGraphic(Paths.image("dialogue/backgrounds/"+sprite));
+	bgSpriteTraceShit = sprite;
+	trace("Background sprite set to: " + '"' +bgSpriteTraceShit + '"');
 	
 }
 
 function postNext(event)
 {
+	handleVoices();
 	trace(curLine.char + " says: " + curLine.text);
-	if (curLine.char == "megablade")
+	if (voiceNumShit == 0)
 	{
 		bgEdit("alleyway");
-		trace("sprite made");
+		
+	}
+	
+}
+
+function handleVoices()
+{
+	voiceNumShit++;
+	if (curVoiceline != null) curVoiceline.stop();
+	if (voiceNumShit != 6 && voiceNumShit != 10)
+	{
+		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
 }

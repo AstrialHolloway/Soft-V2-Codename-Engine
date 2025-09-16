@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosY="400" folder="stages/week4/images/" name="limo" zoom="0.9">
+	<sprite x="1240" interval="1" scroll="0.4" sprite="henchmen/Soft_Hench_3" y="80" type="beat" zoomfactor="0.55" name="dancer4"/>
+	<sprite x="1610" interval="1" scroll="0.4" sprite="henchmen/Soft_Hench_3" y="80" type="beat" zoomfactor="0.55" name="dancer5"/>
+	<sprite x="-120" scroll="0.1" sprite="limo/limoSunset" y="-50" zoomfactor="0" name="skyBG"/>
+	<sprite x="-200" scroll="0.4" sprite="limo/bgLimo" y="480" zoomfactor="0.55" name="bgLimo"/>
+	<sprite x="170" interval="1" scroll="0.4" sprite="henchmen/ThisGuyIsTotallyJimmyTrustMe" y="230" type="beat" zoomfactor="0.55" name="dancer1">
+		<anim name="Angy" anim="SH1 Angy" fps="15" loop="true" playOnCountdown="false"/>
+	</sprite>
+	<sprite x="920" interval="1" scroll="0.4" sprite="henchmen/Soft_Hench_2" y="190" type="beat" zoomfactor="0.55" name="dancer2">
+		<anim name="Angy" anim="SH2 Angy" fps="15" loop="true" playOnCountdown="false"/>
+	</sprite>
+	<sprite x="500" interval="1" scroll="0.4" sprite="henchmen/Soft_Hench_3" y="110" type="beat" zoomfactor="0.55" name="dancer3">
+		<anim name="Angy" anim="SH3 Angy" fps="15" loop="true" playOnCountdown="false"/>
+	</sprite>
+	<girlfriend scroll="0.4" scale="0.65" y="-60" zoomfactor="0.55"/>
+
+	<sprite x="-300" sprite="limo/fastCarLol" y="160" zoomfactor="0.75" name="fastCar"/>
+	<sprite x="-120" sprite="limo/limoDrive" y="550" name="limo"/>
+	<boyfriend camxoffset="-300" x="1030" y="-120"/>
+	<sprite x="-500" scroll="0" sprite="limo/limoOverlay" y="480" alpha="0.5" name="overlayShit"/>
+	<dad/>
+</stage>

@@ -218,10 +218,11 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -2282,15 +2283,15 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"type": 0,
 			"characters": [
 				"mother-3"
-			]
+			],
+			"type": 0,
+			"visible": true
 		},
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -4435,26 +4436,25 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"type": 1,
 			"characters": [
 				"benjamin-car"
-			]
+			],
+			"type": 1,
+			"visible": true
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"visible": false,
 			"position": "girlfriend",
-			"type": 2,
+			"notes": [],
 			"characters": [
 				"pico-car"
-			]
+			],
+			"type": 2,
+			"visible": false
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 2.4,
 	"chartVersion": "1.6.0",
-	"stage": "limo",
+	"stage": "limo3",
 	"noteTypes": []
 }

@@ -9,49 +9,49 @@
 	
 
 	<!-- Lines -->
-	<line char="megablade" playSound="dio/sounds/maturity/1" changeMusic="dio/music/traffic" musicVolume="0.8">
+	<line char="megablade" changeMusic="dio/music/traffic" musicVolume="0.8" bg="alleyway">
 		A tall man stepped out of the shadows...
 	</line>
-	<line char="father_silhouette" playSound="dio/sounds/maturity/2" changeDefAnim="happy" nextSound="dio/sounds/advance">
+	<line char="father_silhouette" changeDefAnim="happy" nextSound="dio/sounds/advance">
 		He goes by the name Father Fairest, a retired rap battler whose name is well known by all throughout the city.
 	</line>
-	<line char="megablade" playSound="dio/sounds/maturity/3" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
 		Back in the day, his soulful voice was his claim to fame, but now retired, he lives very well off with his beautiful wife...
 	</line>
-	<line char="megablade" playSound="dio/sounds/maturity/4" changeDefAnim="talk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance">
 		And up until a few weeks ago...
 	</line>
-	<line char="megablade" playSound="dio/sounds/maturity/5" changeDefAnim="smile" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="smile" nextSound="dio/sounds/advance">
 		His prodigal son.
 	</line>
-	<line char="father" playSound="dio/sounds/maturity/6" changeDefAnim="smile" changeMusic="dio/music/sporting-gesture" musicVolume="0.8" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="smile" changeMusic="dio/music/sporting-gesture" musicVolume="0.8" nextSound="dio/sounds/advance">
 		Benjamin! We've been looking all over for you!
 	</line>
 	<line char="bf" changeDefAnim="worried" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="father" playSound="dio/sounds/maturity/7" changeDefAnim="confused" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="confused" nextSound="dio/sounds/advance">
 		Hm. I see you've been running around with that street rat again.
 	</line>
-	<line char="pico" playSound="dio/sounds/maturity/8" changeDefAnim="bored" nextSound="dio/sounds/advance">
+	<line char="pico" changeDefAnim="bored" nextSound="dio/sounds/advance">
 		...nice to see you too.
 	</line>
-	<line char="father" playSound="dio/sounds/maturity/9" changeDefAnim="happy" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="happy" nextSound="dio/sounds/advance">
 		So. You think you're all grown up now?
 	</line>
 	<line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="father" playSound="dio/sounds/maturity/10" changeDefAnim="happylook" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="happylook" nextSound="dio/sounds/advance">
 		If you're such an adult, then you should have no problem beating me in a rap battle!
 	</line>
-	<line char="bf" changeDefAnim="concerned" playSound="dio/sounds/maturity/11" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		...what?
 	</line>
-	<line char="father" playSound="dio/sounds/maturity/12" changeDefAnim="smile" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="smile" nextSound="dio/sounds/advance">
 		C'mon, sport!
 	</line>
-	<line char="father" playSound="dio/sounds/maturity/13" changeDefAnim="happy" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="happy" nextSound="dio/sounds/advance">
 		Show me what you've got!
 	</line>
 </dialogue>

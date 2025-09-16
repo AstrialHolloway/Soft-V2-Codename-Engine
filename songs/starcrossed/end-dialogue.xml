@@ -10,31 +10,31 @@
 	
 
 	<!-- Lines -->
-	<line char="bf" playSound="dio/sounds/starcrossed/1end" changeDefAnim="smile" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
+	<line char="bf" changeDefAnim="smile" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
 		How was that...?
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/2end" changeDefAnim="heart" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" changeDefAnim="heart" nextSound="dio/sounds/advance"> <!---->
 		You did amazing, Blue!
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/3end" changeDefAnim="smug" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" changeDefAnim="smug" nextSound="dio/sounds/advance"> <!---->
 		I knew you could do it.
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/4end" changeDefAnim="happycry" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" changeDefAnim="happycry" nextSound="dio/sounds/advance"> <!---->
 		Thank you...
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/5end" changeDefAnim="smugsmile" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" changeDefAnim="smugsmile" nextSound="dio/sounds/advance"> <!---->
 		Anytime.
 	</line>
-	<line char="pico-left" playSound="dio/sounds/starcrossed/6end" changeDefAnim="worry" nextSound="dio/sounds/advance"> <!---->
+	<line char="pico-left" changeDefAnim="worry" nextSound="dio/sounds/advance"> <!---->
 		Though... We should probably get a move on before-
 	</line>
-	<line char="megablade" playSound="dio/sounds/starcrossed/7end" changeDefAnim="closedtalk" nextSound="dio/sounds/advance"> <!---->
+	<line char="megablade" changeDefAnim="closedtalk" nextSound="dio/sounds/advance"> <!---->
 		Footsteps could be heard at the entrance of the alleyway, interrupting their conversation.
 	</line>
 	<line char="pico-left" changeDefAnim="shock" nextSound="dio/sounds/advance"> <!---->
 		...?
 	</line>
-	<line char="bf" playSound="dio/sounds/starcrossed/shock" changeDefAnim="scared" nextSound="dio/sounds/advance"> <!---->
+	<line char="bf" changeDefAnim="scared" nextSound="dio/sounds/advance"> <!---->
 		!!!
 	</line>
 	

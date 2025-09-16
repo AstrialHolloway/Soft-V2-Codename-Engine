@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/week5/images/normal/" name="snowy-town" zoom="0.77" startCamPosX="1000" startCamPosY="600">
+	<sprite x="100" sprite="back buildings" y="0" type="none" name="backBuildings"/>
+	<sprite type="none" x="-505" sprite="floor" name="floor"/>
+	<sprite x="-505" sprite="left building" y="0" type="none" name="leftBuilding"/>
+	<sprite type="none" x="1288" sprite="right building" name="rightBuilding"/>
+	<sprite x="-505" sprite="bg_chars/Left_Bop" y="100" type="beat" name="leftBop">
+		<anim name="Con" anim="Left Side Con" fps="24" playOnCountdown="false"/>
+	</sprite>
+	<sprite x="1040" sprite="bg_chars/Right_Bop" y="80" type="beat" name="rightBop">
+		<anim name="Con" anim="Right Side Con" fps="24" playOnCountdown="false"/>
+	</sprite>
+	<sprite x="-505" sprite="ribbon" y="480" type="none" name="ribbon"/>
+	<sprite type="none" x="240" sprite="tree" name="tree"/>
+	<sprite x="1200" sprite="snow pico yeah yeah snow pico uh" y="620" type="none" name="snowPico"/>
+	<ratings y="600"/>
+	<girlfriend x="350" y="400" scroll="1"/>
+	<boyfriend x="800" y="430" scroll="1"/>
+	<dad x="105" y="385" scroll="1"/>
+	<char name="mother-xmas" x="-8" y="340" scroll="1"/>
+	<char name="mother-xmas-2" x="-8" y="340" scroll="1"/>
+	
+</stage>

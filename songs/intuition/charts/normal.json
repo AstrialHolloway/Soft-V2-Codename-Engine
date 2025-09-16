@@ -176,10 +176,11 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -231,7 +232,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 255.68181818182,
+					"sLen": 255.681818181822,
 					"time": 13636.3636363636,
 					"type": 0
 				},
@@ -243,7 +244,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 255.681818181814,
+					"sLen": 255.681818181813,
 					"time": 14147.7272727273,
 					"type": 0
 				},
@@ -1443,7 +1444,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 255.681818181809,
+					"sLen": 255.681818181794,
 					"time": 92727.2727272727,
 					"type": 0
 				},
@@ -1455,7 +1456,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 426.136363636353,
+					"sLen": 426.136363636339,
 					"time": 94602.2727272727,
 					"type": 0
 				},
@@ -1545,7 +1546,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 255.681818181809,
+					"sLen": 255.681818181794,
 					"time": 99375,
 					"type": 0
 				},
@@ -1611,7 +1612,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 255.681818181809,
+					"sLen": 255.681818181794,
 					"time": 102102.272727273,
 					"type": 0
 				},
@@ -1845,7 +1846,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 255.681818181809,
+					"sLen": 255.681818181794,
 					"time": 118125,
 					"type": 0
 				},
@@ -1898,15 +1899,15 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"type": 0,
 			"characters": [
 				"mother"
-			]
+			],
+			"type": 0,
+			"visible": true
 		},
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 3,
@@ -2048,7 +2049,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 426.136363636371,
+					"sLen": 426.136363636375,
 					"time": 27272.7272727273,
 					"type": 0
 				},
@@ -2384,7 +2385,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 255.681818181823,
+					"sLen": 255.681818181831,
 					"time": 50284.0909090909,
 					"type": 0
 				},
@@ -2996,7 +2997,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 426.136363636353,
+					"sLen": 426.136363636339,
 					"time": 94602.2727272727,
 					"type": 0
 				},
@@ -3062,7 +3063,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 255.681818181809,
+					"sLen": 255.681818181794,
 					"time": 97500,
 					"type": 0
 				},
@@ -3146,7 +3147,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 255.681818181809,
+					"sLen": 255.681818181794,
 					"time": 106875,
 					"type": 0
 				},
@@ -3373,26 +3374,25 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"type": 1,
 			"characters": [
 				"benjamin-car"
-			]
+			],
+			"type": 1,
+			"visible": true
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"visible": false,
 			"position": "girlfriend",
-			"type": 2,
+			"notes": [],
 			"characters": [
 				"pico-car"
-			]
+			],
+			"type": 2,
+			"visible": false
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 2.2,
 	"chartVersion": "1.6.0",
-	"stage": "limo",
+	"stage": "limo1",
 	"noteTypes": []
 }
