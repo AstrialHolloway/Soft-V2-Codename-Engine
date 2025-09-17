@@ -8,73 +8,73 @@
     <char name="grace" char="grace" position="left" defaultAnim="happy"/>
 
     <!-- Lines -->
-    <line char="megablade" changeDefAnim="look" playSound="dio/sounds/playdate/1" changeMusic="dio/music/train" musicVolume="0.8" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="look" changeMusic="dio/music/train" musicVolume="0.8" nextSound="dio/sounds/advance">
         After what felt like an endless night, both Pico and Benjamin awoke feeling quite the opposite of well-rested.
     </line>
-    <line char="megablade" changeDefAnim="smile" playSound="dio/sounds/playdate/2" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="smile" nextSound="dio/sounds/advance">
         They left the “house of horrors”, which was actually quite pleasant during the daytime.
     </line>
-    <line char="megablade" changeDefAnim="closedsmile" playSound="dio/sounds/playdate/3" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="closedsmile" nextSound="dio/sounds/advance">
         On foot, they spent the morning heading across town to the local train station.
     </line>
-    <line char="megablade" changeDefAnim="closedtalk" playSound="dio/sounds/playdate/4" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
         In order to stay out of trouble, they planned to get as far away from the Fairests as possible.
     </line>
-    <line char="pico-left" changeDefAnim="annoyed" playSound="dio/sounds/playdate/5" changeMusic="dio/music/station" musicVolume="0.8" nextSound="dio/sounds/advance">
+    <line char="pico-left" changeDefAnim="annoyed"  changeMusic="dio/music/station" musicVolume="0.8" nextSound="dio/sounds/advance">
         Where’s the damn train?!
     </line>
-    <line char="bf" changeDefAnim="smile" playSound="dio/sounds/playdate/6" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="smile" nextSound="dio/sounds/advance">
         Calm down, it’ll be here soon, I’m sure.
     </line>
-    <line char="pico-left" changeDefAnim="bored" playSound="dio/sounds/playdate/7" nextSound="dio/sounds/advance">
+    <line char="pico-left" changeDefAnim="bored"  nextSound="dio/sounds/advance">
         It better come quick, we’ve already been set back enough.
     </line>
-    <line char="bf" changeDefAnim="nervous" playSound="dio/sounds/playdate/8" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervous"  nextSound="dio/sounds/advance">
         Yeah, I know.
     </line>
-    <line char="grace" changeDefAnim="happy" playSound="dio/sounds/playdate/9" changeMusic="dio/music/train-of-thought" musicVolume="0.6" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="happy"  changeMusic="dio/music/train-of-thought" musicVolume="0.6" nextSound="dio/sounds/advance">
         Benny!
     </line>
     <line char="bf" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
         ?!
     </line>
-    <line char="grace" changeDefAnim="happy" playSound="dio/sounds/playdate/10" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="happy"  nextSound="dio/sounds/advance">
         I haven’t seen you in weeks!
     </line>
-    <line char="bf" changeDefAnim="nervoussmile" playSound="dio/sounds/playdate/11" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervoussmile"  nextSound="dio/sounds/advance">
         Heeeeeeeeeeeey Grace...
     </line>
-    <line char="bf" changeDefAnim="sweating" playSound="dio/sounds/playdate/12" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="sweating"  nextSound="dio/sounds/advance">
         What’re you doing here...?
     </line>
-    <line char="grace" changeDefAnim="smile" playSound="dio/sounds/playdate/13" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="smile"  nextSound="dio/sounds/advance">
         Oh, you know, just out and about.
     </line>
     <line char="grace" changeDefAnim="thinklook" nextSound="dio/sounds/advance">
         ...
     </line>
-    <line char="grace" changeDefAnim="thinktalk" playSound="dio/sounds/playdate/14" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="thinktalk"  nextSound="dio/sounds/advance">
         Heeeeeeey, you know what would be fun? A duet! Just like old times!
     </line>
-    <line char="bf" changeDefAnim="sweating" playSound="dio/sounds/playdate/15" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="sweating"  nextSound="dio/sounds/advance">
         Uh, I’m sorry, I-I have to catch a train...
     </line>
     <line char="bf" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
         It’ll show up before we’re done...
     </line>
-    <line char="grace" changeDefAnim="look" playSound="dio/sounds/playdate/17" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="look" nextSound="dio/sounds/advance">
         I promise it’ll be quick!
     </line>
-    <line char="grace" changeDefAnim="lookstar" playSound="dio/sounds/playdate/18" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="lookstar" nextSound="dio/sounds/advance">
         And you know how I feel about promises!
     </line>
     <line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
         ...
     </line>
-    <line char="bf" changeDefAnim="nervoussmile" playSound="dio/sounds/playdate/19" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
         Okay.
     </line>
-    <line char="pico" changeDefAnim="annoyed" playSound="dio/sounds/playdate/20" nextSound="dio/sounds/advance">
+    <line char="pico" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
         Son of a-
     </line>
 </dialogue>
