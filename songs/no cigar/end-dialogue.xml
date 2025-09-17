@@ -8,31 +8,31 @@
 	
 
 	<!-- Lines -->
-	<line char="pico" playSound="dio/sounds/no-cigar/1end" changeDefAnim="shock" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
+	<line char="pico" changeDefAnim="shock" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
 		You did it!
 	</line>
-	<line char="bf" playSound="dio/sounds/no-cigar/2end" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
 		I... yeah!
 	</line>
-	<line char="bf" playSound="dio/sounds/no-cigar/3end" changeDefAnim="happy"  nextSound="dio/sounds/advance" >
+	<line char="bf" changeDefAnim="happy"  nextSound="dio/sounds/advance" >
 		I guess I did!
 	</line>
-	<line char="bf" playSound="dio/sounds/no-cigar/4end" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
 		So, um... we’re free to go right?
 	</line>
-	<line char="father" playSound="dio/sounds/no-cigar/5end" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
 		C’mon, Benjamin. We never raised an idiot.
 	</line>
-	<line char="father" playSound="dio/sounds/no-cigar/6end" changeDefAnim="grin" nextSound="dio/sounds/advance">
+	<line char="father" changeDefAnim="grin" nextSound="dio/sounds/advance">
 		You didn’t ACTUALLY think I was leaving empty-handed, did you?
 	</line>
-	<line char="bf" playSound="dio/sounds/no-cigar/shock" changeDefAnim="terrified" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="terrified" nextSound="dio/sounds/advance">
 		!!!
 	</line>
-	<line char="bf" playSound="dio/sounds/no-cigar/7end" changeDefAnim="angrycry" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="angrycry" nextSound="dio/sounds/advance">
 		N-no! Stay away from me
 	</line>
-	<line char="pico" playSound="dio/sounds/no-cigar/8end" changeDefAnim="spray" nextSound="dio/sounds/advance">
+	<line char="pico" changeDefAnim="spray" nextSound="dio/sounds/advance">
 		Get your hands off of him!
 	</line>
 	<line char="" playSound="dio/sounds/grimaceBLAST" nextSound="dio/sounds/advance">
@@ -41,13 +41,13 @@
 	<line char="father" changeDefAnim="grimaceshake" nextSound="dio/sounds/advance">
 		!?
 	</line>
-	<line char="bf" playSound="dio/sounds/no-cigar/9end" changeDefAnim="scared" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="scared" nextSound="dio/sounds/advance">
 		PICO-!
 	</line>
-	<line char="pico" playSound="dio/sounds/no-cigar/10end" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+	<line char="pico" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
 		Come on! I know a place we can hide!
 	</line>
-	<line char="megablade" playSound="dio/sounds/no-cigar/11end" changeDefAnim="smile" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="smile" nextSound="dio/sounds/advance">
 		The two boys make a break for it, leaving behind Father Fairest, who’s all but done.
 	</line>
 </dialogue>
