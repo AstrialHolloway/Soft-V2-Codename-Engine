@@ -18,7 +18,7 @@
 	<line char="megablade" nextSound="dio/sounds/advance">
 		Our boys found themselves taking cover in a decrepit building.
 	</line>
-	<line char="megablade" changeDefAnim="talk" playSound="dio/sounds/thriller/3">
+	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance">
 		It was near impossible to see three feet in front of them when there wasn’t a hint of light to brighten up the room.
 	</line>
 	<line char="megablade" changeDefAnim="look" nextSound="dio/sounds/advance">
