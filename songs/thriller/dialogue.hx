@@ -1,7 +1,7 @@
 import haxe.xml.Access;
 
 // Var things
-var songThing = "high-spirits";
+var songThing = "thriller";
 
 var curVoiceline;
 
