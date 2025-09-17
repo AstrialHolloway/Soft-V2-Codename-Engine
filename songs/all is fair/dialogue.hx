@@ -1,26 +1,66 @@
-function next(event)
-{
-	if (!event.playFirst) trace("-");
-}
+import haxe.xml.Access;
+
+// Var things
+var songThing = "all-is-fair";
+
+var curVoiceline;
+
+var dialogueFilePath = "dio/sounds/" + songThing + "/";
+
+var voiceNumShit = -1;
+
+var bgSpriteTraceShit;
+
+var dioList:Array<String> = 
+[
+    "1",
+    "2", 
+	"none", 
+	"3", 
+	"4", 
+	"5", 
+	"6",
+	"7", 
+	"8", 
+	"9", 
+	"10"
+];
+
+//BG Sprite
 
 var bgSprite1:FunkinSprite = new FunkinSprite(0,0);
-
 insert(members.indexOf = 1, bgSprite1);
 add(bgSprite1);
+
+// Functions
 
 function bgEdit(sprite)
 {	
 	
 	bgSprite1.loadGraphic(Paths.image("dialogue/backgrounds/"+sprite));
+	bgSpriteTraceShit = sprite;
+	trace("Background sprite set to: " + '"' +bgSpriteTraceShit + '"');
 	
 }
 
 function postNext(event)
 {
+	handleVoices();
 	trace(curLine.char + " says: " + curLine.text);
-	if (curLine.char == "father")
+	if (voiceNumShit == 0)
 	{
 		bgEdit("alleyway");
-		trace("sprite made");
+		
+	}
+	
+}
+
+function handleVoices()
+{
+	voiceNumShit++;
+	if (curVoiceline != null) curVoiceline.stop();
+	if (voiceNumShit != 2)
+	{
+		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
 }
