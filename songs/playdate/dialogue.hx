@@ -32,7 +32,7 @@ var dioList:Array<String> =
 	"none",
 	"14",
 	"15",
-	"16",
+	"none",
 	"17",
 	"18",
 	"none",
@@ -79,7 +79,7 @@ function handleVoices()
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
 	
-	if (curVoiceLind != 10 && curVoiceLind != 14 && curVoiceLind != 20)
+	if (curVoiceLind != 10 && curVoiceLind != 14 && curVoiceLind != 17 && curVoiceLind != 20)
 	{
 		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
