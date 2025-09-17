@@ -8,7 +8,7 @@
 	<anim name="singRIGHT" anim="BF NOTE RIGHT deter0" x="-43" y="-7"/>
 	<anim name="singDOWN" anim="BF NOTE DOWN deter0" x="-2" y="-52"/>
 	<anim name="singUP" anim="BF NOTE UP deter0" x="-3" y="8"/>
-	<anim name="scream" anim="BF SCREAMING INSIDE0" x="-10" y="16" indices="0..13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13..0"/>
+	<anim name="scream" anim="BF SCREAMING INSIDE0" x="-10" y="16" indices="0..13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13"/>
 	<anim name="idle-alt" anim="BF idle dance copy" x="-4"/>
 	<anim name="idle" anim="BF idle dance determined" x="-5"/>
 </character>
