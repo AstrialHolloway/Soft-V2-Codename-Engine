@@ -8,58 +8,58 @@
 	
 
 	<!-- Lines -->
-	<line char="megablade" playSound="dio/sounds/repressed/1" changeMusic="dio/music/spooky" musicVolume="0.8">
+	<line char="megablade" changeMusic="dio/music/spooky" musicVolume="0.8">
 		Before he knew it, Benjamin was suddenly alone.
 	</line>
-	<line char="megablade" playSound="dio/sounds/repressed/2" nextSound="dio/sounds/advance">
+	<line char="megablade" nextSound="dio/sounds/advance">
 		The sounds of distant thunder was the only thing he noticed at first.
 	</line>
-	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance" playSound="dio/sounds/repressed/3">
+	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance">
 		And then... He saw it.
 	</line>
-	<line char="monster_silhouette" playSound="dio/sounds/repressed/4" nextSound="dio/sounds/advance">
+	<line char="monster_silhouette" nextSound="dio/sounds/advance">
 		A tall slender beast stood where the two kids once were.
 	</line>
-	<line char="megablade" playSound="dio/sounds/repressed/5" changeDefAnim="talk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance">
 		He looked... so familiar.
 	</line>
-	<line char="megablade" playSound="dio/sounds/repressed/6" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
 		Probably because his appearances were such a common occurrence...
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/7" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance" changeMusic="dio/music/recurring-nightmare" musicVolume="0.7">
+	<line char="bf" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance" changeMusic="dio/music/recurring-nightmare" musicVolume="0.7">
 		Wha...?
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/8" changeDefAnim="uncomfortable" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="uncomfortable" nextSound="dio/sounds/advance">
 		Oh no... Not you again...
 	</line>
-	<line char="monster" playSound="dio/sounds/repressed/monster1" nextSound="dio/sounds/advance">
+	<line char="monster" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/10" changeDefAnim="worried" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="worried" nextSound="dio/sounds/advance">
 		Why are you here...?
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/11" nextSound="dio/sounds/advance">
+	<line char="bf" nextSound="dio/sounds/advance">
 		Why now?
 	</line>
-	<line char="monster" playSound="dio/sounds/repressed/monster5" nextSound="dio/sounds/advance">
+	<line char="monster" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="pico" playSound="dio/sounds/repressed/13" changeDefAnim="angrycry" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="angrycry" nextSound="dio/sounds/advance">
 		What do you even want!?
 	</line>
-	<line char="monster" playSound="dio/sounds/repressed/monster2" nextSound="dio/sounds/advance">
+	<line char="monster" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/15" changeDefAnim="nervous" nextSound="dio/sounds/jumpscare">
+	<line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/jumpscare">
 		I... don’t know why I bother asking anymore...
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/16" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		Please just leave me alone.
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/17" changeDefAnim="worried" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="worried" nextSound="dio/sounds/advance">
 		Please...
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/18" changeDefAnim="concerned" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0">
+	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0">
 		I’m tired of this.
 	</line>
 	<line char="monster" playSound="dio/sounds/repressed/monster3" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0.7">
