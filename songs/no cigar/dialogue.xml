@@ -5,7 +5,6 @@
 	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
 	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
 	
-
 	<!-- Lines -->
 	<line char="father" changeDefAnim="confused" playSound="dio/sounds/no-cigar/1" changeMusic="dio/music/true-colors-f" musicVolume="0.8">
 		Hm. You know...
