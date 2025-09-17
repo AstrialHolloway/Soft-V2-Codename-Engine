@@ -8,55 +8,55 @@
 	
 
 	<!-- Lines -->
-	<line char="pico-left" playSound="dio/sounds/repressed/1end" changeDefAnim="shock" changeMusic="dio/music/spooky" musicVolume="0.8">
+	<line char="pico-left" changeDefAnim="shock" changeMusic="dio/music/spooky" musicVolume="0.8">
 		Softie! Can you hear me?
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/2end" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		Y-yeah..
 	</line>
-	<line char="pico-left" playSound="dio/sounds/repressed/3end" changeDefAnim="worry" nextSound="dio/sounds/advance">
+	<line char="pico-left" changeDefAnim="worry" nextSound="dio/sounds/advance">
 		What happened? You were out cold.
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/4end" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		It was him again...
 	</line>
-	<line char="pico-left" playSound="dio/sounds/repressed/5end" changeDefAnim="worry" nextSound="dio/sounds/advance">
+	<line char="pico-left" changeDefAnim="worry" nextSound="dio/sounds/advance">
 		Oh... Are you okay?
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/6end" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
 		Yeah... it’s over. At least for now.
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/7end" changeDefAnim="what" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="what" nextSound="dio/sounds/advance">
 		Wait, where are the kids?
 	</line>
-	<line char="pico-left" playSound="dio/sounds/repressed/8end" changeDefAnim="smug" nextSound="dio/sounds/advance">
+	<line char="pico-left" changeDefAnim="smug" nextSound="dio/sounds/advance">
 		I don’t know. They said something about candy and ran off.
 	</line>
-	<line char="pico-left" playSound="dio/sounds/repressed/9end" changeDefAnim="neutral" nextSound="dio/sounds/advance">
+	<line char="pico-left" changeDefAnim="neutral" nextSound="dio/sounds/advance">
 		Don’t worry though, they got a ride from someone driving a white van.
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/10end" changeDefAnim="scared" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="scared" nextSound="dio/sounds/advance">
 		They WHAT?
 	</line>
-	<line char="pico-left" playSound="dio/sounds/repressed/11end" changeDefAnim="questioning" nextSound="dio/sounds/advance">
+	<line char="pico-left" changeDefAnim="questioning" nextSound="dio/sounds/advance">
 		Did I say something wrong?
 	</line>
 	<line char="bf" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
 		...
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/12end" changeDefAnim="nervous" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/advance">
 		Let’s just get out of here. This place gives me the creeps...
 	</line>
-	<line char="" playSound="dio/sounds/lowtiergod" nextSound="dio/sounds/advance">
+	<line char="" nextSound="dio/sounds/advance">
 		(FLASH)
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/beep" changeDefAnim="terrified" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="terrified" nextSound="dio/sounds/advance">
 		Beep!
 	</line>
-	<line char="bf" playSound="dio/sounds/repressed/13end" changeDefAnim="sweating" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="sweating" nextSound="dio/sounds/advance">
 		O-on second thought, maybe we should stay here until morning.
 	</line>
-	<line char="datdavi" playSound="dio/sounds/repressed/14end" changeDefAnim="davi" nextSound="dio/sounds/advance">
+	<line char="datdavi" changeDefAnim="davi" nextSound="dio/sounds/advance">
 		Director’s Note: No spooky boys were harmed during the creation of this chapter.
 	</line>
 </dialogue>
