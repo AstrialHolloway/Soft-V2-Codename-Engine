@@ -1,54 +1,95 @@
-function next(event)
-{
-	if (!event.playFirst) trace("-");
-}
+import haxe.xml.Access;
+
+// Var things
+var songThing = "no-cigar";
+
+var curVoiceline;
+
+var dialogueFilePath = "dio/sounds/" + songThing + "/";
+
+var voiceNumShit = -1;
+
+var bgSpriteTraceShit;
+
+var dioList:Array<String> = 
+[
+    "1end",
+    "2end", 
+	"3end", 
+	"4end", 
+	"5end", 
+	"6end",
+	"shock", 
+	"7end", 
+	"8end", 
+	"noneend",
+	"noneend",
+	"9end", 
+	"10end",
+	"11end",
+];
+
+//BG Sprite
 
 var bgSprite1:FunkinSprite = new FunkinSprite(0,0);
-
 insert(members.indexOf = 1, bgSprite1);
 add(bgSprite1);
+
+// Functions
 
 function bgEdit(sprite)
 {	
 	
 	bgSprite1.loadGraphic(Paths.image("dialogue/backgrounds/"+sprite));
+	bgSpriteTraceShit = sprite;
+	trace("Background sprite set to: " + '"' +bgSpriteTraceShit + '"');
 	if (sprite == "no-cigar_GRIMACEBLAST")
 	{
-		bgSprite1.scale.set(0.67,0.67);
-		bgSprite1.x = -319;
-		bgSprite1.y = -180;
+		bgSprite1.scale.set(0.667,0.667);
+		bgSprite1.updateHitbox();
+		
 	}
 	else
 	{
 		bgSprite1.scale.set(1,1);
-		bgSprite1.x = 0;
-		bgSprite1.y = 0;
+		bgSprite1.updateHitbox();
+		
 	}
 	
 }
 
 function postNext(event)
 {
+	handleVoices();
 	trace(curLine.char + " says: " + curLine.text);
-	if (curLine.char == "pico")
+	if (voiceNumShit == 0)
 	{
 		bgEdit("alleyway");
-		trace("sprite made");
+		dialogueBox.visible = true;
+		
 	}
-	if (curLine.char == "father")
-	{
-		bgEdit("alleyway");
-		trace("sprite made");
-	}
-	if (curLine.char == "")
+	if (voiceNumShit == 9)
 	{
 		bgEdit("no-cigar_GRIMACEBLAST");
 		dialogueBox.visible = false;
-		trace("sprite made");
+		trace("Textbox Removed");
+		
 	}
-	else
+	if (voiceNumShit == 10)
 	{
+		bgEdit("alleyway");
 		dialogueBox.visible = true;
+		trace("Textbox Added");
 	}
+	
+}
 
+function handleVoices()
+{
+	voiceNumShit++;
+	if (curVoiceline != null) curVoiceline.stop();
+	if (voiceNumShit != 9 && voiceNumShit != 10 )
+	{
+		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
+	}
 }
