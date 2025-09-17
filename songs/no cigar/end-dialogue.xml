@@ -5,7 +5,6 @@
 	<char name="father" char="father" position="left" defaultAnim="smile"/>
 	<char name="pico" char="pico" position="right" defaultAnim="bored"/>
 	<char name="bf" char="bf" position="right" defaultAnim="happy"/>
-	
 
 	<!-- Lines -->
 	<line char="pico" changeDefAnim="shock" changeMusic="dio/music/traffic" musicVolume="0.8"> <!---->
