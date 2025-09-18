@@ -11,4 +11,5 @@
 	<ratings x="1300" y="650"/>
 	<dad x="660" y="450" scroll="1"/>
 	<boyfriend x="1450" y="420" scroll="1"/>
+	<sprite x="0" sprite="monsterAura" y="0" type="loop" name="aura" scroll="0" scale="1.5"/>
 </stage>
