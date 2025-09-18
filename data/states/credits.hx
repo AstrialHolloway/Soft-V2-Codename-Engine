@@ -155,7 +155,7 @@ function handleInputs()
         new FlxTimer().start(0.1, function(tmr:FlxTimer)
         {
             changeLabel.visible = !changeLabel.visible; // toggle
-        }, 11); // 0 = repeat forever
+        }, 11);
     }
     
 }

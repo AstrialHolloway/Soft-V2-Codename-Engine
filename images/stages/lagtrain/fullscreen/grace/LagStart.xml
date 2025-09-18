@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="LagStart.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="LagStart0000" x="1" y="1" width="844" height="508"/>
+	<SubTexture name="LagStart0001" x="1" y="1" width="844" height="508"/>
+	<SubTexture name="LagStart0002" x="846" y="1" width="844" height="508"/>
+	<SubTexture name="LagStart0003" x="846" y="1" width="844" height="508"/>
+	<SubTexture name="LagStart0004" x="1" y="510" width="844" height="508"/>
+	<SubTexture name="LagStart0005" x="1" y="510" width="844" height="508"/>
+	<SubTexture name="LagStart0006" x="846" y="510" width="844" height="508"/>
+	<SubTexture name="LagStart0007" x="846" y="510" width="844" height="508"/>
+</TextureAtlas>

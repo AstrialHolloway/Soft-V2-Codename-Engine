@@ -282,6 +282,12 @@ function update(elapsed:Float)
     handleInputs();
     handleDiffs();
     debugStatsHandler();
+
+    if (freeplaySongIndex == 20 || freeplaySongIndex == 21 || freeplaySongIndex == 22)
+    {
+        freeplayDiffIndex = 2;
+    }
+
     timethingidfk = elapsed;
     
     scoreLabel.text = score;

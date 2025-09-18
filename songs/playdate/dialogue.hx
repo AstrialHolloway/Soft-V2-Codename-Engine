@@ -11,8 +11,6 @@ var voiceNumShit = -1;
 
 var bgSpriteTraceShit;
 
-// holy fuck that's a lot of dialogue
-
 var dioList:Array<String> = 
 [
     "1",
@@ -64,11 +62,15 @@ function postNext(event)
 	if (voiceNumShit == 0)
 	{
 		bgEdit("daytime-house");
+		bgSprite1.scale.set(0.5, 0.5);
+		bgSprite1.updateHitbox();
 		
 	}
-	if (voiceNumShit == 5)
+	if (voiceNumShit == 4)
 	{
 		bgEdit("station");
+		bgSprite1.scale.set(1, 1);
+		bgSprite1.updateHitbox();
 		
 	}
 	
@@ -79,10 +81,15 @@ function handleVoices()
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
 	
-	if (curVoiceLind != 10 && curVoiceLind != 14 && curVoiceLind != 17 && curVoiceLind != 20)
+	if (voiceNumShit != 9 && voiceNumShit != 14 && voiceNumShit != 17 && voiceNumShit != 20)
 	{
 		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
 	
 	
+}
+
+function destroy()
+{
+	if (curVoiceline != null && !curVoiceline.persist) curVoiceline.destroy();
 }

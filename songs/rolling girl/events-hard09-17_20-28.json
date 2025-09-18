@@ -1,0 +1,92 @@
+{
+	"events": [
+		{
+			"params": [
+				true,
+				-1,
+				"stages/rolling girl/fullscreen/start",
+				"s2",
+				true,
+				false,
+				"2.4",
+				"0",
+				"0"
+			],
+			"name": "animation",
+			"time": 4923.07692307692
+		},
+		{
+			"params": [
+				true,
+				-1,
+				"stages/rolling girl/fullscreen/start",
+				"s3",
+				false,
+				false,
+				"2.4"
+			],
+			"time": 8615.38461538462,
+			"name": "animation"
+		},
+		{
+			"params": [
+				true,
+				-1,
+				"stages/rolling girl/fullscreen/Roll1",
+				"Roll1",
+				true,
+				false,
+				"1.5",
+				"500",
+				"200"
+			],
+			"name": "animation",
+			"time": 9846.15384615385
+		},
+		{
+			"params": [
+				true,
+				-1,
+				"stages/rolling girl/fullscreen/Roll2",
+				"Roll2",
+				true,
+				false,
+				"1.5",
+				"400",
+				"50"
+			],
+			"time": 19692.3076923077,
+			"name": "animation"
+		},
+		{
+			"params": [
+				false,
+				-1,
+				"",
+				"",
+				false,
+				true,
+				"2.4",
+				"0",
+				"0"
+			],
+			"time": 29538.4615384615,
+			"name": "animation"
+		},
+		{
+			"params": [
+				true,
+				-1,
+				"stages/rolling girl/fullscreen/Roll2",
+				"Roll2",
+				true,
+				false,
+				"1.5",
+				"400",
+				"50"
+			],
+			"name": "animation",
+			"time": 78769.2307692308
+		}
+	]
+}

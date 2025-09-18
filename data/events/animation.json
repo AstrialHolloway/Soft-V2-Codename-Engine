@@ -1,0 +1,54 @@
+{
+    "params": [
+        {
+            "name": "BG",
+            "type": "Bool",
+            "defaultValue": "true"
+        },
+        {
+            "name": "BG Color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        },
+        {
+            "name": "Sprite",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Animation",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Loop",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "Disable",
+            "type": "Bool",
+            "defaultValue": false
+        },
+        {
+            "name": "Scale",
+            "type": "String",
+            "defaultValue": "2.4"
+        },
+        {
+            "name": "X",
+            "type": "String",
+            "defaultValue": "0"
+        },
+        {
+            "name": "Y",
+            "type": "String",
+            "defaultValue": "0"
+        },
+        {
+            "name": "Disable Anim",
+            "type": "Bool",
+            "defaultValue": false
+        }
+    ]
+}

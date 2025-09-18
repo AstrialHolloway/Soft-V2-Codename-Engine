@@ -69,3 +69,7 @@ function handleVoices()
 		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
 }
+function destroy()
+{
+	if (curVoiceline != null && !curVoiceline.persist) curVoiceline.destroy();
+}

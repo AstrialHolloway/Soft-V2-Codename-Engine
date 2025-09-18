@@ -11,58 +11,58 @@
 	<line char="megablade" changeMusic="dio/music/spooky" musicVolume="0.8">
 		Before he knew it, Benjamin was suddenly alone.
 	</line>
-	<line char="megablade" nextSound="dio/sounds/advance">
+	<line char="megablade">
 		The sounds of distant thunder was the only thing he noticed at first.
 	</line>
-	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="talk">
 		And then... He saw it.
 	</line>
-	<line char="monster_silhouette" nextSound="dio/sounds/advance">
+	<line char="monster_silhouette">
 		A tall slender beast stood where the two kids once were.
 	</line>
-	<line char="megablade" changeDefAnim="talk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="talk">
 		He looked... so familiar.
 	</line>
-	<line char="megablade" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
+	<line char="megablade" changeDefAnim="closedtalk">
 		Probably because his appearances were such a common occurrence...
 	</line>
-	<line char="bf" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance" changeMusic="dio/music/recurring-nightmare" musicVolume="0.7">
+	<line char="bf" changeDefAnim="slightsurprise" changeMusic="dio/music/recurring-nightmare" musicVolume="0.7">
 		Wha...?
 	</line>
-	<line char="bf" changeDefAnim="uncomfortable" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="uncomfortable">
 		Oh no... Not you again...
 	</line>
-	<line char="monster" nextSound="dio/sounds/advance">
+	<line char="monster">
 		...
 	</line>
-	<line char="bf" changeDefAnim="worried" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="worried">
 		Why are you here...?
 	</line>
-	<line char="bf" nextSound="dio/sounds/advance">
+	<line char="bf">
 		Why now?
 	</line>
-	<line char="monster" nextSound="dio/sounds/advance">
+	<line char="monster">
 		...
 	</line>
-	<line char="bf" changeDefAnim="angrycry" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="angrycry">
 		What do you even want!?
 	</line>
-	<line char="monster" nextSound="dio/sounds/advance">
+	<line char="monster">
 		...
 	</line>
-	<line char="bf" changeDefAnim="nervous" nextSound="dio/sounds/jumpscare">
+	<line char="bf" changeDefAnim="nervous">
 		I... don’t know why I bother asking anymore...
 	</line>
-	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="concerned">
 		Please just leave me alone.
 	</line>
-	<line char="bf" changeDefAnim="worried" nextSound="dio/sounds/advance">
+	<line char="bf" changeDefAnim="worried">
 		Please...
 	</line>
-	<line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0">
+	<line char="bf" changeDefAnim="concerned">
 		I’m tired of this.
 	</line>
-	<line char="monster" playSound="dio/sounds/repressed/monster3" nextSound="dio/sounds/advance" changeMusic="dio/music/eek" musicVolume="0.7">
+	<line char="monster">
 		...
 	</line>
 

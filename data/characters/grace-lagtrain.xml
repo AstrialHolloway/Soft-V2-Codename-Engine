@@ -1,17 +1,16 @@
 <!DOCTYPE codename-engine-character>
-<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
-<character sprite="Gf_lag_assets" icon="grace" color="#ff7488" x="80" y="120" flipX="true" camx="120" camy="100" scale="0.8">
+<character x="80" y="120" sprite="Gf_lag_assets" scale="0.8" flipX="true" camx="120" camy="100" isPlayer="true" icon="grace" color="#FF7488">
 	<anim name="danceLeft" anim="idle" indices="1..13"/>
 	<anim name="danceRight" anim="idle" indices="14..30"/>
 	<anim name="singDOWNmiss" anim="down miss"/>
 	<anim name="singUPmiss" anim="up miss"/>
-	<anim name="singDOWN" anim="down0" x="1.25" y="0"/>
-	<anim name="singUP" anim="up0" x="-1.25" y="0"/>
+	<anim name="singDOWN" anim="down0" x="1.25"/>
+	<anim name="singUP" anim="up0" x="-1.25"/>
 	<anim name="singLEFTmiss" anim="right miss0"/>
 	<anim name="singRIGHTmiss" anim="left miss0"/>
-	<anim name="singRIGHT" anim="left0" x="1.25" y="0"/>
-	<anim name="singLEFT" anim="right0" x="0" y="-1.25"/>
+	<anim name="singRIGHT" anim="left0" x="1.25"/>
+	<anim name="singLEFT" anim="right0" y="-1.25"/>
 	<anim name="firstDeath" anim="gf dies0" x="26.25" y="7.5"/>
 	<anim name="deathLoop" anim="gf dies loop" x="-11.25" y="-1.25" loop="true"/>
-	<anim name="deathConfirm" anim="gf dies confirm" x="-11.25" y="0"/>
+	<anim name="deathConfirm" anim="gf dies confirm" x="-11.25"/>
 </character>

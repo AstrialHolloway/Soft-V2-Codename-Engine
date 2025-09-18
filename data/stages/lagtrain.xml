@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/lagtrain/" name="lagtrain" startCamPosX="1100" startCamPosY="500">
+	<girlfriend/>
+	<sprite type="none" sprite="bg" name="bg"/>
+	<ratings x="1000" y="400"/>
+	<dad camxoffset="-100" x="310" y="100"/>
+	<boyfriend camxoffset="-300" x="1100" y="100"/>
+	<sprite type="none" sprite="light" name="light"/>
+</stage>

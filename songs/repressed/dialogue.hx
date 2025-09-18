@@ -66,9 +66,14 @@ function postNext(event)
 function handleVoices()
 {
 	voiceNumShit++;
-	if (curVoiceline != null) curVoiceline.stop();
+	if (voiceNumShit != null) curVoiceline.stop();
 	
 	
 	curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	
+}
+
+function destroy()
+{
+	if (curVoiceline != null && !curVoiceline.persist) curVoiceline.destroy();
 }

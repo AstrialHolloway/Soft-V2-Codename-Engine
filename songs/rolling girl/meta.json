@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "hidden",
+	"difficulties": [
+		"Hard"
+	],
+	"color": "#88B7FF",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Rolling Girl",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
+}

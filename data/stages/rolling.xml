@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/rolling girl/" name="rolling" startCamPosX="665" startCamPosY="375">
+	<dad/>
+	<girlfriend/>
+	<sprite type="none" sprite="bg" name="bg"/>
+	<boyfriend x="630" camxoffset="-70" y="-70" camyoffset="-20"/>
+</stage>

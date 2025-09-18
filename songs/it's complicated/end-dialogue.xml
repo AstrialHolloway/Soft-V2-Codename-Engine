@@ -4,58 +4,58 @@
     <char name="pico" char="pico" position="right" defaultAnim="annoyed"/>
     <char name="megablade" char="megablade" position="left" defaultAnim="closedtalk"/>
 
-    <line char="grace" changeDefAnim="sadworry" playSound="dio/sounds/it's-complicated/1end" changeMusic="dio/music/train" musicVolume="0.8">
+    <line char="grace" changeDefAnim="sadworry" changeMusic="dio/music/train" musicVolume="0.8">
         This...
     </line>
-    <line char="grace" changeDefAnim="sadtalk" playSound="dio/sounds/it's-complicated/2end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="sadtalk">
         This wasn’t how it was meant to go...
     </line>
-    <line char="bf" changeDefAnim="concerned" playSound="dio/sounds/it's-complicated/3end" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="concerned">
         I’m... sorry, Grace.
     </line>
-    <line char="bf" changeDefAnim="concerned" playSound="dio/sounds/it's-complicated/4end" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="concerned">
         That life we- THEY made for us doesn’t exist.
     </line>
-    <line char="grace" changeDefAnim="teary" playSound="dio/sounds/it's-complicated/5end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="teary">
         It's not fair!
     </line>
-    <line char="grace" changeDefAnim="sadworry" playSound="dio/sounds/it's-complicated/6end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="sadworry">
         How could...? I-I thought...
     </line>
-    <line char="grace" changeDefAnim="tearscared" playSound="dio/sounds/it's-complicated/7end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="tearscared">
         What did I do?
     </line>
-    <line char="grace" changeDefAnim="teary" playSound="dio/sounds/it's-complicated/8end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="teary">
         Did I do something wrong?
     </line>
-    <line char="bf" changeDefAnim="scared" playSound="dio/sounds/it's-complicated/9end" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="scared">
         God, o-of course not!
     </line>
-    <line char="bf" changeDefAnim="smile" playSound="dio/sounds/it's-complicated/10end" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="smile">
         You’re my best friend, Grace, that hasn’t changed, it’s just...
     </line>
-    <line char="bf" changeDefAnim="happycry" playSound="dio/sounds/it's-complicated/11end" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="happycry">
         I... want to live my OWN life, not what they created for us.
     </line>
-    <line char="bf" changeDefAnim="smile" playSound="dio/sounds/it's-complicated/12end" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="smile">
         I can’t help who I love.
     </line>
-    <line char="grace" changeDefAnim="tearscared" playSound="dio/sounds/it's-complicated/13end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="tearscared">
         Neither can I!
     </line>
-    <line char="grace" changeDefAnim="sadtalk" playSound="dio/sounds/it's-complicated/14end" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="sadtalk">
         I...
     </line>
-    <line char="" playSound="dio/sounds/it's-complicated/honk" nextSound="dio/sounds/advance">
-        (BEEP)
+    <line char="">
+        
     </line>
-    <line char="megablade" changeDefAnim="closedtalk" playSound="dio/sounds/it's-complicated/15end" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="closedtalk">
         A white limo came to a screeching halt before them.
     </line>
-    <line char="pico" changeDefAnim="questioning" playSound="dio/sounds/it's-complicated/16end" nextSound="dio/sounds/advance">
+    <line char="pico" changeDefAnim="questioning">
         Uh, Ben?
     </line>
-    <line char="pico" changeDefAnim="worry" playSound="dio/sounds/it's-complicated/17end" nextSound="dio/sounds/advance">
+    <line char="pico" changeDefAnim="worry">
         Not to interrupt or anything, but we’ve got a problem...
     </line>
 </dialogue>

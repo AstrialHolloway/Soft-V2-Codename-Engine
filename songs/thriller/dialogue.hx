@@ -83,12 +83,12 @@ function postNext(event)
 		bgEdit("spooky-house");
 		
 	}
-	if (voiceNumShit == 6)
+	if (voiceNumShit == 5)
 	{
 		bgEdit("spooky-room-dark");
 		
 	}
-	if (voiceNumShit == 18)
+	if (voiceNumShit == 17)
 	{
 		bgEdit("spooky-room");
 		
@@ -101,10 +101,15 @@ function handleVoices()
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
 	
-	if (curVoiceLind != 18)
+	if (voiceNumShit != 17)
 	{
 		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
 	
 	
+	
+}
+function destroy()
+{
+	if (curVoiceline != null && !curVoiceline.persist) curVoiceline.destroy();
 }

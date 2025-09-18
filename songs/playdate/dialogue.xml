@@ -8,73 +8,73 @@
     <char name="grace" char="grace" position="left" defaultAnim="happy"/>
 
     <!-- Lines -->
-    <line char="megablade" changeDefAnim="look" changeMusic="dio/music/train" musicVolume="0.8" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="look" changeMusic="dio/music/train" musicVolume="0.8">
         After what felt like an endless night, both Pico and Benjamin awoke feeling quite the opposite of well-rested.
     </line>
-    <line char="megablade" changeDefAnim="smile" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="smile">
         They left the “house of horrors”, which was actually quite pleasant during the daytime.
     </line>
-    <line char="megablade" changeDefAnim="closedsmile" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="closedsmile">
         On foot, they spent the morning heading across town to the local train station.
     </line>
-    <line char="megablade" changeDefAnim="closedtalk" nextSound="dio/sounds/advance">
+    <line char="megablade" changeDefAnim="closedtalk">
         In order to stay out of trouble, they planned to get as far away from the Fairests as possible.
     </line>
-    <line char="pico-left" changeDefAnim="annoyed"  changeMusic="dio/music/station" musicVolume="0.8" nextSound="dio/sounds/advance">
+    <line char="pico-left" changeDefAnim="annoyed">
         Where’s the damn train?!
     </line>
-    <line char="bf" changeDefAnim="smile" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="smile">
         Calm down, it’ll be here soon, I’m sure.
     </line>
-    <line char="pico-left" changeDefAnim="bored"  nextSound="dio/sounds/advance">
+    <line char="pico-left" changeDefAnim="bored">
         It better come quick, we’ve already been set back enough.
     </line>
-    <line char="bf" changeDefAnim="nervous"  nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervous">
         Yeah, I know.
     </line>
-    <line char="grace" changeDefAnim="happy"  changeMusic="dio/music/train-of-thought" musicVolume="0.6" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="happy"  changeMusic="dio/music/train-of-thought" musicVolume="0.6">
         Benny!
     </line>
-    <line char="bf" changeDefAnim="slightsurprise" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="slightsurprise">
         ?!
     </line>
-    <line char="grace" changeDefAnim="happy"  nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="happy">
         I haven’t seen you in weeks!
     </line>
-    <line char="bf" changeDefAnim="nervoussmile"  nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervoussmile">
         Heeeeeeeeeeeey Grace...
     </line>
-    <line char="bf" changeDefAnim="sweating"  nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="sweating">
         What’re you doing here...?
     </line>
-    <line char="grace" changeDefAnim="smile"  nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="smile">
         Oh, you know, just out and about.
     </line>
-    <line char="grace" changeDefAnim="thinklook" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="thinklook">
         ...
     </line>
-    <line char="grace" changeDefAnim="thinktalk"  nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="thinktalk">
         Heeeeeeey, you know what would be fun? A duet! Just like old times!
     </line>
-    <line char="bf" changeDefAnim="sweating"  nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="sweating">
         Uh, I’m sorry, I-I have to catch a train...
     </line>
-    <line char="bf" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervoussmile">
         It’ll show up before we’re done...
     </line>
-    <line char="grace" changeDefAnim="look" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="look">
         I promise it’ll be quick!
     </line>
-    <line char="grace" changeDefAnim="lookstar" nextSound="dio/sounds/advance">
+    <line char="grace" changeDefAnim="lookstar">
         And you know how I feel about promises!
     </line>
-    <line char="bf" changeDefAnim="concerned" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="concerned">
         ...
     </line>
-    <line char="bf" changeDefAnim="nervoussmile" nextSound="dio/sounds/advance">
+    <line char="bf" changeDefAnim="nervoussmile">
         Okay.
     </line>
-    <line char="pico" changeDefAnim="annoyed" nextSound="dio/sounds/advance">
+    <line char="pico" changeDefAnim="annoyed">
         Son of a-
     </line>
 </dialogue>

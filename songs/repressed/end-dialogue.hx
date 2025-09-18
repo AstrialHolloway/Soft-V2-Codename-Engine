@@ -91,3 +91,8 @@ function handleVoices()
 	
 	
 }
+
+function destroy()
+{
+	if (curVoiceline != null && !curVoiceline.persist) curVoiceline.destroy();
+}
