@@ -6,7 +6,7 @@
 static var redirectStates:Map<Dynamic, String> = [
     WarningState => "warning",
     MainMenuState => "mainMenu",
-    //StoryMenuState => "storyMenu",
+    StoryMenuState => "storyMenu",
     FreeplayState => "freeplay"
 ];
 
