@@ -27,6 +27,7 @@ var ratingStuff:Array<Dynamic> = [
      ['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 ];
 
+
 function create()
 {
     if (uitype == "psych")

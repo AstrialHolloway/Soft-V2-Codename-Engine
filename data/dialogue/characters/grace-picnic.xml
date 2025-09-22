@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character x="56.5" y="75" scalex="-1">
+	<anim name="happy" anim="happy" fps="24" />
+	<anim name="smile" anim="smile" fps="24" />
+	<anim name="sweat" anim="sweat" fps="24" />
+	<anim name="fanning" anim="fanning" fps="24" />
+	<anim name="sadtalk" anim="sadtalk" fps="24" />
+	<anim name="sadsmile" anim="sadsmile" fps="24" />
+	<anim name="sadworry" anim="sadworry" fps="24" />
+</character>

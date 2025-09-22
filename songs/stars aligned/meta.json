@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "pico",
+	"difficulties": [
+		"Easy",
+		"Normal",
+		"Hard"
+	],
+	"color": "#428948",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Stars Aligned",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 130
+}

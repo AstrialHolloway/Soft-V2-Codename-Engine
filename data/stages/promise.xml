@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/promise/" name="promise"  startCamPosX="1100" startCamPosY="500">
+	<sprite x="65" sprite="bg" y="60" type="none" name="bg"/>
+	<sprite x="75" sprite="cloud" y="140" type="none" name="cloud"/>
+	<sprite x="-1880" sprite="train" y="360" type="none" name="train"/>
+	<sprite type="none" sprite="station" name="station"/>
+	<girlfriend x="1050" y="350"/>
+	<boyfriend camxoffset="-300" camyoffset="10" x="1300" y="280"/>
+	<dad x="470" y="270"/>
+	<sprite x="1000" sprite="gaytext" y="540" type="none" name="gaytext">
+		<anim name="idle" anim="idle0000" fps="15" loop="true"/>
+		<anim name="gaytext" anim="gaytext" fps="15" loop="false"/>
+	</sprite>
+
+	<sprite x="930" sprite="thugtext" y="580" type="none" name="thugtext">
+		<anim name="idle" anim="idle0000" fps="15" loop="true"/>
+		<anim name="thugtext" anim="thugtext" fps="15" loop="false"/>
+	</sprite>
+</stage>

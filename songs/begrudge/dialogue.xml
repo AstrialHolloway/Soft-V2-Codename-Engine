@@ -1,0 +1,61 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="megablade" char="megablade" position="left" defaultAnim="look"/>
+    <char name="pico-picnic" char="pico-picnic" position="right" defaultAnim="neutral"/>
+    <char name="pico-picnic-left" char="pico-picnic-left" position="left" defaultAnim="neutral"/>
+    <char name="bf-picnic" char="bf-picnic" position="right" defaultAnim="concerned"/>
+    <char name="grace-picnic" char="grace-picnic" position="left" defaultAnim="happy"/>
+    <char name="sven" char="sven" position="left" defaultAnim="neutral"/>
+
+    <line char="megablade" changeDefAnim="look"  changeMusic="dio/music/nature" musicVolume="0.8">A new day begins a new chapter in their lives as Ben and Pico walk along a dirt pathway.</line>
+    <line char="megablade" changeDefAnim="closedsmile">The weather was quite nice for December afternoon, allowing people to stroll comfortably around the local park.</line>
+    <line char="megablade" changeDefAnim="talk">For once, there wasn’t anxiety or fear, just a little bit of the first impression jitters.</line>
+    <line char="megablade" changeDefAnim="smile">Our boys stop under one of the many trees scattered around the park, surveying the area.</line>
+
+    <line char="pico-picnic-left" changeDefAnim="neutral">See them yet?</line>
+    <line char="bf-picnic" changeDefAnim="concerned">I don’t think so.</line>
+    <line char="bf-picnic" changeDefAnim="nervoussmile">It’s already 3:40. They were supposed to be here ten minutes ago...</line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">I’m sure they are just running late. Besides, it’s not like we’re exactly on time either. </line>
+    <line char="bf-picnic" changeDefAnim="slightsurprise">It’s unlike Grace to be late, though.</line>
+    <line char="bf-picnic" changeDefAnim="concerned">Ever since we were kids, she was on time, if not five minutes early.</line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">Yeah, I get it.</line>
+
+    <line char="grace-picnic" changeDefAnim="happy" changeMusic="dio/music/train-of-thought" musicVolume="0.6">Benny!</line>
+    <line char="bf-picnic" changeDefAnim="happy">Oh, there she is!</line>
+    <line char="grace-picnic" changeDefAnim="smile">It’s so good to see you again!</line>
+    <line char="bf-picnic" changeDefAnim="smile">Y-You too!</line>
+
+    <line char="sven" changeDefAnim="neutral">So... This is the “childhood friend” I keep hearing about?</line>
+    <line char="sven" changeDefAnim="bored">Tch. I expected more.</line>
+    <line char="bf-picnic" changeDefAnim="confused">?!</line>
+    <line char="pico-picnic" changeDefAnim="annoyed">Hey, watch it.</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">Sven! I’m so sorry Benny. I promise he’s usually friendlier than this...</line>
+    <line char="bf-picnic" changeDefAnim="nervoussmile">No no! It’s fine. You know first impressions aren’t my strong suit either...</line>
+    <line char="bf-picnic" changeDefAnim="sweating">I uh, see you cut your hair! It looks great!</line>
+    <line char="grace-picnic" changeDefAnim="happy">Aw! Thank you! Sven cut it for me!</line>
+    <line char="sven" changeDefAnim="bored">...</line>
+    <line char="pico-picnic" changeDefAnim="neutral">Hey Grace... are you sure he doesn’t bite?</line>
+    <line char="pico-picnic" changeDefAnim="annoyed">I don’t like the way he’s looking at me or my boyfriend.</line>
+    <line char="bf-picnic" changeDefAnim="sweating">How about we just... go eat lunch?</line>
+
+    <line char="megablade" changeDefAnim="smile" changeMusic="dio/music/nature" musicVolume="0">The four sit down, each pair across from one another. The air was uncomfortable, the tension suffocating.</line>
+    <line char="bf-picnic" changeDefAnim="uncomfortable" changeMusic="dio/music/nature" musicVolume="0.8">...</line>
+    <line char="bf-picnic" changeDefAnim="sweating">Soooooo... How did you two meet?</line>
+    <line char="grace-picnic" changeDefAnim="sweat">Oh! We met like a month ago, at the train station!</line>
+    <line char="bf-picnic" changeDefAnim="happy">Wow, really? That sounds-</line>
+    <line char="bf-picnic" changeDefAnim="uncomfortable">Wait you mean...?</line>
+    <line char="grace-picnic" changeDefAnim="sadsmile">...</line>
+
+    <line char="sven" changeDefAnim="neutraldown" changeMusic="dio/music/intimidation" musicVolume="0.8">Hey, you know what? Grace told me a looooot about you, “Benji”...</line>
+    <line char="bf-picnic" changeDefAnim="nervous">Oh, please, you can just call me Ben...</line>
+    <line char="sven" changeDefAnim="neutral">She said you were a pretty good singer.</line>
+    <line char="sven" changeDefAnim="questioning">How about a round?</line>
+    <line char="bf-picnic" changeDefAnim="concerned">I’m... not sure...</line>
+    <line char="grace-picnic" changeDefAnim="happy">Come on Benji! It could be a nice way to get to know one another.</line>
+    <line char="pico-picnic" changeDefAnim="bored">I don’t like the way this is going.</line>
+    <line char="bf-picnic" changeDefAnim="worried">I...</line>
+    <line char="sven" changeDefAnim="questioning">You don’t want to let her down... Do you?</line>
+    <line char="bf-picnic" changeDefAnim="concerned">...Fine. Just one round.</line>
+
+</dialogue>

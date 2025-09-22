@@ -1,9 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<!-- Made with WizardMantis's Character Converter on https://codename-engine.com/ -->
-<character sprite="pico-promise" icon="picosoft" color="#3c5a3e" holdTime="6.1">
+<character icon="pico" color="#000000" holdTime="6.1">
 	<anim name="danceLeft" anim="pico idle" indices="0..9"/>
 	<anim name="danceRight" anim="pico idle" indices="10..19"/>
 	<anim name="danceLeft-alt" anim="pico alt idle" indices="0..9"/>
 	<anim name="danceRight-alt" anim="pico alt idle" indices="10..19"/>
-	<anim name="offended" anim="pico offended" x="0" y="30"/>
+	<anim name="offended" anim="pico offended" x="-5" y="12"/>
 </character>

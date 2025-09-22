@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Anim",
+            "type": "String",
+            "defaultValue": "start"
+        }
+    ]
+}

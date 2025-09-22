@@ -1,0 +1,139 @@
+{
+	"events": [
+		{
+			"params": [
+				0,
+				"hey",
+				true,
+				"NONE"
+			],
+			"time": 69101.1235955056,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"hey",
+				true,
+				"NONE"
+			],
+			"name": "Play Animation",
+			"time": 69269.6629213483
+		},
+		{
+			"params": [
+				0,
+				"hey",
+				true,
+				"NONE"
+			],
+			"time": 69438.202247191,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				2,
+				"offended",
+				true,
+				"NONE"
+			],
+			"time": 69606.7415730337,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				false,
+				true,
+				2
+			],
+			"time": 69606.7415730337,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				0,
+				"hey",
+				true,
+				"NONE"
+			],
+			"name": "Play Animation",
+			"time": 69775.2808988764
+		},
+		{
+			"params": [
+				false,
+				true,
+				1
+			],
+			"time": 70112.3595505618,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 72808.9887640449,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				1,
+				"hey",
+				true,
+				"NONE"
+			],
+			"time": 79887.6404494382,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				true,
+				true,
+				0
+			],
+			"time": 79887.6404494382,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				1,
+				"hey",
+				true,
+				"NONE"
+			],
+			"name": "Play Animation",
+			"time": 80056.1797752809
+		},
+		{
+			"params": [
+				1,
+				"hey",
+				true,
+				"NONE"
+			],
+			"time": 80224.7191011236,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"hey",
+				true,
+				"NONE"
+			],
+			"name": "Play Animation",
+			"time": 80561.797752809
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 86292.1348314607,
+			"name": "Alt Animation Toggle"
+		}
+	]
+}

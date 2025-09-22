@@ -1,0 +1,59 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="pico-picnic" char="pico-picnic" position="right" defaultAnim="shock"/>
+    <char name="pico-picnic-left" char="pico-picnic-left" position="left" defaultAnim="worry"/>
+    <char name="bf-picnic" char="bf-picnic" position="right" defaultAnim="worried"/>
+    <char name="grace-picnic" char="grace-picnic" position="left" defaultAnim="happy"/>
+    <char name="sven" char="sven" position="left" defaultAnim="shadow"/>
+
+    <line char="pico-picnic" changeDefAnim="shock" changeMusic="dio/music/nature" musicVolume="0.8">!</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">!</line>
+    <line char="bf-picnic" changeDefAnim="worried">...</line>
+    <line char="sven" changeDefAnim="shadow">...I ...I won.</line>
+    <line char="sven" changeDefAnim="crazylaugh">You see that babe? I won!</line>
+    <line char="grace-picnic" changeDefAnim="sadtalk">Yeah! You... really did...</line>
+    <line char="pico-picnic-left" changeDefAnim="worry">Baby, you okay?</line>
+    <line char="bf-picnic" changeDefAnim="worried">Throat hurts...</line>
+    <line char="sven" changeDefAnim="smirk">Aren’t you supposed to be a Fairest? You went down easier than I thought!</line>
+    <line char="bf-picnic" changeDefAnim="worried">...</line>
+    <line char="bf-picnic" changeDefAnim="concerned">You know what...</line>
+    <line char="bf-picnic" changeDefAnim="smile" changeMusic="dio/music/full-bloom" musicVolume="0.7">Congratulations. You beat me fair and square!</line>
+    <line char="sven" changeDefAnim="questioning">Huh? That’s all you’re gonna say?</line>
+    <line char="bf-picnic" changeDefAnim="smile">Yup! You won, Sven, congrats!</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">...</line>
+    <line char="grace-picnic" changeDefAnim="sadsmile">For what it’s worth, I had a lot of fun.</line>
+    <line char="grace-picnic" changeDefAnim="happy">Thank you, everyone.</line>
+    <line char="sven" changeDefAnim="happy">You did? I-...I’m glad.</line>
+    <line char="sven" changeDefAnim="happyclosed">...</line>
+    <line char="sven" changeDefAnim="happy">Hey, Ben.</line>
+    <line char="bf-picnic" changeDefAnim="slightsurprise">Y-Yeah?</line>
+    <line char="sven" changeDefAnim="neutraldown">You put up a good fight. You’re a lot tougher than I realized.</line>
+    <line char="sven" changeDefAnim="happy">Seems I had the wrong idea about you. I’m sorry for earlier.</line>
+    <line char="bf-picnic" changeDefAnim="happy">Oh, uh... thank you. You sing a lot better than I thought you would, too!</line>
+    <line char="bf-picnic" changeDefAnim="sweating">UH, NO OFFENSE, OF COURSE!</line>
+    <line char="sven" changeDefAnim="happyclosed">None taken.</line>
+    <line char="grace-picnic" changeDefAnim="happy">WAIT What time is it??!!</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">Oh goodness, I’m gonna be late! My parents think I’m reading at the library...</line>
+    <line char="bf-picnic" changeDefAnim="slightsurprise">Huh?! They don’t know you’re on a date?</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">They’d kill me if they knew I was with Sven, let alone how’d they feel if they knew I was with you two as well.</line>
+    <line char="bf-picnic" changeDefAnim="concerned">You’ve never... lied to your parents before.</line>
+    <line char="grace-picnic" changeDefAnim="sadsmile">Yeah, well... I gotta live my own life sometime, y’know.</line>
+    <line char="bf-picnic" changeDefAnim="smile">... you’re absolutely right.</line>
+    <line char="grace-picnic" changeDefAnim="happy">Ready to go Sven?</line>
+    <line char="sven" changeDefAnim="happy">Sure, darling.</line>
+    <line char="grace-picnic" changeDefAnim="smile">It was nice seeing you two again! Sorry for the trouble...</line>
+    <line char="bf-picnic" changeDefAnim="happy">No hard feelings. Be safe getting home, you two.</line>
+    <line char="bf-picnic" changeDefAnim="happy">...ahem?</line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">Oh, uh... yeah, have a good day.</line>
+    <line char=""></line>
+    <line char="bf-picnic" changeDefAnim="happy">You know... You really should be nicer.</line>
+    <line char="pico-picnic-left" changeDefAnim="bored">Nah.</line>
+    <line char="bf-picnic" changeDefAnim="nervoussmile">Heh, fair enough. Man, what a day...</line>
+    <line char="pico-picnic-left" changeDefAnim="questioning">Well, since the double date didn’t really plan out... do you wanna go on an actual date with me?</line>
+    <line char="bf-picnic" changeDefAnim="slightsurprise">Really?</line>
+    <line char="pico-picnic-left" changeDefAnim="worry">Well yeah, I mean... We didn’t even get to order.</line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">Let’s grab something to eat while we’re here.</line>
+    <line char="bf-picnic" changeDefAnim="smile">I would love to.</line>
+
+</dialogue>

@@ -1,14 +1,14 @@
 <!DOCTYPE codename-engine-character>
 <character sprite="ben-promise" flipX="true" camx="180" isPlayer="true" icon="bf" color="#87B7FF" holdTime="6.1">
 	<anim name="idle" anim="ben idle"/>
-	<anim name="singLEFT" anim="ben left" x="50" y="-10"/>
-	<anim name="singDOWN" anim="ben down" x="10" y="-30"/>
-	<anim name="singUP" anim="ben up" x="-10" y="20"/>
-	<anim name="singRIGHT" anim="ben right" x="-50"/>
-	<anim name="singLEFT-alt" anim="ben alt left" x="60" y="-10"/>
-	<anim name="singDOWN-alt" anim="ben alt down" x="40" y="-40"/>
-	<anim name="singUP-alt" anim="ben alt up" x="-10" y="30"/>
-	<anim name="singRIGHT-alt" anim="ben alt right" x="-50"/>
-	<anim name="hey" anim="ben comingout" x="-11" y="-6"/>
-	<anim name="idle-alt" anim="ben whiteknight"/>
+	<anim name="singLEFT" anim="ben left" x="15" y="-15"/>
+	<anim name="singDOWN" anim="ben down" x="15" y="-10"/>
+	<anim name="singUP" anim="ben up" x="-10" y="-5"/>
+	<anim name="singRIGHT" anim="ben right" x="-20"/>
+	<anim name="singLEFT-alt" anim="ben alt left" x="25" y="-10"/>
+	<anim name="singDOWN-alt" anim="ben alt down" x="50" y="-20"/>
+	<anim name="singUP-alt" anim="ben alt up" x="-10" y="-5"/>
+	<anim name="singRIGHT-alt" anim="ben alt right" x="-20"/>
+	<anim name="hey" anim="ben comingout" x="-6" y="-6"/>
+	<anim name="idle-alt" anim="ben whiteknight" x="-15" y="-5"/>
 </character>

@@ -12,30 +12,27 @@
 			"name": "Camera Movement"
 		}
 	],
-	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [],
+			"position": "dad",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 0,
 			"characters": [
 				"hidden"
 			],
-			"type": 0,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -357,7 +354,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 230.769230769307,
+					"sLen": 230.769230769314,
 					"time": 46153.8461538462,
 					"type": 0
 				},
@@ -507,7 +504,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 230.769230769307,
+					"sLen": 230.769230769314,
 					"time": 63692.3076923077,
 					"type": 0
 				},
@@ -825,7 +822,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 230.76923076938,
+					"sLen": 230.769230769394,
 					"time": 78769.2307692309,
 					"type": 0
 				},
@@ -1029,7 +1026,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 384.615384615259,
+					"sLen": 384.615384615245,
 					"time": 84769.2307692309,
 					"type": 0
 				},
@@ -1119,7 +1116,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 230.769230769103,
+					"sLen": 230.769230769089,
 					"time": 87230.7692307694,
 					"type": 0
 				},
@@ -1179,7 +1176,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 230.769230769103,
+					"sLen": 230.769230769089,
 					"time": 89230.7692307694,
 					"type": 0
 				},
@@ -1311,7 +1308,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 230.769230769103,
+					"sLen": 230.769230769089,
 					"time": 93230.7692307694,
 					"type": 0
 				},
@@ -1400,20 +1397,23 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"benjamin-mono"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.5,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
 		}
 	],
+	"codenameChart": true,
 	"scrollSpeed": 2.9,
 	"chartVersion": "1.6.0",
 	"stage": "rolling",

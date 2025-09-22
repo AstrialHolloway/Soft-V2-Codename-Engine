@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "grace",
+	"difficulties": [
+		"Hard"
+	],
+	"color": "#EA697C",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Promise",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 178
+}

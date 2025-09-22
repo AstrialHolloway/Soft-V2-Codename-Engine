@@ -133,6 +133,14 @@
 			],
 			"time": 103384.615384615,
 			"name": "animation"
+		},
+		{
+			"params": [
+				"title Roll",
+				999
+			],
+			"time": 103384.615384615,
+			"name": "Image Popup"
 		}
 	]
 }

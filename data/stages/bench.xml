@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/bench/" name="bench" zoom="0.8"  startCamPosX="1100" startCamPosY="450">
+	<girlfriend/>
+	<sprite type="none" sprite="bg" name="bg"/>
+	<sprite type="none" sprite="city" y="155" name="city"/>
+	<sprite type="none" sprite="bench" y="410" name="bench"/>
+	<boyfriend y="240"  x="950"/>
+	<dad  y="270" x="330"/>
+</stage>

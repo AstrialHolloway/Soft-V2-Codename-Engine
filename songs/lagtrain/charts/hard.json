@@ -13,9 +13,45 @@
 		},
 		{
 			"params": [
-				0
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/grace/LagStart",
+				"LagStart",
+				true,
+				false,
+				"1.6",
+				"400",
+				"200",
+				false
 			],
 			"time": 6400,
+			"name": "animation2"
+		},
+		{
+			"params": [
+				false,
+				-1,
+				"",
+				"",
+				false,
+				true,
+				"2.4",
+				"0",
+				"0",
+				true
+			],
+			"name": "animation2",
+			"time": 12800
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 12800,
 			"name": "Camera Movement"
 		},
 		{
@@ -83,94 +119,142 @@
 		},
 		{
 			"params": [
-				0
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/sven/LagSen1",
+				"LagSen1",
+				true,
+				false,
+				"1",
+				"800",
+				"250",
+				false
 			],
-			"time": 64000,
-			"name": "Camera Movement"
+			"name": "animation2",
+			"time": 64000
 		},
 		{
 			"params": [
-				1
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/grace/Lag5",
+				"Lag5",
+				true,
+				false,
+				"1",
+				"1200",
+				"350",
+				false
 			],
 			"time": 65600,
-			"name": "Camera Movement"
+			"name": "animation2"
 		},
 		{
 			"params": [
-				0
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/sven/LagSen3",
+				"LagSen3",
+				true,
+				false,
+				"1",
+				"800",
+				"250",
+				false
 			],
 			"time": 67200,
-			"name": "Camera Movement"
+			"name": "animation2"
 		},
 		{
 			"params": [
-				1
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/grace/Lag4",
+				"Lag4",
+				true,
+				false,
+				"1",
+				"850",
+				"300",
+				false
 			],
-			"time": 68800,
-			"name": "Camera Movement"
+			"name": "animation2",
+			"time": 68800
 		},
 		{
 			"params": [
-				0
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/sven/LagSen2",
+				"LagSen2",
+				true,
+				false,
+				"1",
+				"800",
+				"250",
+				false
 			],
-			"time": 70400,
-			"name": "Camera Movement"
+			"name": "animation2",
+			"time": 70400
 		},
 		{
 			"params": [
-				1
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/grace/Lag2",
+				"Lag2",
+				true,
+				false,
+				"1",
+				"850",
+				"300",
+				false
 			],
 			"time": 72000,
-			"name": "Camera Movement"
+			"name": "animation2"
 		},
 		{
 			"params": [
-				0
+				true,
+				-5066062,
+				"stages/lagtrain/fullscreen/sven/LagSen4",
+				"LagSen4",
+				true,
+				false,
+				"1",
+				"800",
+				"250",
+				false
 			],
 			"time": 73600,
-			"name": "Camera Movement"
+			"name": "animation2"
 		},
 		{
 			"params": [
-				1
-			],
-			"time": 75200,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 76800,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 78400,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 80000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 81600,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 89600,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				false,
+				-1,
+				"",
+				"",
+				true,
+				true,
+				"2.4",
+				"0",
+				"0",
+				true
+			],
+			"time": 89600,
+			"name": "animation2"
 		},
 		{
 			"params": [
@@ -194,10 +278,11 @@
 			"name": "Camera Movement"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -2582,15 +2667,15 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"type": 0,
 			"characters": [
 				"sven-lagtrain"
-			]
+			],
+			"type": 0,
+			"visible": true
 		},
 		{
-			"visible": true,
 			"keyCount": 4,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -4873,32 +4958,31 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"type": 1,
 			"characters": [
 				"grace-lagtrain"
-			]
+			],
+			"type": 1,
+			"visible": true
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "girlfriend",
 			"notes": [],
+			"characters": [
+				"pico"
+			],
+			"type": 2,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"pico"
-			]
+			"vocalsSuffix": ""
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 2.9,
 	"chartVersion": "1.6.0",
 	"stage": "lagtrain",

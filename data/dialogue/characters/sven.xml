@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character x="-4" y="80" scalex="-1">
+	<anim name="angry" anim="angry" fps="24" />
+	<anim name="annoyed" anim="annoyed" fps="24" />
+	<anim name="bored" anim="bored" fps="24" />
+	<anim name="crazylaugh" anim="crazylaugh" fps="24" />
+	<anim name="determined" anim="determined" fps="24" />
+	<anim name="furious" anim="furious" fps="24" />
+	<anim name="happy" anim="happy0" fps="24" />
+	<anim name="happyclosed" anim="happyclosed" fps="24" />
+	<anim name="neutral" anim="neutral0" fps="24" />
+	<anim name="neutraldown" anim="neutraldown" fps="24" />
+	<anim name="questioning" anim="questioning" fps="24" />
+	<anim name="shadow" anim="shadow0" fps="24" />
+	<anim name="shadowangry" anim="shadowangry" fps="24" />
+	<anim name="smirk" anim="smirk" fps="24" />
+</character>

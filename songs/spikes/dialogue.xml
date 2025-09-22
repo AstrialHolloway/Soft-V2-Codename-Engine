@@ -1,0 +1,45 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="sven" char="sven" position="left" defaultAnim="shadow"/>
+    <char name="bf-picnic" char="bf-picnic" position="right" defaultAnim="confused"/>
+    <char name="grace-picnic" char="grace-picnic" position="left" defaultAnim="happy"/>
+    <char name="pico-picnic" char="pico-picnic" position="right" defaultAnim="annoyed"/>
+    <char name="pico-picnic-left" char="pico-picnic-left" position="left" defaultAnim="annoyed"/>
+
+    <line char="sven" changeDefAnim="shadow" changeMusic="dio/music/nature" musicVolume="0.8">...</line>
+    <line char="bf-picnic" changeDefAnim="confused">Wow, uh, t-that was... fun?</line>
+    <line char="bf-picnic" changeDefAnim="concerned">So... back to what we were doing?</line>
+    <line char="sven" changeDefAnim="shadow" changeMusic="dio/music/confrontation" musicVolume="0.5">No.</line>
+    <line char="sven" changeDefAnim="shadowangry">No I'm not done.</line>
+    <line char="sven" changeDefAnim="furious">I refuse to lose to an ugly worm like you!</line>
+    <line char="grace-picnic" changeDefAnim="sadtalk">Sven! Why are you acting like this all of a sudden...?</line>
+    <line char="sven" changeDefAnim="angry">I can’t fucking stand that he’s here acting like everything is fine, like he did nothing wrong!</line>
+    <line char="sven" changeDefAnim="furious">He knows what he did!</line>
+    <line char=""></line>
+    <line char="pico-picnic-left" changeDefAnim="annoyed">I’d put away that knife if I were you, pal, or else.</line>
+    <line char="sven" changeDefAnim="bored">Pfft, or else WHAT, huh?</line>
+    <line char="sven" changeDefAnim="questioning">You’re gonna shoot me? I heard you’re pretty good at that.</line>
+    <line char="pico-picnic-left" changeDefAnim="annoyed">Are you willing to find out, asshole?!</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">Can we all calm down, please?! Sven, what’s going on?</line>
+    <line char="bf-picnic" changeDefAnim="concerned">Yeah, what did I ever do to you?</line>
+    <line char="sven" changeDefAnim="neutral">You haven’t done anything to ME.</line>
+    <line char="sven" changeDefAnim="angry">I’ve heard plenty about you two. You act like nothing ever happened...</line>
+    <line char="sven" changeDefAnim="angry">Like you never took her happiness away.</line>
+    <line char="bf-picnic" changeDefAnim="terrified">!</line>
+    <line char="sven" changeDefAnim="determined">I am going to win this. For her.</line>
+    <line char="sven" changeDefAnim="neutraldown">To make sure she’s truly happy...</line>
+    <line char="bf-picnic" changeDefAnim="worried">Truly happy...? Wait- You have the wrong idea!</line>
+    <line char="bf-picnic" changeDefAnim="worried">If you just put away the knife so we can expl-</line>
+    <line char="sven" changeDefAnim="questioning">What's there left to explain? I’ve heard it all from her.</line>
+    <line char="grace-picnic" changeDefAnim="sadworry">Sven-, I never meant it like that...</line>
+    <line char="grace-picnic" changeDefAnim="sadtalk">They never meant any harm... Really...</line>
+    <line char="sven" changeDefAnim="questioning">So?</line>
+    <line char="pico-picnic-left" changeDefAnim="annoyed">Ok this is enough, I’m putting a stop to this-</line>
+    <line char="bf-picnic" changeDefAnim="concerned">Pico. I can handle this myself.</line>
+    <line char="bf-picnic" changeDefAnim="concerned">I really appreciate you always coming in and trying to defend me but...</line>
+    <line char="bf-picnic" changeDefAnim="smile">I’m my own person. I can fight my own battles.</line>
+    <line char="pico-picnic-left" changeDefAnim="worry">...I know. I’m right behind you if you need me, Softie.</line>
+    <line char="sven" changeDefAnim="smirk">Heheheh... Let’s finish this!</line>
+
+</dialogue>

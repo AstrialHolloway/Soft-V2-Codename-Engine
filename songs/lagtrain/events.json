@@ -1,0 +1,28 @@
+{
+	"events": [
+		{
+			"params": [
+				true,
+				-16777216,
+				"",
+				"",
+				true,
+				false,
+				"2.4",
+				"0",
+				"0",
+				false
+			],
+			"name": "animation2",
+			"time": 105600
+		},
+		{
+			"params": [
+				"title Lag",
+				999
+			],
+			"name": "Image Popup",
+			"time": 105600
+		}
+	]
+}

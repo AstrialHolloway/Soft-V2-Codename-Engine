@@ -5,6 +5,7 @@
     <checkbox id="smoothHealthbar" name="Smooth Healthbar" desc="Toggle if the healthbar is smooth or not"/>
     <checkbox id="holdCovers" name="Hold Covers" desc="Toggle if hold covers work or not"/>
     <checkbox id="warning" name="Warning Menu" desc="Toggle if warning menu opens"/>
+    <checkbox id="noteSplashes" name="Note Splashs" desc="Toggle if note splashes work"/>
 
     <choice id="songUI" name="Song UI">
         <value name="Codename" value="codename"/>

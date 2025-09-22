@@ -1,0 +1,9 @@
+{
+    "params": [
+        {
+            "name": "Active",
+            "type": "Bool",
+            "defaultValue": "true"
+        }
+    ]
+}
