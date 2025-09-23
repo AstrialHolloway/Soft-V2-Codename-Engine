@@ -1,0 +1,31 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="sven" char="sven" position="left" defaultAnim="annoyed"/>
+    <char name="bf-picnic" char="bf-picnic" position="right" defaultAnim="sweating"/>
+    <char name="pico-picnic" char="pico-picnic" position="right" defaultAnim="annoyed"/>
+    <char name="pico-picnic-left" char="pico-picnic-left" position="left" defaultAnim="annoyed"/>
+    <char name="grace-picnic" char="grace-picnic" position="left" defaultAnim="happy"/>
+
+    <line char="sven" changeDefAnim="annoyed" changeMusic="dio/music/intimidation" musicVolume="0.8">...tch.</line>
+    <line char="bf-picnic" changeDefAnim="sweating">Heh, that, uh, that was really good, but... Can we get back to the date now...?</line>
+    <line char="sven" changeDefAnim="angry">Rematch.</line>
+    <line char="bf-picnic" changeDefAnim="confused">...excuse me?</line>
+    <line char="sven" changeDefAnim="angry">You heard me. I. Want. A. Rematch.</line>
+    <line char="bf-picnic" changeDefAnim="concerned">I’d rather not...</line>
+    <line char="sven" changeDefAnim="determined">I don’t care. I won’t let it end like this.</line>
+    <line char="sven" changeDefAnim="neutraldown">We aren’t done here.</line>
+    <line char="pico-picnic" changeDefAnim="annoyed">What’s your fucking deal, man? He said he’s done.</line>
+    <line char="sven" changeDefAnim="bored">Shut up, nobody was talking to you.</line>
+    <line char="bf-picnic" changeDefAnim="worried">Hey-!</line>
+    <line char="sven" changeDefAnim="questioning">Anyway. C’mon. Let’s go again.</line>
+    <line char="grace-picnic" changeDefAnim="happy">C’mon Benji! I know you got that fighting spirit in you!</line>
+    <line char="grace-picnic" changeDefAnim="smile">You boys make great music, and seems like you’re having so much fun! What’s the harm in another?</line>
+    <line char="bf-picnic" changeDefAnim="nervoussmile">...we do sound pretty good with each other, I guess.</line>
+    <line char="sven" changeDefAnim="questioning">See? Grace is having a good time, so why stop?</line>
+    <line char="bf-picnic" changeDefAnim="concerned">...okay.</line>
+    <line char="grace-picnic" changeDefAnim="happy">Knock em dead, baby!</line>
+    <line char="sven" changeDefAnim="determined" changeMusic="dio/music/nature" musicVolume="0.8">I won’t let you down this time, Grace.</line>
+    <line char="sven" changeDefAnim="neutraldown">I promise.</line>
+
+</dialogue>
