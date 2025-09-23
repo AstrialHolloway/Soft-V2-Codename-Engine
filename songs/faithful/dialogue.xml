@@ -1,31 +1,86 @@
 <!DOCTYPE codename-engine-dialogue>
 <dialogue box="dialogueBox">
 
-    <char name="sven" char="sven" position="left" defaultAnim="annoyed"/>
-    <char name="bf-picnic" char="bf-picnic" position="right" defaultAnim="sweating"/>
-    <char name="pico-picnic" char="pico-picnic" position="right" defaultAnim="annoyed"/>
-    <char name="pico-picnic-left" char="pico-picnic-left" position="left" defaultAnim="annoyed"/>
-    <char name="grace-picnic" char="grace-picnic" position="left" defaultAnim="happy"/>
+    <char name="megablade" char="megablade" position="left" defaultAnim="look"/>
+    <char name="bf-xmas" char="bf-xmas" position="right" defaultAnim="smile"/>
+    <char name="pico-xmas" char="pico-xmas" position="right" defaultAnim="questioning"/>
+    <char name="pico-xmas-left" char="pico-xmas-left" position="left" defaultAnim="bored"/>
+    <char name="father-xmas" char="grace-picnic" position="left" defaultAnim="smile"/>
+    <char name="mother-xmas" char="grace-picnic" position="left" defaultAnim="grin"/>
 
-    <line char="sven" changeDefAnim="annoyed" changeMusic="dio/music/intimidation" musicVolume="0.8">...tch.</line>
-    <line char="bf-picnic" changeDefAnim="sweating">Heh, that, uh, that was really good, but... Can we get back to the date now...?</line>
-    <line char="sven" changeDefAnim="angry">Rematch.</line>
-    <line char="bf-picnic" changeDefAnim="confused">...excuse me?</line>
-    <line char="sven" changeDefAnim="angry">You heard me. I. Want. A. Rematch.</line>
-    <line char="bf-picnic" changeDefAnim="concerned">I’d rather not...</line>
-    <line char="sven" changeDefAnim="determined">I don’t care. I won’t let it end like this.</line>
-    <line char="sven" changeDefAnim="neutraldown">We aren’t done here.</line>
-    <line char="pico-picnic" changeDefAnim="annoyed">What’s your fucking deal, man? He said he’s done.</line>
-    <line char="sven" changeDefAnim="bored">Shut up, nobody was talking to you.</line>
-    <line char="bf-picnic" changeDefAnim="worried">Hey-!</line>
-    <line char="sven" changeDefAnim="questioning">Anyway. C’mon. Let’s go again.</line>
-    <line char="grace-picnic" changeDefAnim="happy">C’mon Benji! I know you got that fighting spirit in you!</line>
-    <line char="grace-picnic" changeDefAnim="smile">You boys make great music, and seems like you’re having so much fun! What’s the harm in another?</line>
-    <line char="bf-picnic" changeDefAnim="nervoussmile">...we do sound pretty good with each other, I guess.</line>
-    <line char="sven" changeDefAnim="questioning">See? Grace is having a good time, so why stop?</line>
-    <line char="bf-picnic" changeDefAnim="concerned">...okay.</line>
-    <line char="grace-picnic" changeDefAnim="happy">Knock em dead, baby!</line>
-    <line char="sven" changeDefAnim="determined" changeMusic="dio/music/nature" musicVolume="0.8">I won’t let you down this time, Grace.</line>
-    <line char="sven" changeDefAnim="neutraldown">I promise.</line>
+    
+    <line char="megablade" changeDefAnim="annoyed" changeMusic="dio/music/christmas" musicVolume="0.8">
+        Despite being battered and bruised, Pico and Benjamin manage to escape Mairest.
+    </line>
+    <line char="megablade" changeDefAnim="closedtalk">
+        While healing, a treacherous month flies by, which together they spend resting and tending to wounds.
+    </line>
+    <line char="megablade" changeDefAnim="smile">
+        Soon after, the boys felt well and brave enough to face the streets once again.
+    </line>
+    <line char="megablade" changeDefAnim="look">
+        Signs of the holiday season litter the scene, with snowflakes dancing in the air, golden bells ringing, and children laughing.
+    </line>
+    <line char="megablade" changeDefAnim="talk">
+        A crowd of strangers whisper to one another in excitement, waiting beside a sign that reads: “Annual Holiday Fairest Meet and Greet!”
+    </line>
+    <line char="megablade" changeDefAnim="closedsmile">
+        The two boys enjoy the winter season with smiles, distracted by one another’s company
+    </line>
+
+    
+    <line char="pico-xmas-left" changeDefAnim="bored" changeMusic="dio/music/merrymaking" musicVolume="0.6">
+        I can't believe you're actually making me wear this.
+    </line>
+    <line char="bf-xmas" changeDefAnim="smile">
+        Why? You look adorable.
+    </line>
+    <line char="pico-xmas-left" changeDefAnim="bored">
+        I know, that's the problem.
+    </line>
+    <line char="bf-xmas" changeDefAnim="happy">
+        Come on Toughie, this is our first time out and about in a month. At least try to enjoy it-
+    </line>
+
+    
+    <line char="">
+        THERE THEY ARE!
+    </line>
+    <line char="bf-xmas" changeDefAnim="scared">
+        Huh?!
+    </line>
+    <line char="pico-xmas" changeDefAnim="questioning">
+        A crowd...?
+    </line>
+    <line char="bf-xmas" changeDefAnim="8">
+        ...Shit, what day is it?
+    </line>
+    <line char="pico-xmas" changeDefAnim="questioning">
+        The 17th... why?
+    </line>
+    <line char="mother-xmas" changeDefAnim="grin">
+        OUR SON!
+    </line>
+    <line char="bf-xmas" changeDefAnim="what">
+        ...that’s why.
+    </line>
+
+    
+    <line char="father-xmas" changeDefAnim="smile">
+        Just in time for the holidays!
+    </line>
+    <line char="mother-xmas" changeDefAnim="condescending">
+        We were beginning to fear the worst...
+    </line>
+    <line char="bf-xmas" changeDefAnim="what">
+        ...
+    </line>
+    <line char="father-xmas" changeDefAnim="happy">
+        How about we celebrate, sport?
+    </line>
+    <line char="monther-xmas" changeDefAnim="grin">
+        Aaaaaaand finally get you home!
+    </line>
+    
 
 </dialogue>
