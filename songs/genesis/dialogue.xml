@@ -10,25 +10,25 @@
     <line char="" changeDefAnim="xmas" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
         ...
     </line>
-    <line char="" changeDefAnim="xmas" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="bf-xmas" changeDefAnim="what">
+        You.
+    </line>
+    <line char="" changeDefAnim="xmas">
         ...
     </line>
-    <line char="" changeDefAnim="xmas" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
-        ...
-    </line>
-    <line char="bf-xmas" changeDefAnim="angrycry" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="bf-xmas" changeDefAnim="angrycry">
         SAY SOMETHING FOR ONCE, GODDAMMIT!
     </line>
-    <line char="monster" changeDefAnim="xmas" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="monster" changeDefAnim="xmas">
         ...
     </line>
-    <line char="bf-xmas" changeDefAnim="concerned" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="bf-xmas" changeDefAnim="concerned">
         You know, I never really understood what you were...
     </line>
-    <line char="bf-xmas" changeDefAnim="what" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="bf-xmas" changeDefAnim="what">
         But I know very well who you are.
     </line>
-    <line char="bf-xmas" changeDefAnim="concerned" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="bf-xmas" changeDefAnim="concerned">
         Or... who you’re supposed to be.
     </line>
     <line char="monster" changeDefAnim="xmas">
