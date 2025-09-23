@@ -28,11 +28,12 @@ var dioList:Array<String> =
   	"13", 
   	"14", 
   	"15", 
-  	"20", 
   	"16", 
   	"17", 
   	"18",
-  	"19"
+  	"none",
+  	"20",
+  	"21"
 ];
 
 //BG Sprite
@@ -58,7 +59,7 @@ function postNext(event)
 	trace(curLine.char + " says: " + curLine.text);
 	if (voiceNumShit == 0)
 	{
-		bgEdit("picnic");
+		bgEdit("snowy-town");
 		
 	}
 	
@@ -68,8 +69,10 @@ function handleVoices()
 {
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
-	
-	curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
+	if (voiceNumShit != 18)
+	{
+		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
+	}
 	
 	
 }
