@@ -1,0 +1,26 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="megablade" char="megablade" position="left" defaultAnim="talk"/>
+    <char name="mother" char="mother" position="left" defaultAnim="grin"/>
+    <char name="mother_silhouette" char="mother_silhouette" position="left" defaultAnim="grin"/>
+    <char name="bf" char="bf" position="right" defaultAnim="nervoussmile"/>
+
+    <line char="megablade" changeDefAnim="talk" changeMusic="dio/music/cars" musicVolume="0.8">While in the middle of a stressful conversation, our two boys are swept up from the streets faster than light.</line>
+    <line char="megablade" changeDefAnim="smile">Startled, they glance in all directions, yet they only find the wind in their hair, cars flashing by...</line>
+    <line char="megablade" changeDefAnim="closedtalk">And an unwelcome, yet beautiful face...</line>
+    <line char="mother_silhouette" changeDefAnim="grin">Mother Mairest.</line>
+    <line char="bf" changeDefAnim="nervoussmile">Heh...</line>
+    <line char="bf" changeDefAnim="nervous">H-Hi, mom...</line>
+    <line char="mother" changeDefAnim="condescending" changeMusic="dio/music/fashionova" musicVolume="0.6">There's my sweet little baby!</line>
+    <line char="mother" changeDefAnim="dramatic">Your father and I have been oh so worried about you!</line>
+    <line char="bf" changeDefAnim="concerned">I'm okay, I swear-</line>
+    <line char="mother" changeDefAnim="condescending">Oh darling, you know how mama worries!</line>
+    <line char="mother" changeDefAnim="grin">You've had your fun, but I think it's about time to come home, don't you?</line>
+    <line char="bf" changeDefAnim="uncomfortable">...</line>
+    <line char="bf" changeDefAnim="concerned">Mom- I... no.</line>
+    <line char="mother" changeDefAnim="grin">Could you repeat that? I'm not sure I heard you right.</line>
+    <line char="bf" changeDefAnim="concerned">I said- I said no.</line>
+    <line char="mother" changeDefAnim="worry">... But honey, I need a yes.</line>
+
+</dialogue>

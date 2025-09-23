@@ -1,0 +1,26 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+    <char name="mother" char="mother" position="left" defaultAnim="shout"/>
+    <char name="bf" char="bf" position="right" defaultAnim="worried"/>
+    <char name="pico" char="pico" position="left" defaultAnim="shock"/>
+
+    <line char="mother" changeDefAnim="shout" changeMusic="dio/music/cars" musicVolume="0.8">URGH!</line>
+    <line char="mother" changeDefAnim="shock">You selfish little brat!</line>
+    <line char="mother" changeDefAnim="shock">I’m gonna make you regret ever thinking you had a choice in all this!</line>
+    <line char="pico" changeDefAnim="shock">Ben...</line>
+    <line char="bf" changeDefAnim="worried">Huh?!</line>
+    <line char="pico" changeDefAnim="shock">JUMP.</line>
+    <line char="bf" changeDefAnim="terrified">Babe, I love you, but ARE YOU FUCKING INSANE?!</line>
+    <line char="bf" changeDefAnim="scared">WE’RE ON A MOVING CAR!</line>
+    <line char="pico" changeDefAnim="neutral">You've gotta trust me.</line>
+    <line char="bf" changeDefAnim="scared">I-</line>
+    <line char="pico" changeDefAnim="annoyed">DO YOU TRUST ME?!</line>
+    <line char="bf" changeDefAnim="sweating">...Yes?</line>
+    <line char="pico" changeDefAnim="shock">Then on the count of three, close your eyes and jump!</line>
+    <line char="pico" changeDefAnim="worry">One...</line>
+    <line char="bf" changeDefAnim="terrified">Wait a minute!</line>
+    <line char="pico" changeDefAnim="annoyed">Two...</line>
+    <line char="bf" changeDefAnim="sweating">Isn't there like a plan B or something we should try!? </line>
+    <line char="pico" changeDefAnim="shock" changeMusic="dio/music/cars" musicVolume="0" fadeOut="true">THREE.</line>
+    <line char=""></line>
+</dialogue>

@@ -13,7 +13,7 @@ import flixel.ui.FlxBarFillDirection;
 import flixel.util.FlxStringUtil;
 import funkin.savedata.FunkinSave;
 
-
+FunkinSave.load();
 
 
 
@@ -122,16 +122,16 @@ for (i in 0...graphicsOptionsList.length) {
             icon.scale.set(0.6, 0.6);
             icon.updateHitbox();
 
-        case "slider":
-            icon.frames = Paths.getSparrowAtlas("menus/options/slider"); 
-            icon.animation.addByPrefix("idle", "slider idle", 24, true);
-            icon.animation.play("idle");
+        // ✅ Decide which animation to start with
+            var savedVal:Bool = Reflect.field(FlxG.save.data, option.optionID) == true;
+            var isChecked:Bool = Reflect.field(Options, option.optionID) == true;
+            if (savedVal || isChecked)
+                icon.animation.play("static sel");
+            else
+                icon.animation.play("static not sel");
+
             icon.scale.set(0.6, 0.6);
             icon.updateHitbox();
-
-        // add more types here
-        default:
-            // fallback, no icon
     }
 
     add(icon);
@@ -197,17 +197,16 @@ for (i in 0...gameplayOptionsList.length) {
             icon.scale.set(0.6, 0.6);
             icon.updateHitbox();
 
-        case "slider":
-            
-            icon.frames = Paths.getSparrowAtlas("menus/options/slider"); 
-            icon.animation.addByPrefix("idle", "slider idle", 24, true);
-            icon.animation.play("idle");
+        // ✅ Decide which animation to start with
+            var savedVal:Bool = Reflect.field(FlxG.save.data, option.optionID) == true;
+            var isChecked:Bool = Reflect.field(Options, option.optionID) == true;
+            if (savedVal || isChecked)
+                icon.animation.play("static sel");
+            else
+                icon.animation.play("static not sel");
+
             icon.scale.set(0.6, 0.6);
             icon.updateHitbox();
-
-        // add more types here
-        default:
-            // fallback, no icon
     }
 
     add(icon);
@@ -277,7 +276,8 @@ for (i in 0...visualsandUIOptionsList.length) {
 
             // ✅ Decide which animation to start with
             var savedVal:Bool = Reflect.field(FlxG.save.data, option.optionID) == true;
-            if (savedVal)
+            var isChecked:Bool = Reflect.field(Options, option.optionID) == true;
+            if (savedVal || isChecked)
                 icon.animation.play("static sel");
             else
                 icon.animation.play("static not sel");

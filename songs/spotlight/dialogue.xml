@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+    <char name="mother" char="mother" position="left" defaultAnim="shout"/>
+    <char name="bf" char="bf" position="right" defaultAnim="worried"/>
+    <char name="pico" char="pico" position="right" defaultAnim="annoyed"/>
+    
+    <line char="mother" changeDefAnim="shout" changeMusic="dio/music/true-colors-f" musicVolume="0.7">ENOUGH.</line>
+    <line char="mother" changeDefAnim="shock">I have tried, and tried, and TRIED to make you see what a mistake you’re making.</line>
+    <line char="mother" changeDefAnim="snarl">But clearly, you’re too stupid to see that.</line>
+    <line char="bf" changeDefAnim="worried">Stop...</line>
+    <line char="mother" changeDefAnim="shock">You better drop this act and learn to respect your mother this instant!</line>
+    <line char="mother" changeDefAnim="disgust">You know what happens when you disobey.</line>
+    <line char="bf" changeDefAnim="terrified">!</line>
+    <line char="pico" changeDefAnim="annoyed">Okay, I’ve had enough of this, Softie-</line>
+    <line char="mother" changeDefAnim="shout">Silence, vermin! You can’t decide things for him!</line>
+    <line char="bf" changeDefAnim="worried">...</line>
+    <line char="bf" changeDefAnim="concerned">She’s right.</line>
+    <line char="pico" changeDefAnim="shock">What?!</line>
+    <line char="bf" changeDefAnim="concerned">I have to decide for myself.</line>
+    <line char="bf" changeDefAnim="angrycry">And I've decided to live the life I want to live!</line>
+    <line char="mother" changeDefAnim="stern" changeMusic="dio/music/cars" musicVolume="0.8">...</line>
+    <line char="mother" changeDefAnim="stern">You’ve always been such an utter disappointment of a son.</line>
+</dialogue>

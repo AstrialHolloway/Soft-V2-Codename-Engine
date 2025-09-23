@@ -1,5 +1,9 @@
 
 
+function new() {
+  FlxG.save.data.softTrans ??= true;
+}
+
 
 
 

@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="mother" char="mother" position="left" defaultAnim="stern"/>
+    <char name="bf" char="bf" position="right" defaultAnim="concerned"/>
+    <char name="pico" char="pico" position="right" defaultAnim="annoyed"/>
+
+    <line char="mother" changeDefAnim="stern" changeMusic="dio/music/fashionova" musicVolume="0.6">Sweetheart, you see how ridiculous all this is, don’t you?</line>
+    <line char="bf" changeDefAnim="concerned">... What do you mean?</line>
+    <line char="mother" changeDefAnim="grin">Well, it’s obvious!</line>
+    <line char="mother" changeDefAnim="disgust">My perfect little boy has had his mind tainted by that... pest, filling your head with all kinds of shady thoughts.</line>
+    <line char="pico" changeDefAnim="annoyed">You fucking whore.</line>
+    <line char="pico" changeDefAnim="worry">All I’ve ever done is care for him.</line>
+    <line char="pico" changeDefAnim="annoyed">That’s more than you or that monster you call a husband has ever done.</line>
+    <line char="bf" changeDefAnim="uncomfortable">Pico!-</line>
+    <line char="mother" changeDefAnim="snarl">Quiet! How dare you accuse my family of such things!</line>
+    <line char="mother" changeDefAnim="grin">We love you so much Benjamin, why don’t you just come with me-</line>
+    <line char="bf" changeDefAnim="concerned">I’m not going with you.</line>
+    <line char="mother" changeDefAnim="stern" changeMusic="dio/music/cars" musicVolume="0.8">Hmph. Fine, be that way.</line>
+
+</dialogue>

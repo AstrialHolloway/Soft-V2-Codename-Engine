@@ -1,24 +1,29 @@
+<menu name="Soft V2 Options" desc="Customize features from the Soft V2 port mod">
 
-<menu name="Soft V2 Options" desc="Options for the Soft V2 port mod">
-
-    <checkbox id="devAccess" name="Developer Access" desc="Toggle the ability to access the dev stats"/>
-    <checkbox id="smoothHealthbar" name="Smooth Healthbar" desc="Toggle if the healthbar is smooth or not"/>
-    <checkbox id="holdCovers" name="Hold Covers" desc="Toggle if hold covers work or not"/>
-    <checkbox id="warning" name="Warning Menu" desc="Toggle if warning menu opens"/>
-    <checkbox id="noteSplashes" name="Note Splashs" desc="Toggle if note splashes work"/>
-
-    <choice id="songUI" name="Song UI">
-        <value name="Codename" value="codename"/>
-        <value name="Psych" value="psych"/>
-    </choice>
-    
-    <menu name="Hitsounds Menu" desc="Hiitsounds menu">
-        <checkbox id="hitsounds" name="Hitsounds" desc="Toggle if hitsounds work" />
-        <slider id="hitsoundsVolume" name="Hitsound Volume" desc="Change the volume of the hitsounds" min="0" max="1" barWidth="500" />
-        
-    </menu>
+    <checkbox id="smoothHealthbar" name="Smooth Healthbar" desc="Makes the healthbar animate smoothly instead of snapping"/>
+    <checkbox id="flashingLights" name="Flashing Lights" desc="Enables or disables flashing light effects"/>
+    <checkbox id="softTrans" name="Soft Transitions" desc="Adds the transtions from the soft mod"/>
+    <checkbox id="coloredCombo" name="Colored Combo" desc="Changes combo colors based on accuracy"/>
+    <checkbox id="comboMilestone" name="Combo Milestone" desc="Highlights milestones when reaching high combos"/>
 
 </menu>
 
+<menu name="Spych Options" desc="Settings from the Spych Engine">
 
+    <checkbox id="holdCovers" name="Hold Covers" desc="Shows a cover effect while holding notes"/>
+    <checkbox id="noteSplashes" name="Note Splashes" desc="Adds splash effects on perfect note hits"/>
+    
+    <checkbox id="hitsounds" name="Hitsounds" desc="Plays sound effects when hitting notes"/>
+    <slider id="hitsoundsVolume" name="Hitsound Volume" desc="Adjusts how loud the hitsounds are" min="0" max="1" barWidth="500"/>
 
+</menu>
+
+<menu name="Other" desc="Additional options and UI settings">
+
+    <checkbox id="smoothHealthbar" name="Smooth Healthbar" desc="Makes the healthbar animate smoothly instead of snapping"/>
+    <choice id="songUI" name="Song UI" desc="Choose which interface style to use during songs">
+        <value name="Codename" value="codename"/>
+        <value name="Psych" value="psych"/>
+    </choice>
+
+</menu>
