@@ -14,25 +14,21 @@ var bgSpriteTraceShit;
 var dioList:Array<String> = 
 [
     "1",
+	"monster1",
     "2", 
+	"monster2",
   	"3", 
+	"monster4",
   	"4", 
   	"5", 
   	"6",
+	"monster6",
   	"7", 
   	"8", 
   	"9", 
+	"monster7",
   	"10", 
-  	"11", 
-  	"12", 
-  	"13", 
-  	"14", 
-  	"15", 
-  	"20", 
-  	"16", 
-  	"17", 
-  	"18",
-  	"19"
+  	"11"
 ];
 
 //BG Sprite
@@ -58,7 +54,7 @@ function postNext(event)
 	trace(curLine.char + " says: " + curLine.text);
 	if (voiceNumShit == 0)
 	{
-		bgEdit("picnic");
+		bgEdit("evil-town");
 		
 	}
 	
