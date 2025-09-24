@@ -1,19 +1,19 @@
 <!DOCTYPE codename-engine-dialogue>
 <dialogue box="dialogueBox">
 
-    <char name="momster" char="monster" position="left" defaultAnim="xmas"/>
+    <char name="monster" char="monster" position="left" defaultAnim="xmas"/>
     <char name="bf-xmas" char="bf-xmas" position="right" defaultAnim="scared"/>
 
     <line char="bf-xmas" changeDefAnim="scared">
         PICO?!
     </line>
-    <line char="" changeDefAnim="xmas" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
+    <line char="monster" changeDefAnim="xmas" changeMusic="dio/music/recurring-nightmare-snowy" musicVolume="0.6">
         ...
     </line>
     <line char="bf-xmas" changeDefAnim="what">
         You.
     </line>
-    <line char="" changeDefAnim="xmas">
+    <line char="monster" changeDefAnim="xmas">
         ...
     </line>
     <line char="bf-xmas" changeDefAnim="angrycry">

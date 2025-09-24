@@ -9,7 +9,7 @@
     <char name="mother-xmas" char="grace-picnic" position="left" defaultAnim="grin"/>
 
     
-    <line char="megablade" changeDefAnim="annoyed" changeMusic="dio/music/christmas" musicVolume="0.8">
+    <line char="megablade" changeDefAnim="look" changeMusic="dio/music/christmas" musicVolume="0.8">
         Despite being battered and bruised, Pico and Benjamin manage to escape Mairest.
     </line>
     <line char="megablade" changeDefAnim="closedtalk">
@@ -52,7 +52,7 @@
     <line char="pico-xmas" changeDefAnim="questioning">
         A crowd...?
     </line>
-    <line char="bf-xmas" changeDefAnim="8">
+    <line char="bf-xmas" changeDefAnim="PLEASEWORK">
         ...Shit, what day is it?
     </line>
     <line char="pico-xmas" changeDefAnim="questioning">
@@ -78,7 +78,7 @@
     <line char="father-xmas" changeDefAnim="happy">
         How about we celebrate, sport?
     </line>
-    <line char="monther-xmas" changeDefAnim="grin">
+    <line char="mother-xmas" changeDefAnim="grin">
         Aaaaaaand finally get you home!
     </line>
     

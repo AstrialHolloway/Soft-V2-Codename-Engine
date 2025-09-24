@@ -1,0 +1,78 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="bf-xmas" char="bf-xmas" position="right" defaultAnim="smile"/>
+    <char name="pico-xmas" char="pico-xmas" position="right" defaultAnim="questioning"/>
+    <char name="father-xmas" char="grace-picnic" position="left" defaultAnim="smile"/>
+    <char name="mother-xmas" char="grace-picnic" position="left" defaultAnim="grin"/>
+
+    
+    <line char="mother-xmas" changeDefAnim="shout" changeMusic="dio/music/pressure" musicVolume="0.8">
+        YOU LITTLE SHIT!
+    </line>
+    <line char="father-xmas" changeDefAnim="annoyed">
+        You know...
+    </line>
+    <line char="father-xmas" changeDefAnim="pissed">
+        If you just did as you were told,
+    </line>
+    <line char="father-xmas" changeDefAnim="annoyed">
+        You wouldn’t need to wear that damn sweatshirt all the time.
+    </line>
+    <line char="father-xmas" changeDefAnim="pissed">
+        You’d have nothing to hide.
+    </line>
+    <line char="father-xmas" changeDefAnim="father-xmas">
+        You could actually call yourself a man.
+    </line>
+    <line char="bf-xmas" changeDefAnim="what">
+        ...
+    </line>
+    <line char="mother-xmas" changeDefAnim="shock">
+        Now be a good son and listen to your parents this instant!
+    </line>
+    <line char="bf-xmas" changeDefAnim="annoyed">
+        Don’t you dare try to call me your son.
+    </line>
+    <line char="mother-xmas" changeDefAnim="shock">
+        !
+    </line>
+    <line char="bf-xmas" changeDefAnim="angrycry">
+        You tried to make me a mindless slave!
+    </line>
+    <line char="bf-xmas" changeDefAnim="annoyed">
+        Just like Grace's parents did to her!
+    </line>
+    <line char="mother-xmas" changeDefAnim="shout">
+        SHUT-
+    </line>
+    <line char="bf-xmas" changeDefAnim="angrycry">
+        NO!
+    </line>
+    <line char="bf-xmas" changeDefAnim="concerned">
+        Parents are supposed to protect and care about their children.
+    </line>
+    <line char="bf-xmas" changeDefAnim="what">
+        You took away my dreams...My happiness...My trust...
+    </line>
+    <line char="bf-xmas" changeDefAnim="PLEASEWORK">
+        My childhood.
+    </line>
+    <line char="bf-xmas" changeDefAnim="concerned">
+        For so long I thought that was what love truly was.
+    </line>
+    <line char="bf-xmas" changeDefAnim="confused">
+        But in reality?
+    </line>
+    <line char="bf-xmas" changeDefAnim="concerned">
+        You were never my parents, and you never will be.
+    </line>
+    <line char="bf-xmas" changeDefAnim="hitit">
+        Pico! Hit it!
+    </line>
+    <line char="pico-xmas" changeDefAnim="yougotit">
+        You got it babe!
+    </line>
+    
+
+</dialogue>

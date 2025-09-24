@@ -1,7 +1,7 @@
 import haxe.xml.Access;
 
 // Var things
-var songThing = "faithful";
+var songThing = "hope";
 
 var curVoiceline;
 
@@ -19,11 +19,13 @@ var dioList:Array<String> =
   	"4", 
   	"5", 
   	"6",
+	"none",
   	"7", 
   	"8", 
+	"none",
   	"9", 
-  	"10", 
-  	"there", 
+  	"10",
+	"11",
   	"12", 
   	"13", 
   	"14", 
@@ -32,9 +34,7 @@ var dioList:Array<String> =
   	"17", 
   	"18",
 	"19",
-  	"none",
-  	"20",
-  	"21"
+  	"20"
 ];
 
 //BG Sprite
@@ -70,7 +70,7 @@ function handleVoices()
 {
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
-	if (voiceNumShit != 19)
+	if (voiceNumShit != 6 && voiceNumShit != 6)
 	{
 		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
