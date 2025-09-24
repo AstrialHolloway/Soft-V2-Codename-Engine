@@ -61,49 +61,52 @@
     <line char="bf" changeDefAnim="smile">
         Seeing Sven get all excited to win... Seeing Grace smile so wide for him...
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf">
         Just seeing them happy together.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf" changeDefAnim="happycry">
         It’s... it’s been amazing.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf">
         ...I’m glad I could give that to them.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf" changeDefAnim="happy">
         So, maybe nobody lost in the end at all?
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico" changeDefAnim="neutral">
+        ...
+    </line>
+    <line char="pico" changeDefAnim="bored">
         Yeah you're right.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico" changeDefAnim="heart">
         ...You really are amazing, Ben.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf" changeDefAnim="happycry">
         ...Thank you.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico" changeDefAnim="questioning">
         Can I ask you something? You can say no, of course.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf" changeDefAnim="slightsurprise">
         Sure, what’s up?
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico" changeDefAnim="questioning">
         Will you do a duet with me?
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf" changeDefAnim="slightsurprise">
         Huh? You wanna sing?
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico" changeDefAnim="neutral">
         Yeah, y’know... Just the two of us.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico">
         End tonight on a high note.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="pico" changeDefAnim="bored">
         Pun not intended.
     </line>
-    <line char="bf" changeDefAnim="concerned">
+    <line char="bf" changeDefAnim="smile">
         ... Hehe, yeah, I’d like that.
     </line>
   
