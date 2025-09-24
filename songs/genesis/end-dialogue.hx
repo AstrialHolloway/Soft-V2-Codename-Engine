@@ -15,8 +15,8 @@ var dioList:Array<String> =
 [
     "none",
     "1end",
-    "2end", 
-    "none",
+	"none",
+    "2end",
   	"3end", 
   	"4end",
     "none",
@@ -42,6 +42,12 @@ function bgEdit(sprite)
 	bgSpriteTraceShit = sprite;
 	trace("Background sprite set to: " + '"' +bgSpriteTraceShit + '"');
 	
+}
+
+function update()
+{
+	bgSprite1.setGraphicSize(FlxG.width, FlxG.height);
+	bgSprite1.updateHitbox();
 }
 
 function postNext(event)
@@ -70,8 +76,10 @@ function handleVoices()
 {
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
-	
-	curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
+	if (voiceNumShit != "none" && voiceNumShit != "noneend" && voiceNumShit != "")
+	{
+		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
+	}
 	
 	
 }
