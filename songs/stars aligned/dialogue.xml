@@ -1,0 +1,111 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="pico" char="pico-picnic" position="left" defaultAnim="heart"/>
+    <char name="bf" char="bf-picnic" position="right" defaultAnim="scared"/>
+
+    <line char="pico" changeDefAnim="heart" changeMusic="dio/music/standstill" musicVolume="0.7">
+        And THAT is the Andromeda galaxy!
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        ... Looks like a blurred dot to me.
+    </line>
+    <line char="bf" changeDefAnim="happy">
+        You know so much about the stars, Pico...
+    </line>
+    <line char="pico" changeDefAnim="neutral">
+        Yeah, well...
+    </line>
+    <line char="bf" changeDefAnim="smile">
+        Heh, you’re cute when you’re all embarrassed.
+    </line>
+    <line char="pico" changeDefAnim="flustered">
+        Shut up...
+    </line>
+    <line char="pico" changeDefAnim="questioning">
+        ... How’s your throat doing?
+    </line>
+    <line char="bf" changeDefAnim="happy">
+        It’s much better now! Thanks for taking care of me.
+    </line>
+    <line char="pico" changeDefAnim="smug">
+        Anytime.
+    </line>
+    <line char="pico" changeDefAnim="neutral">
+        How, uh, how are you holding up after, you know...
+    </line>
+    <line char="pico" changeDefAnim="worry">
+        All THAT.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        ...
+    </line>
+    <line char="bf" changeDefAnim="smile">
+        You know. I’ve never lost before.
+    </line>
+    <line char="pico" changeDefAnim="worry">
+        ... I’m sorry. I should have intervened sooner.
+    </line>
+    <line char="pico" changeDefAnim="neutral">
+        I really didn’t want you to have such a shitty day after yesterday.
+    </line>
+    <line char="bf" changeDefAnim="happy">
+        You’ve got it all wrong, Pico.
+    </line>
+    <line char="pico" changeDefAnim="questioning">
+        Huh? What do you mean by that?
+    </line>
+    <line char="bf" changeDefAnim="happy">
+        Today wasn’t shitty.
+    </line>
+    <line char="bf" changeDefAnim="smile">
+        Seeing Sven get all excited to win... Seeing Grace smile so wide for him...
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Just seeing them happy together.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        It’s... it’s been amazing.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        ...I’m glad I could give that to them.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        So, maybe nobody lost in the end at all?
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Yeah you're right.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        ...You really are amazing, Ben.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        ...Thank you.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Can I ask you something? You can say no, of course.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Sure, what’s up?
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Will you do a duet with me?
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Huh? You wanna sing?
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Yeah, y’know... Just the two of us.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        End tonight on a high note.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        Pun not intended.
+    </line>
+    <line char="bf" changeDefAnim="concerned">
+        ... Hehe, yeah, I’d like that.
+    </line>
+  
+
+</dialogue>
