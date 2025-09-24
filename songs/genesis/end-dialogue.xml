@@ -1,0 +1,44 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="bf" char="bf-xmas" position="right" defaultAnim="slightsurprise"/>
+    <char name="pico" char="pico-xmas-left" position="left" defaultAnim="worry"/>
+
+    
+    <line char="bf" changeDefAnim="slightsurprise">
+        ...?
+    </line>
+    <line char="pico" changeDefAnim="worry">
+        Are you okay, Ben?
+    </line>
+    <line char="" changeMusic="dio/music/resolute" musicVolume="0.6">
+        
+    </line>
+    <line char="bf" changeDefAnim="happycry">
+        It’s over... It’s finally over.
+    </line>
+    <line char="pico" changeDefAnim="grin">
+        It's a long way from being over, Baby Blue...
+    </line>
+    <line char="pico">
+        But... I think I get what you mean.
+    </line>
+    <line char="bf" changeDefAnim="slightsurpriseblush">
+        ...
+    </line>
+    <line char="bf" changeDefAnim="slightsurprise">
+        Where did they...
+    </line>
+    <line char="bf" changeDefAnim="grin">
+        Never mind, I don’t even want to know.
+    </line>
+    <line char="pico" changeDefAnim="smug">
+        Anyways...
+    </line>
+    <line char="pico" changeDefAnim="heart">
+        How about we grab some hot chocolate and find a place to rest for the night?
+    </line>
+    <line char="bf" changeDefAnim="happycry">
+        ... sounds perfect.
+    </line>
+</dialogue>
