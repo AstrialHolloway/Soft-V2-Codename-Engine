@@ -13,41 +13,28 @@ var bgSpriteTraceShit;
 
 var dioList:Array<String> = 
 [
-    "1",
-    "2",
-  	"3", 
-  	"4",
-  	"5",
-  	"6",
-  	"7", 
-  	"8", 
-  	"9", 
-  	"10", 
-  	"11", 
-    "none", 
-  	"12", 
-  	"13", 
-  	"14", 
-  	"15", 
-  	"16", 
-  	"17", 
-  	"19", 
-  	"20", 
-  	"21", 
-  	"22", 
-  	"23", 
-    "none",  
-  	"24", 
-  	"25", 
-  	"26", 
-  	"27", 
-  	"28", 
-  	"29", 
-  	"30", 
-  	"31", 
-  	"32", 
-  	"33", 
-  	"34"
+    "1end",
+    "2end",
+  	"3end", 
+  	"4end",
+  	"5end",
+	"none",
+	"cockblock",
+  	"6end",
+  	"7end", 
+  	"8end", 
+  	"9end", 
+  	"10end", 
+  	"11end",
+  	"12end", 
+  	"13end", 
+  	"14end", 
+  	"15end", 
+  	"16end", 
+  	"17end", 
+	"18end", 
+  	"none", 
+  	"20end"
 ];
 
 //BG Sprite
@@ -81,16 +68,27 @@ function postNext(event)
 	{
 		bgEdit("bench");	
 	}
+	if (voiceNumShit == 5)
+	{
+		bgEdit("mwah");
+		dialogueBox.visible = false;	
+	}
+	if (voiceNumShit == 6)
+	{
+		bgEdit("bench");	
+		dialogueBox.visible = true;
+	}
 }
 
 function handleVoices()
 {
 	voiceNumShit++;
 	if (curVoiceline != null) curVoiceline.stop();
-	if (voiceNumShit != 11 && voiceNumShit != 23)
+	if (voiceNumShit != 5 && voiceNumShit != 20)
 	{
 		curVoiceline = FlxG.sound.play(Paths.sound(dialogueFilePath+dioList[voiceNumShit]));
 	}
+	
 	
 	
 }

@@ -1,44 +1,44 @@
 <!DOCTYPE codename-engine-dialogue>
 <dialogue box="dialogueBox">
 
-    <char name="bf" char="bf-xmas" position="right" defaultAnim="slightsurprise"/>
-    <char name="pico" char="pico-xmas-left" position="left" defaultAnim="worry"/>
+    <char name="bf-xmas" char="bf-xmas" position="right" defaultAnim="slightsurprise"/>
+    <char name="pico-xmas-left" char="pico-xmas-left" position="left" defaultAnim="worry"/>
 
     
-    <line char="bf" changeDefAnim="slightsurprise">
+    <line char="bf-xmas" changeDefAnim="slightsurprise">
         ...?
     </line>
-    <line char="pico" changeDefAnim="worry">
+    <line char="pico-xmas-left" changeDefAnim="worry">
         Are you okay, Ben?
     </line>
     <line char="" changeMusic="dio/music/resolute" musicVolume="0.6">
         
     </line>
-    <line char="bf" changeDefAnim="happycry">
+    <line char="bf-xmas" changeDefAnim="happycry">
         It’s over... It’s finally over.
     </line>
-    <line char="pico" changeDefAnim="grin">
+    <line char="pico-xmas-left" changeDefAnim="grin">
         It's a long way from being over, Baby Blue...
     </line>
-    <line char="pico">
+    <line char="pico-xmas-left">
         But... I think I get what you mean.
     </line>
-    <line char="bf" changeDefAnim="slightsurpriseblush">
+    <line char="bf-xmas" changeDefAnim="slightsurpriseblush">
         ...
     </line>
-    <line char="bf" changeDefAnim="slightsurprise">
+    <line char="bf-xmas" changeDefAnim="slightsurprise">
         Where did they...
     </line>
-    <line char="bf" changeDefAnim="grin">
+    <line char="bf-xmas" changeDefAnim="grin">
         Never mind, I don’t even want to know.
     </line>
-    <line char="pico" changeDefAnim="smug">
+    <line char="pico-xmas-left" changeDefAnim="smug">
         Anyways...
     </line>
-    <line char="pico" changeDefAnim="heart">
+    <line char="pico-xmas-left" changeDefAnim="heart">
         How about we grab some hot chocolate and find a place to rest for the night?
     </line>
-    <line char="bf" changeDefAnim="happycry">
+    <line char="bf-xmas" changeDefAnim="happycry">
         ... sounds perfect.
     </line>
 </dialogue>

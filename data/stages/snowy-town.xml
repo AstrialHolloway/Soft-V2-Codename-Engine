@@ -4,10 +4,10 @@
 	<sprite type="none" x="-505" sprite="floor" name="floor"/>
 	<sprite x="-505" sprite="left building" y="0" type="none" name="leftBuilding"/>
 	<sprite type="none" x="1288" sprite="right building" name="rightBuilding"/>
-	<sprite x="-505" sprite="bg_chars/Left_Bop" y="100" type="beat" name="leftBop">
+	<sprite x="-505" updateHitbox="true" scale="0.8" sprite="bg_chars/Left_Bop" y="200" type="beat" name="leftBop">
 		<anim name="Norm" anim="Left Side Norm" fps="24" playOnCountdown="false"/>
 	</sprite>
-	<sprite x="1040" sprite="bg_chars/Right_Bop" y="80" type="beat" name="rightBop">
+	<sprite x="1040" updateHitbox="true" scale="0.85" sprite="bg_chars/Right_Bop" y="150" type="beat" name="rightBop">
 		<anim name="Norm" anim="Right Side Norm" fps="24" playOnCountdown="false"/>
 	</sprite>
 	<sprite x="-505" sprite="ribbon" y="480" type="none" name="ribbon"/>

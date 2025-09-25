@@ -1,0 +1,75 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="dialogueBox">
+
+    <char name="megablade" char="megablade" position="left" defaultAnim="closedsmile"/>
+    <char name="pico-picnic-left" char="pico-picnic-left" position="left" defaultAnim="heart"/>
+    <char name="bf-picnic" char="bf-picnic" position="right" defaultAnim="scared"/>
+
+    <line char="bf-picnic" changeDefAnim="happycry" changeMusic="dio/music/traffic" musicVolume="0.8">
+        ...thank you.
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="heart">
+        Of course...
+    </line>
+    <line char="bf-picnic" changeDefAnim="smile">
+        You’ve made my day amazing.
+    </line>
+    <line char="bf-picnic" changeDefAnim="happycry">
+        I love you.
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="smug">
+        I love you too, Ben.
+    </line>
+    <line char="">
+        
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="shock">
+        what
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="smug">
+        S-Sorry, uh...
+    </line>
+    <line char="bf-picnic" changeDefAnim="nervoussmile">
+        Heh, it’s okay. Go ahead and answer it!
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="bored">
+        ...shit.
+    </line>
+    <line char="bf-picnic" changeDefAnim="concerned">
+        What’s wrong?
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">
+        ...hold on. I’ll be right back.
+    </line>
+    <line char="megablade" changeDefAnim="closedsmile">
+        Ben waits for an agonizing five minutes until Pico returns.
+    </line>
+    <line char="bf-picnic" changeDefAnim="concerned">
+        Who was it?
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">
+        Oh... just my dad. He... mentioned wanting to see me for the holidays.
+    </line>
+    <line char="bf-picnic" changeDefAnim="concerned">
+        Really? Are you gonna go?
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="questioning">
+        I don’t really know yet.
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="questioning">
+        Would you go with me?
+    </line>
+    <line char="bf-picnic" changeDefAnim="happy">
+        Of course I will. You and me until the end of time, or whatever.
+    </line>
+    <line char="bf-picnic" changeDefAnim="smile">
+        I can handle meeting your folks. Hell, he can’t be worse than mine.
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="neutral">
+        ...
+    </line>
+    <line char="pico-picnic-left" changeDefAnim="smug">
+        Yeah.
+    </line>
+
+</dialogue>
