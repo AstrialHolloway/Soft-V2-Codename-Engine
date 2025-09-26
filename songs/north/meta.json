@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "spooky",
+	"difficulties": [
+		"easy",
+		"normal",
+		"hard"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "North",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}
